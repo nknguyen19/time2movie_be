@@ -2,6 +2,6 @@
 This is a final project on CS422
 
 # Setting up localhost:
-Install NodeJS on https://nodejs.org/en/
-run `npm install` to install all packages
+Install NodeJS on https://nodejs.org/en/ __
+run `npm install` to install all packages __
 run `npm start` to start localhost
