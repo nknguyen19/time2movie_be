@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import FacebookLogin from 'react-facebook-login';
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const naviagte = useNavigate();
 
     const createUser = () => {
         if (username.length === 0 || password === 0) { // TODO: handle input error
@@ -20,10 +23,26 @@ const Signup = () => {
             .then(res => res.json())
             .then(res => console.log(res));
     }
-    console.log(JSON.stringify({ 
-        'username': username,
-        'password': password,
-    }))
+    
+    const loginFacebook = (info) => {
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+                username: info.email,
+                password: info.id,
+                name: info.name,
+                avatar: info.picture.data.url,
+                is_facebook_login: true,
+            })
+        };
+        fetch('/api/user/login-facebook', requestOptions)
+            .then(res => res.json())
+            .then(res => {
+                document.getElementsByClassName('userid')[0].value = res._id;
+                naviagte('/');
+            });
+    }
 
     return (
         <div className="signup">
@@ -47,6 +66,12 @@ const Signup = () => {
                         Create account
                     </div>
                     <div className="or"><hr/> Or <hr/></div>
+                    <FacebookLogin 
+                        className="facebook-signup"
+                        appId="466280858581721"
+                        autoLoad={true}
+                        fields="name,email,picture"
+                        callback={loginFacebook} />
                 </div>
                 <img src="background.png" alt="image" />
             </div>

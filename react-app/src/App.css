@@ -48,9 +48,9 @@
 }
 
 .home-intro, .signup-wrap {
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 .home-intro img, .signup-wrap img {
@@ -184,4 +184,30 @@
 
 .signup-form .or hr {
   width: 45%;
+}
+
+.kep-login-facebook {
+  width: 70%;
+  margin: 10% 15%;
+  font-size: 2vh !important;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important;
+  padding: 2% !important;
+}
+
+.welcome {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: auto;
+  right: 15%;
+}
+
+.welcome div {
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.welcome img {
+  border-radius: 50%;
+  width: 10%;
 }

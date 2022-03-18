@@ -10,15 +10,13 @@ import Signup from './components/Signup';
 
 
 const App = () => {
-  useEffect(() => {
-    fetch('/api/movie/get').then(res => res.json()).then(res => console.log(res));
-  }, [])
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/signup' element={<Signup/>} />
       </Routes>
+      <input className='userid' type="hidden"/>
     </Router>
 
   );

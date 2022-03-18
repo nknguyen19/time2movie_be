@@ -13,7 +13,10 @@ const UserSchema = new Schema({
     name: String,
     image: String,
     dob: Date,
-    isAdmin: Boolean,
+    isAdmin: {
+        type: Boolean,
+        default: false,
+    }
 }, {timestamps: true});
 
 const User = new mongoose.model('User', UserSchema);
