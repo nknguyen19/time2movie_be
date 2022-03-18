@@ -3,6 +3,11 @@ const mongoose = require('mongoose')
 
 app = express()
 
+app.use(express.urlencoded());
+
+// Parse JSON bodies (as sent by API clients)
+app.use(express.json());
+
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
