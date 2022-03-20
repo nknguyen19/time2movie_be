@@ -28,9 +28,11 @@ app.get('/', (req, res) => {
 
 app.use('/api/user/', require('./routes/user'));
 app.use('/api/movie/', require('./routes/movie'));
+app.use('/api/people/',require('./routes/people'));
+app.use('/api/review/',require("./routes/review"));
 
 app.all("*", (req, res) => {
-    res.status(404)
+    res.status(404).send()
 })
 
 const PORT = process.env.PORT || 3001

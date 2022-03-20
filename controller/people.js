@@ -15,7 +15,7 @@ exports.create_people = function(req,res){
     });
 }
 
-exports.find_people = function(req,res){
+exports.get_people = function(req,res){
     People.find().then((result)=>{
         res.send(result);
     }).catch((err)=>{
