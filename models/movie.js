@@ -6,7 +6,13 @@ const MovieSchema = new Schema({
         type: String,
         required: true,
     },
-    createdDate: Date,
+    episodes:Number,
+    release:Date,
+    rating: Number,
+    image:String,
+    country:String,
+    director:String,
+    starring:String
 }, {timestamps: true});
 
 const Movie = new mongoose.model('Movie', MovieSchema);

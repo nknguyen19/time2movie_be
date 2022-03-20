@@ -14,6 +14,8 @@ exports.create_user = async (req, res) => {
         .catch((err) => {
             console.log(err);
         });
+
+        
 };
 
 exports.login_facebook = async (req, res) => {
@@ -56,6 +58,9 @@ exports.get_user = (req, res) => {
     User.findById(id)
         .then(result => {
             res.send(result);
+        })
+        .catch((err)=>{
+            res.status(500).send(err);
         })
 
 }

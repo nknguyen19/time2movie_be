@@ -29,5 +29,9 @@ app.get('/', (req, res) => {
 app.use('/api/user/', require('./routes/user'));
 app.use('/api/movie/', require('./routes/movie'));
 
+app.all("*", (req, res) => {
+    res.status(404)
+})
+
 const PORT = process.env.PORT || 3001
 
