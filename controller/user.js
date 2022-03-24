@@ -1,21 +1,20 @@
 const User = require('../models/user')
-const download = require('image-downloader')
+const download = require('image-downloader');
+const { isRequired } = require('nodemon/lib/utils');
 
 exports.create_user = async (req, res) => {
-    const new_user = new User({
-        username: req.body.username,
-        password: req.body.password,
-    })
-
-    new_user.save()
-        .then((result) => {
-            res.send(result);
+    const user = await User.find({username: req.body.username});
+    if (user.length !== 0) {
+        res.status(409).send({ message: "This username already exists" });
+    }
+    else {
+        const new_user = new User({
+            username: req.body.username,
+            password: req.body.password,
         })
-        .catch((err) => {
-            console.log(err);
-        });
-
-        
+        const result = await new_user.save();
+        res.send(result);
+    }
 };
 
 exports.login_facebook = async (req, res) => {
@@ -27,11 +26,8 @@ exports.login_facebook = async (req, res) => {
             dest: '../../react-app/public/avatar/' + req.body.username + '.png',
         }
 
-        download.image(options)
-            .then(({ filename }) => {
-                console.log('Saved to', filename)  // saved to /path/to/dest/image.jpg
-            })
-            .catch((err) => console.error(err))
+        const filename = await download.image(options);
+        console.log('Saved to', filename)
 
         const new_user = new User({
             username: req.body.username,
@@ -40,27 +36,31 @@ exports.login_facebook = async (req, res) => {
             image: 'avatar/' + req.body.username + '.png',
         })
 
-        req.session.User = new_user;
-
-        new_user.save()
-            .then((result) => {
-                res.send(result);
-            })
-            .catch((err) => {
-                console.log(err);
-            });
+        const result = await new_user.save();
+        res.send(result);
     }
     else res.send(user[0])
 }
 
-exports.get_user = (req, res) => {
+exports.get_user = async (req, res) => {
     const id = req.params.id;
-    User.findById(id)
-        .then(result => {
-            res.send(result);
-        })
-        .catch((err)=>{
-            res.status(500).send(err);
-        })
+    const user = await User.findById(id);
+    res.send(user);
+}
 
+exports.signin = async (req, res) => {
+    console.log(req.session);
+    const username = req.body.username;
+    const user = await User.find({username: username});
+    if (user.length === 0) {
+        res.status(401).send({ message: "This account does not exist" });
+    }
+    else if (user[0].password === req.body.password) {
+        res.send(user[0]);
+        req.session.user = user[0];
+        console.log(req.session);
+    }
+    else {
+        res.status(401).send({ message: "Incorrect Password" });
+    }
 }

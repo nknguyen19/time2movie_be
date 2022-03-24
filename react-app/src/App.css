@@ -37,25 +37,26 @@
   }
 }
 
-.home, .signup {
+.home, .signup, .signin {
   background: #000;
   color: #fff;
   position: absolute;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-style: normal;
+  width: 100%;
 }
 
-.home-intro, .signup-wrap {
+.home-intro, .signup-wrap, .signin-wrap {
   width: 90%;
   margin-left: 5%;
   margin-top: 3%;
 }
 
-.home-intro img, .signup-wrap img {
+.home-intro img, .signup-wrap img, .signin-wrap img {
   width: 100%;
 }
 
-.home-title, .signup-title {
+.home-title, .signup-title, .signin-title {
   position: absolute;
   top: 12%;
   left: 15%;
@@ -135,7 +136,7 @@
   color: #fff;
 }
 
-.signup-form {
+.signup-form, .signin-form {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -150,7 +151,7 @@
   padding: 0 20px;
 }
 
-.signup-form h3 :first-child {
+.signup-form h3 :first-child, .signin-form h3 :first-child {
   color: #D6000F; 
   display: inline;
 }
@@ -159,20 +160,20 @@
   font-size: 2vh;
 }
 
-.signup-form input {
+.signup-form input, .signin-form input{
   font-size: 2vh;
   width: 100%;
   margin: 10px 0;
   padding: 5px 0;
 }
 
-.signup-form .signup-btn {
+.signup-form .signup-btn, .signin-form .signin-btn {
   background: #F00;
   padding: 10px;
   text-align: center;
 }
 
-.signup-form .or {
+.or {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -180,7 +181,7 @@
   margin-top: 5%;
 }
 
-.signup-form .or hr {
+.or hr {
   width: 45%;
 }
 
@@ -208,4 +209,22 @@
 .welcome img {
   border-radius: 50%;
   width: 10%;
+}
+
+.signin-form p {
+  text-align: center;
+}
+
+.signin-form p a {
+  color:#D6000F
+}
+
+.signin-form span, .signup-form span {
+  font-size: 1.5vh;
+  color:#D6000F
+}
+
+.welcome span {
+  color:#D6000F;
+  cursor: pointer;
 }

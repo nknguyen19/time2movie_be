@@ -1,8 +1,9 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const session = require('express-session');
 
 app = express()
-
+app.use(session({resave: true, saveUninitialized: true, secret: '1234567', cookie: { maxAge: 60000 }}));
 app.use(express.urlencoded());
 
 // Parse JSON bodies (as sent by API clients)

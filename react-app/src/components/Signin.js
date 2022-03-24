@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, {useState, useEffect} from 'react';
 import FacebookLogin from 'react-facebook-login';
 import { useNavigate } from 'react-router-dom';
 
-const Signup = () => {
+const Signin = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const naviagte = useNavigate();
 
-    const createUser = () => {
+    const signin = () => {
         if (username.length === 0 || password === 0) { // TODO: handle input error
             return;
         }
@@ -20,19 +20,19 @@ const Signup = () => {
                 password: password,
             })
         };
-        fetch('/api/user/create', requestOptions)
+        fetch('/api/user/signin', requestOptions)
             .then(res => res.json())
             .then(res => {
                 if (res.message) {
-                    setErrorMessage(res.message);
-                }
+                    setErrorMessage(res.message);   
+                } 
                 else {
                     document.getElementsByClassName('userid')[0].value = res._id;
                     naviagte('/');
                 }
             });
     }
-    
+
     const loginFacebook = (info) => {
         const requestOptions = {
             method: 'POST',
@@ -54,26 +54,19 @@ const Signup = () => {
     }
 
     return (
-        <div className="signup">
-            <div className="signup-wrap">
-                <div className="signup-title">
+        <div className="signin">
+            <div className="signin-wrap">
+                <div className="signin-title">
                     Time2Movie
                 </div>
-
-                <div className="auth">
-                    <button> 
-                        <a href="/signin">Sign In</a>
-                    </button>
-                </div>
-
-                <div className="signup-form">
-                    <h3>Sign up for <div>Time2Movie</div></h3>
-                    <p>Time2Movie is totally free to use. Sign up using your email address or phone number below to get started.</p>
+                <div className="signin-form">
+                    <h3>Welcome back to <div>Time2Movie</div></h3>
+                    <p>Sign in using your account registered with Time2Movie</p>
                     <span>{errorMessage}</span>
                     <input type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)}/>
                     <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)}/>
-                    <div className="signup-btn" onClick={createUser}>
-                        Create account
+                    <div className="signin-btn" onClick={signin}>
+                        Sign in
                     </div>
                     <div className="or"><hr/> Or <hr/></div>
                     <FacebookLogin 
@@ -82,11 +75,13 @@ const Signup = () => {
                         autoLoad={true}
                         fields="name,email,picture"
                         callback={loginFacebook} />
+                    
+                    <p>Don't have an account? <a href="/signup">Sign up</a></p>
                 </div>
                 <img src="background.png" alt="image" />
             </div>
         </div>
-    );
+    )
 }
 
-export default Signup;
+export default Signin;

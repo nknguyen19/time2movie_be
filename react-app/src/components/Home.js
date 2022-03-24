@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
     const [currentUser, setCurrentUser] = useState();
+    const naviagate = useNavigate();
 
     useEffect(() => {
         const userid = document.getElementsByClassName('userid')[0].value;
@@ -12,6 +15,7 @@ const Home = () => {
         }
 
     }, [])
+    console.log(currentUser)
 
     return (
         <div className="home">
@@ -25,6 +29,9 @@ const Home = () => {
                 <div className="welcome">
                     <img src={currentUser.image}/>
                     <div>Welcome {currentUser.name} !</div>
+                    {currentUser.isAdmin ? 
+                    <span onClick={() => naviagate('/admin')}>Admin</span> 
+                    : ''}
                 </div>
                 :
                 <div className="auth">
@@ -32,7 +39,7 @@ const Home = () => {
                         <a href="/signup">Sign Up</a>
                     </button>
                     <button> 
-                        <a href="/login">Sign In</a>
+                        <a href="/signin">Sign In</a>
                     </button>
                 </div>}    
 
