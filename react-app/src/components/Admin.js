@@ -1,19 +1,17 @@
 import React , { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import AddMovieForm from './AddMovieForm';
 
 const Admin = () => {
     const [ currentUser, setCurrentUser ] = useState();
     const naviagte = useNavigate();
+    const [ isAddingMovie, setIsAddingMovie ] = useState(false);
 
-    useEffect(() => {
-        const userid = document.getElementsByClassName('userid')[0].value;
-        if (userid.length !== 0) {
-            fetch(`/api/user/get-user/${userid}`)
-            .then(res => res.json())
-            .then(user => {
-                if (!user.isAdmin) naviagte('/');
-                else setCurrentUser(user);
-            });
+    useEffect(async () => {
+        const response = await fetch('/api/user/get-current-user');
+        if (response.status === 200) {
+            const current_user = await response.json();
+            setCurrentUser(current_user);
         }
         else {
             naviagte('/signin');
@@ -30,9 +28,12 @@ const Admin = () => {
                     <img src={currentUser && currentUser.image}/>
                     <div>Welcome {currentUser && currentUser.name} !</div>
                 </div>
-                <div>
+                <div className='add-movie-btn'
+                    style={{ display: isAddingMovie ? 'none' : 'block' }}
+                    onClick={() => setIsAddingMovie(true)}>
                     Add a movie
                 </div>
+                {isAddingMovie ? <AddMovieForm /> : ''}
                 <img src="background.png" alt="image" />
             </div>
         </div>
