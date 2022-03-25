@@ -6,6 +6,8 @@ Install NodeJS on https://nodejs.org/en/. Make sure you install node 16 and up (
 
 run `npm install` to install all packages in nodejs app. 
 
+create `react-app/public/avatar/` to store user avatar
+
 run `cd react-app && npm install` to install all packages in react app. 
 
 run `npm start` to start localhost. 

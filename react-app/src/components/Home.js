@@ -5,15 +5,19 @@ const Home = () => {
     const [currentUser, setCurrentUser] = useState();
     const naviagate = useNavigate();
 
-    useEffect(() => {
-        const userid = document.getElementsByClassName('userid')[0].value;
-        if (userid.length !== 0) {
-            console.log (userid);
-            fetch(`/api/user/get-user/${userid}`)
-            .then(res => res.json())
-            .then(user => setCurrentUser(user));
+    useEffect(async () => {
+        // const userid = document.getElementsByClassName('userid')[0].value;
+        // if (userid.length !== 0) {
+        //     console.log (userid);
+        //     fetch(`/api/user/get-user/${userid}`)
+        //     .then(res => res.json())
+        //     .then(user => setCurrentUser(user));
+        // }
+        const response = await fetch('/api/user/get-current-user');
+        if (response.status === 200) {
+            const current_user = await response.json();
+            setCurrentUser(current_user);
         }
-
     }, [])
     console.log(currentUser)
 

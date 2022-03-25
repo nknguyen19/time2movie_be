@@ -3,12 +3,18 @@ const mongoose = require('mongoose')
 const session = require('express-session');
 
 app = express()
-app.use(session({resave: true, saveUninitialized: true, secret: '1234567', cookie: { maxAge: 60000 }}));
+
 app.use(express.urlencoded());
 
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json());
-    
+app.use(session({
+    resave: true, 
+    saveUninitialized: false, 
+    secret: '1234567', 
+    cookie: { maxAge: 60000 }
+}));   
+
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -21,11 +27,6 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     .catch((err) => console.log(err));
 
 require('dotenv').config()
-
-
-app.get('/', (req, res) => {
-    res.send("Hello World !!!")
-})
 
 app.use('/api/user/', require('./routes/user'));
 app.use('/api/movie/', require('./routes/movie'));

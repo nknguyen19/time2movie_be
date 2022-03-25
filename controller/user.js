@@ -13,6 +13,7 @@ exports.create_user = async (req, res) => {
             password: req.body.password,
         })
         const result = await new_user.save();
+        req.session.current_user = result;
         res.send(result);
     }
 };
@@ -37,19 +38,22 @@ exports.login_facebook = async (req, res) => {
         })
 
         const result = await new_user.save();
+        req.session.current_user = result;
         res.send(result);
     }
-    else res.send(user[0])
+    else {
+        req.session.current_user = user[0];
+        res.send(user[0]);
+    }
 }
 
 exports.get_user = async (req, res) => {
     const id = req.params.id;
     const user = await User.findById(id);
-    res.send(user);
+    res.send({ user: user, session: req.session });
 }
 
 exports.signin = async (req, res) => {
-    console.log(req.session);
     const username = req.body.username;
     const user = await User.find({username: username});
     if (user.length === 0) {
@@ -57,10 +61,18 @@ exports.signin = async (req, res) => {
     }
     else if (user[0].password === req.body.password) {
         res.send(user[0]);
-        req.session.user = user[0];
-        console.log(req.session);
+        req.session.current_user = user[0];
     }
     else {
         res.status(401).send({ message: "Incorrect Password" });
+    }
+}
+
+exports.get_current_user = (req, res) => {
+    if (req.session.current_user) {
+        res.send(req.session.current_user);
+    }
+    else {
+        res.status(408).send({ message: "Session timeout"});
     }
 }
