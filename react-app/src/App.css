@@ -37,7 +37,7 @@
   }
 }
 
-.home, .signup, .signin {
+.home, .signup, .signin, .movie {
   background: #000;
   color: #fff;
   position: absolute;
@@ -47,9 +47,7 @@
 }
 
 .home-intro, .signup-wrap, .signin-wrap {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 3%;
+  width: 100%;
 }
 
 .home-intro img, .signup-wrap img, .signin-wrap img {
@@ -58,8 +56,8 @@
 
 .home-title, .signup-title, .signin-title {
   position: absolute;
-  top: 12%;
-  left: 15%;
+  top: 5%;
+  left: 10%;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -116,7 +114,7 @@
 
 .auth {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: auto;
   right: 15%;
   width: 20%;
@@ -237,4 +235,33 @@
   padding: 10px 20px;
   cursor: pointer;
   font-weight: 600;
+}
+
+.movie {
+  background: #000;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.movie-wrap {
+  width: 80%;
+  margin: 10% 0 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-info {
+  width: 50%;
+}
+
+.movie-name {
+  font-size: 4vh;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 3vh;
+}
+
+.movie-description {
+  font-size: 2vh;
 }

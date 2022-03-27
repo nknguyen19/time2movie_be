@@ -1,4 +1,5 @@
 const Movie = require('../models/movie')
+const ObjectId = require('mongoose').Types.ObjectId;
 
 exports.create_movie = (req, res) => {
     console.log(req.body.movie, req.body.movie.title, req.file);
@@ -9,10 +10,11 @@ exports.create_movie = (req, res) => {
         episodes:req_movie.episodes,
         release:req_movie.release,
         rating:req_movie.rating,
-        image: 'movie/' + req.file.filename,
+        image: '/movie/' + req.file.filename,
         country: req_movie.country,
         director:req_movie.director,
-        starring:req_movie.starring
+        starring:req_movie.starring,
+        description: req_movie.description,
     })
     movie.save()
         .then((result) => {
@@ -23,13 +25,16 @@ exports.create_movie = (req, res) => {
         });
 }
 
-exports.get_movie = (req, res) => {
-    Movie.find()
-        .then((result) => {
-            res.send(result);
-        })
-        .catch((err) => {
-            res.status(500).send(err);
-        });
-
+exports.get_movie = async (req, res) => {
+    if (!ObjectId.isValid(req.params.id)) {
+        res.status(404).send({ message: "This movie does not exist "});
+        return;
+    }
+    const movie = await Movie.findById(req.params.id);
+    if (movie) {
+        res.send(movie);
+    }
+    else {
+        res.status(404).send({ message: "This movie does not exist "});
+    }
 }

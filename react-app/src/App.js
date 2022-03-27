@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Signup from './components/Signup';
 import Signin from './components/Signin';
 import Admin from './components/Admin';
+import Movie from './components/Movie';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/signin' element={<Signin/>} />
         <Route path='/signup' element={<Signup/>} />
         <Route path='/admin' element={<Admin/>} />
+        <Route path='/movie/:id' element={<Movie/>} />
       </Routes>
       <input className='userid' type="hidden"/>
     </Router>
