@@ -1,51 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import TopBar from "./TopBar";
 
 const Home = () => {
-    const [currentUser, setCurrentUser] = useState();
     const naviagate = useNavigate();
-
-    useEffect(async () => {
-        // const userid = document.getElementsByClassName('userid')[0].value;
-        // if (userid.length !== 0) {
-        //     console.log (userid);
-        //     fetch(`/api/user/get-user/${userid}`)
-        //     .then(res => res.json())
-        //     .then(user => setCurrentUser(user));
-        // }
-        const response = await fetch('/api/user/get-current-user');
-        if (response.status === 200) {
-            const current_user = await response.json();
-            setCurrentUser(current_user);
-        }
-    }, [])
-    console.log(currentUser)
 
     return (
         <div className="home">
+            <TopBar />
             <div className="home-intro">
 
-                <div className="home-title">
-                    Time2Movie
-                </div>
-
-                {currentUser ? 
-                <div className="welcome">
-                    <img src={currentUser.image}/>
-                    <div>Welcome {currentUser.name} !</div>
-                    {currentUser.isAdmin ? 
-                    <span onClick={() => naviagate('/admin')}>Admin</span> 
-                    : ''}
-                </div>
-                :
-                <div className="auth">
-                    <button> 
-                        <a href="/signup">Sign Up</a>
-                    </button>
-                    <button> 
-                        <a href="/signin">Sign In</a>
-                    </button>
-                </div>}    
+            
 
                 <div className="home-message">
                     <div className="message1">

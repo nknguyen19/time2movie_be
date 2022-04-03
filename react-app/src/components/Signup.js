@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import FacebookLogin from 'react-facebook-login';
 import { useNavigate } from 'react-router-dom';
+import TopBar from "./TopBar";
 
 const Signup = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    const naviagte = useNavigate();
+    const navigate = useNavigate();
 
     const createUser = () => {
         if (username.length === 0 || password === 0) { // TODO: handle input error
@@ -28,7 +29,7 @@ const Signup = () => {
                 }
                 else {
                     document.getElementsByClassName('userid')[0].value = res._id;
-                    naviagte('/');
+                    navigate('/');
                 }
             });
     }
@@ -49,25 +50,15 @@ const Signup = () => {
             .then(res => res.json())
             .then(res => {
                 document.getElementsByClassName('userid')[0].value = res._id;
-                naviagte('/');
+                navigate('/');
             });
     }
 
     return (
         <div className="signup">
             <div className="signup-wrap">
-                <div className="signup-title">
-                    Time2Movie
-                </div>
-
-                <div className="auth">
-                    <button> 
-                        <a href="/signin">Sign In</a>
-                    </button>
-                </div>
-
                 <div className="signup-form">
-                    <h3>Sign up for <div>Time2Movie</div></h3>
+                    <h3>Sign up</h3>
                     <p>Time2Movie is totally free to use. Sign up using your email address or phone number below to get started.</p>
                     <span>{errorMessage}</span>
                     <input type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)}/>
@@ -82,8 +73,9 @@ const Signup = () => {
                         autoLoad={true}
                         fields="name,email,picture"
                         callback={loginFacebook} />
+                    <p>Already have an account?<a href="/signin">Sign in</a></p>
                 </div>
-                <img src="background.png" alt="image" />
+                <img src="signup-background.jpg" alt="image" />
             </div>
         </div>
     );

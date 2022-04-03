@@ -113,25 +113,39 @@
 }
 
 .auth {
+  display: flex;
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: auto;
-  right: 15%;
+  right: 5%;
   width: 20%;
+  padding: 0.5%;
 }
 
 .auth button {
-  background: #D6000F;
+  border-radius: 10px;
   border: none;
   padding: 7px 5%;
   margin: 0px 5%;
-  color: #fff;
+  color: #00A0B5FF;
   width: 30%;
+  border: 1px solid #00A0B5FF;
+  cursor: pointer;
+  user-select: none;
+}
+
+.path div {
+  padding: 10px;
 }
 
 .auth button a {
   text-decoration: none;
   color: #fff;
+}
+
+.signin, .signup {
+  overflow: hidden;
+  height: 100vh;
 }
 
 .signup-form, .signin-form, .movie-form {
@@ -166,9 +180,10 @@
 }
 
 .signup-form .signup-btn, .signin-form .signin-btn {
-  background: #F00;
+  background: #ED7D2DFF;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
 }
 
 .or {
@@ -196,12 +211,11 @@
   position: absolute;
   top: 15%;
   left: auto;
-  right: 15%;
+  right: 5%;
 }
 
 .welcome div {
-  padding: 5px;
-  margin: 0 10px;
+  margin: 2% 10px;
 }
 
 .welcome img {
@@ -209,12 +223,12 @@
   width: 10%;
 }
 
-.signin-form p {
+.signin-form p, .signup-form p {
   text-align: center;
 }
 
-.signin-form p a {
-  color:#D6000F
+.signin-form p a, .signup-form p a {
+  color:#00BDD6FF
 }
 
 .signin-form span, .signup-form span {
@@ -223,8 +237,8 @@
 }
 
 .welcome span {
-  color:#D6000F;
   cursor: pointer;
+  margin-top: 2%;
 }
 
 .add-movie-btn {
@@ -264,4 +278,20 @@
 
 .movie-description {
   font-size: 2vh;
+}
+
+.top-bar{
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  background: #F3A974FF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #21262e, 0px 0px 2px #21262e;
+}
+
+.logo {
+  font-size: 4vh;
+  font-weight: 700;
+  padding: 0.5%;
+  cursor: pointer;
 }

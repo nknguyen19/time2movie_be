@@ -56,11 +56,8 @@ const Signin = () => {
     return (
         <div className="signin">
             <div className="signin-wrap">
-                <div className="signin-title">
-                    Time2Movie
-                </div>
                 <div className="signin-form">
-                    <h3>Welcome back to <div>Time2Movie</div></h3>
+                    <h3>Welcome back to</h3>
                     <p>Sign in using your account registered with Time2Movie</p>
                     <span>{errorMessage}</span>
                     <input type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)}/>
@@ -78,7 +75,7 @@ const Signin = () => {
                     
                     <p>Don't have an account? <a href="/signup">Sign up</a></p>
                 </div>
-                <img src="background.png" alt="image" />
+                <img src="signin-background.jpg" alt="image" />
             </div>
         </div>
     )
