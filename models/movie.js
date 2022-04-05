@@ -8,7 +8,11 @@ const MovieSchema = new Schema({
     },
     episodes: Number,
     release: Date,
-    rating: Number,
+    rating: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
     image: String,
     country: String,
     director: String,

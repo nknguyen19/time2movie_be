@@ -1,31 +1,53 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import TopBar from "./TopBar";
+import Slider from 'react-slick';
+import MovieSlider from "./MovieSlider";
 
 const Home = () => {
     const naviagate = useNavigate();
+    const [settings, setSettings] = useState({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    const [movieList, setMovieList] = useState([]);
+
+    useEffect(async () => {
+        const response = await fetch('/api/movie/get');
+        const movie_list = await response.json();
+        setMovieList(movie_list);
+        console.log(movie_list);
+    }, [])
 
     return (
         <div className="home">
             <TopBar />
-            <div className="home-intro">
-
-            
-
-                <div className="home-message">
-                    <div className="message1">
-                        Unlimited movies, TV shows and more.
-                    </div>
-                    <div className="message2">
-                        Someone please help me write these lines =((((
-                    </div>
-                    <div className="message3">
-                        omae wa mou shindeiru
-                    </div>
-                </div>
-                <img src="background.png" alt="image" />
+            <div className="intro-slider">
+                <Slider {...settings}>
+                    {movieList.map(movie => (
+                        <div className="movie-intro">
+                            <div className="movie-title">
+                                <h1>{movie.title.toUpperCase()}</h1>
+                                <p>{movie.description}</p>
+                            </div>
+                            
+                            <div className="movie-image">
+                                <img src={movie.image}/>
+                            </div>
+                            
+                        </div>
+                    ))}
+                </Slider>
             </div>
-            
+
+            <MovieSlider type="Trending now" />
+
+            <MovieSlider type="Recommended for you" />
+
+
         </div>
     )
 }

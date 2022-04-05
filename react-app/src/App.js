@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route}
@@ -14,6 +14,18 @@ import Movie from './components/Movie';
 
 const App = () => {
   return (
+  <>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charset="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
     <Router>
       <Routes>
         <Route path='/' element={<Home />}/>
@@ -24,7 +36,7 @@ const App = () => {
       </Routes>
       <input className='userid' type="hidden"/>
     </Router>
-
+  </>
   );
 }
 

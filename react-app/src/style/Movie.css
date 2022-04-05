@@ -1,0 +1,26 @@
+.heading {
+    display: flex;    
+    height: 60vh;
+}
+
+.heading img {
+    width: 20%;
+    margin: 5vh 5vw;
+}
+
+.info {
+    color: #000;
+    padding-top: 5vh;
+}
+
+.info h3 {
+    color: #888888;
+}
+
+.avg-rating, .user-rating {
+    display: flex;
+}
+
+.avg-rating span, .user-rating span {
+    margin: 10px 0 0 20px;
+}

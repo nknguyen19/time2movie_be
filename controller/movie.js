@@ -2,9 +2,8 @@ const Movie = require('../models/movie')
 const ObjectId = require('mongoose').Types.ObjectId;
 
 exports.create_movie = (req, res) => {
-    console.log(req.body.movie, req.body.movie.title, req.file);
     const req_movie = JSON.parse(req.body.movie);
-    console.log(req_movie);
+    
     const movie = new Movie({
         title:req_movie.title,
         episodes:req_movie.episodes,
@@ -37,4 +36,9 @@ exports.get_movie = async (req, res) => {
     else {
         res.status(404).send({ message: "This movie does not exist "});
     }
+}
+
+exports.get_all_movie = async (req, res) => {
+    const movies = await Movie.find();
+    res.send(movies); // TODO: Filter here
 }
