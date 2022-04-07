@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import FacebookLogin from 'react-facebook-login';
 import { useNavigate } from 'react-router-dom';
-import TopBar from "./TopBar";
 
 const Signup = () => {
     const [username, setUsername] = useState('');

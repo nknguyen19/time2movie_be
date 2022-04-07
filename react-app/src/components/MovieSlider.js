@@ -40,7 +40,7 @@ const MovieSlider = (props) => {
                                     initialRating={movie.rating}
                                     />
                             </div>
-                            <h5>{movie.title.toUpperCase()}</h5>
+                            <span>{movie.title.toUpperCase()}</span>
                             <p>{movie.description.substring(0, 250) + '...'}</p>
                             <div className="info">
 

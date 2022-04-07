@@ -6,6 +6,7 @@ import MovieSlider from "./MovieSlider";
 
 const Home = () => {
     const naviagate = useNavigate();
+    const [currentUser, setCurrentUser] = useState();
     const [settings, setSettings] = useState({
         dots: true,
         infinite: true,
@@ -16,15 +17,20 @@ const Home = () => {
     const [movieList, setMovieList] = useState([]);
 
     useEffect(async () => {
-        const response = await fetch('/api/movie/get');
-        const movie_list = await response.json();
+        const movie_list_response = await fetch('/api/movie/get');
+        const movie_list = await movie_list_response.json();
         setMovieList(movie_list);
-        console.log(movie_list);
+
+        const user_response = await fetch('/api/user/get-current-user');
+        if (user_response.status <= 200) {
+            const user = await user_response.json();
+            setCurrentUser(user);
+        }
     }, [])
 
     return (
         <div className="home">
-            <TopBar />
+            <TopBar currentUser={currentUser}/>
             <div className="intro-slider">
                 <Slider {...settings}>
                     {movieList.map(movie => (

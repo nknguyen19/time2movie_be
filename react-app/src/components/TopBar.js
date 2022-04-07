@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const TopBar = () => {
-    const [currentUser, setCurrentUser] = useState();
+const TopBar = (props) => {
     const navigate = useNavigate();
-    useEffect(async () => {
-        const response = await fetch('/api/user/get-current-user');
-        if (response.status === 200) {
-            const current_user = await response.json();
-            setCurrentUser(current_user);
-        }
-    }, [])
 
     return (
         <div className="top-bar">
@@ -29,11 +21,11 @@ const TopBar = () => {
                     Actors
                 </div>
             </div> */}
-            {currentUser ? 
+            {props.currentUser ? 
             <div className="welcome">
-                <img src={currentUser.image}/>
-                <div>Welcome {currentUser.name} !</div>
-                {currentUser.isAdmin ? 
+                <img src={props.currentUser.image}/>
+                <div>Welcome {props.currentUser.name} !</div>
+                {props.currentUser.isAdmin ? 
                     <span onClick={() => navigate('/admin')}>Admin</span> 
                 : ''}
             </div>

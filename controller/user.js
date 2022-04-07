@@ -34,7 +34,7 @@ exports.login_facebook = async (req, res) => {
             username: req.body.username,
             password: req.body.password,
             name: req.body.name,
-            image: 'avatar/' + req.body.username + '.png',
+            image: '/avatar/' + req.body.username + '.png',
         })
 
         const result = await new_user.save();
