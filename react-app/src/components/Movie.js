@@ -94,6 +94,7 @@ const Movie = () => {
                             handleOnClick={updateMovieRating}
                             initialRating={rating}
                         />
+                        {console.log(window.innerHeight * 0.03)}
                     </div>
                 </div>
 
