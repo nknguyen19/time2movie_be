@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import TopBar from "./TopBar";
 import Slider from 'react-slick';
 import MovieSlider from "./MovieSlider";
+import MessageBox from "./MessageBox";
 
 const Home = () => {
     const naviagate = useNavigate();
@@ -53,7 +54,7 @@ const Home = () => {
 
             <MovieSlider type="Recommended for you" />
 
-
+            {currentUser ? <MessageBox /> : ''}
         </div>
     )
 }
