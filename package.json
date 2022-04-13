@@ -9,7 +9,7 @@
     "react-app": "cd react-app && npm start",
     "start": "concurrently \"npm run dev\" \"npm run react-app\"",
     "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "npm run prod && cd react-app && npm install && npm run build"
+    "heroku-postbuild": "cd react-app && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
