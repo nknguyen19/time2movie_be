@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const session = require('express-session');
+const path = require("path");
 
 app = express()
 
@@ -26,6 +27,8 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     .catch((err) => console.log(err));
 
 require('dotenv').config()
+
+app.use("/", express.static(path.join(__dirname, "./public")));
 
 app.use('/api/user/', require('./routes/user'));
 app.use('/api/movie/', require('./routes/movie'));

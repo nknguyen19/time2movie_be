@@ -24,7 +24,7 @@ exports.login_facebook = async (req, res) => {
 
         const options = {
             url: req.body.avatar,
-            dest: '../../react-app/public/avatar/' + req.body.username + '.png',
+            dest: '../../public/avatar/' + req.body.username + '.png',
         }
 
         const filename = await download.image(options);
