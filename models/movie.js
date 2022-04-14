@@ -6,18 +6,20 @@ const MovieSchema = new Schema({
         type: String,
         required: true,
     },
-    episodes: Number,
-    release: Date,
+    release: String,
+    duration: String,
+    gerne: String,
+    IMDB_Rating: Number,
     rating: {
         type: Number,
         required: true,
         default: 0,
     },
-    image: String,
-    country: String,
+    overview: String,
+    metaScore: Number,
     director: String,
-    starring: String,
-    description: String,
+    stars: [String],
+    noOfVotes: Number,
 }, {timestamps: true});
 
 const Movie = new mongoose.model('Movie', MovieSchema);

@@ -1,5 +1,7 @@
 const Movie = require('../models/movie')
 const ObjectId = require('mongoose').Types.ObjectId;
+const { parse } = require('csv-parse');
+const fs = require('fs');
 
 exports.create_movie = (req, res) => {
     const req_movie = JSON.parse(req.body.movie);
@@ -40,5 +42,51 @@ exports.get_movie = async (req, res) => {
 
 exports.get_all_movie = async (req, res) => {
     const movies = await Movie.find();
-    res.send(movies); // TODO: Filter here
+    const shuffle_movies = movies.sort(() => 0.5 - Math.random()).slice(0, 5);
+    res.send(shuffle_movies);
+}
+
+exports.get_trending = async (req, res) => {
+    let movies = await Movie.find();
+    movies.sort((a,b) => {
+        return (a.rating < b.rating) ? 1 : ((b.rating < a.rating) ? -1 : 0);
+    } );
+    res.send(movies.slice(0, 10));
+}
+
+exports.get_newest =  async (req, res) => {
+    let movies = await Movie.find();
+    movies.sort((a,b) => {
+        return (a.release < b.release) ? 1 : ((b.release < a.release) ? -1 : 0);
+    } );
+    res.send(movies.slice(0, 10));
+}
+
+exports.fetch_data = async (req, res) => {
+    let csvData = [];
+    fs.createReadStream('data/imdb_top_1000.csv')
+        .pipe(parse())
+        .on('data', (csvrow) => {
+            csvData.push(csvrow);        
+        })
+        .on('end', () => {
+            console.log(csvData);
+            for (let i = 1; i < csvData.length; ++i) {
+                console.log(i);
+                const movie = new Movie({
+                    title: csvData[i][0],
+                    release: csvData[i][1],
+                    duration: csvData[i][2],
+                    gerne: csvData[i][3],
+                    IMDB_Rating: csvData[i][4],
+                    overview: csvData[i][5],
+                    metaScore: csvData[i][6],
+                    director: csvData[i][7],
+                    stars: [csvData[i][8], csvData[i][9], csvData[i][10], csvData[i][11]],
+                    noOfVotes: csvData[i][12],
+                    rating: Math.random() * 5,
+                })
+                movie.save();
+            }
+        });
 }
