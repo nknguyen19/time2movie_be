@@ -22,6 +22,9 @@ exports.get = async (req, res) =>
             name: user.name,
         }
     }
+    comments.sort((a,b) => {
+        return new Date(a.createdAt) - new Date(b.createdAt);
+      });
     res.send(comments);
 }
 

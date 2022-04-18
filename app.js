@@ -35,6 +35,7 @@ app.use('/api/movie/', require('./routes/movie'));
 app.use('/api/people/',require('./routes/people'));
 app.use('/api/review/',require("./routes/review"));
 app.use('/api/comment/',require("./routes/comment"));
+app.use('/api/like/',require("./routes/like"));
 
 app.all("*", (req, res) => {
     res.status(404).send()
