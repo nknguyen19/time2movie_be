@@ -69,7 +69,7 @@ exports.fetch_data = async (req, res) => {
         .on('data', (csvrow) => {
             csvData.push(csvrow);        
         })
-        .on('end', () => {
+        .on('end', async () => {
             console.log(csvData);
             for (let i = 1; i < csvData.length; ++i) {
                 console.log(i);
@@ -86,7 +86,7 @@ exports.fetch_data = async (req, res) => {
                     noOfVotes: csvData[i][12],
                     rating: Math.random() * 5,
                 })
-                movie.save();
+                await movie.save();
             }
         });
 }
