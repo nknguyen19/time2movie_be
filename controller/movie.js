@@ -40,10 +40,15 @@ exports.get_movie = async (req, res) => {
     }
 }
 
-exports.get_all_movie = async (req, res) => {
+exports.get_random = async (req, res) => {
     const movies = await Movie.find();
     const shuffle_movies = movies.sort(() => 0.5 - Math.random()).slice(0, 5);
     res.send(shuffle_movies);
+}
+
+exports.get_all_movie = async (req, res) => {
+    const movies = await Movie.find();
+    res.send(movies);
 }
 
 exports.get_trending = async (req, res) => {

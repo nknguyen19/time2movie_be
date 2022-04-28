@@ -17,7 +17,8 @@ const upload = multer({ storage: storage }).single('file');
 
 router.post('/create', upload, movie.create_movie);
 router.get('/get/:id', movie.get_movie);
-router.get('/get', movie.get_all_movie);
+router.get('/get', movie.get_random);
+router.get('/getall', movie.get_all_movie);
 router.get('/get-trending', movie.get_trending);
 router.get('/get-newest', movie.get_newest);
 router.get('/fetch-data', movie.fetch_data);

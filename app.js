@@ -15,6 +15,16 @@ app.use(session({
     cookie: { maxAge: 60000 }
 }));   
 
+// const runPy = new Promise(function(success, nosuccess) {
+
+//     const { spawn } = require('child_process');
+//     const pyprog = spawn('python3', ['controller/recommend.py']);
+
+//     pyprog.stdout.on('data', function(data) {
+//         success(data);
+//     });
+// });
+ 
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -22,6 +32,10 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
         console.log("connected to database");
         app.listen(PORT, () => {
             console.log('Listening to port' + PORT);
+            // runPy.then((data) => {
+            //     const obj = JSON.parse(data.toString().replaceAll('\'', '"'));
+            //     console.log(obj[0]["price"]);
+            // })
         });
     })
     .catch((err) => console.log(err));
