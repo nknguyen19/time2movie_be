@@ -18,13 +18,20 @@ app.use(session({
 // const runPy = new Promise(function(success, nosuccess) {
 
 //     const { spawn } = require('child_process');
-//     const pyprog = spawn('python3', ['controller/recommend.py']);
+//     const movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
+//     setInterval(() => {
+//         movieRecommender.stdin.write("Inside Out\n");
+//         console.log('debug');
+//         movieRecommender.stdout.once('data', function(data) {
+//             success(data);
+//             console.log(JSON.parse(data.toString().replaceAll('\'', '"')));
+//             console.log(data.toString().replaceAll('\'', '"'));
+//         });
+//     }, 5000)
 
-//     pyprog.stdout.on('data', function(data) {
-//         success(data);
-//     });
 // });
- 
+const { spawn } = require('child_process');
+app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -32,10 +39,15 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
         console.log("connected to database");
         app.listen(PORT, () => {
             console.log('Listening to port' + PORT);
-            // runPy.then((data) => {
-            //     const obj = JSON.parse(data.toString().replaceAll('\'', '"'));
-            //     console.log(obj[0]["price"]);
-            // })
+
+            // setInterval(() => {
+            //     movieRecommender.stdin.write("Inside Out\n");
+            //     console.log('debug');
+            //     movieRecommender.stdout.once('data', function(data) {
+            //         console.log(JSON.parse(data.toString().replaceAll('\'', '"')));
+            //         console.log(data.toString().replaceAll('\'', '"'));
+            //     });
+            // }, 5000)
         });
     })
     .catch((err) => console.log(err));
@@ -57,3 +69,4 @@ app.all("*", (req, res) => {
 
 const PORT = process.env.PORT || 3001
 
+module.exports = app;

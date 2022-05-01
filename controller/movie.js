@@ -2,6 +2,13 @@ const Movie = require('../models/movie')
 const ObjectId = require('mongoose').Types.ObjectId;
 const { parse } = require('csv-parse');
 const fs = require('fs');
+const { spawn } = require('child_process');
+// movieRecommender.stdin.write("Inside Out\n");
+
+// movieRecommender.stdout.once('data', function(data) {
+//     console.log(JSON.parse(data.toString().replaceAll('\'', '"')));
+//     console.log(data.toString().replaceAll('\'', '"'));
+// });
 
 exports.create_movie = (req, res) => {
     const req_movie = JSON.parse(req.body.movie);
@@ -94,4 +101,23 @@ exports.fetch_data = async (req, res) => {
                 await movie.save();
             }
         });
+}
+
+exports.get_similar_movie = async (req, res) => {
+    const movie_title = req.params.title;
+    console.log(movie_title);
+    const movieRecommender = req.app.movieRecommender;
+    movieRecommender.stdin.write("Inside Out\n");
+    movieRecommender.stdout.once('data',async (data) => {
+        console.log(data.toString());
+        const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
+        console.log(movies_id);
+        let result = [];
+        for (let i = 0; i < movies_id.length; ++i) {
+            const movie = await Movie.findById(movies_id[i]);
+            result.push(movie);
+        }
+        console.log(result);
+        res.send(result); 
+    });
 }

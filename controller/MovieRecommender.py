@@ -1,3 +1,4 @@
+import sys, time
 import pandas as pd
 from pymongo import MongoClient
 import spacy
@@ -33,7 +34,7 @@ def import_mongo(
     port=27017,
     username=None,
     password=None,
-    no_id=True,
+    no_id=False,
     no_version=True,
 ):
     # Connect to MongoDB
@@ -58,9 +59,6 @@ moviesData = import_mongo(
     username="cs422",
     password="time2movie",
 )
-
-print(moviesData.columns)
-# print(moviesData.head(10))
 
 
 def compute_title_similarity(row, model_row):
@@ -137,7 +135,7 @@ def get_recommendation(movieTitle, moviesData):
     row = moviesData.loc[moviesData["title"] == movieTitle]
 
     if row.empty:
-        print("Movie not found")
+        print("[]")
         return
 
     row = row.squeeze()
@@ -145,27 +143,27 @@ def get_recommendation(movieTitle, moviesData):
 
     # Sort the movies by points
     sorted_movies = moviesData.sort_values(by="points", ascending=False)
-    moviesData.drop(columns=["points"], inplace=True)
-    sorted_movies.drop(columns=["points"], inplace=True)
+    # moviesData.drop(columns=["points"], inplace=True)
+    # sorted_movies.drop(columns=["points"], inplace=True)
 
     return sorted_movies.head(RECOMMENDATION_COUNT)
 
 
-while True:
-    movieTitle = input("Enter a movie title: ")
-    if movieTitle == "exit":
-        break
-    recommendation = get_recommendation(movieTitle, moviesData)
-    recommendation.drop(recommendation.loc[recommendation["title"]==movieTitle].index, inplace=True)
-    print(recommendation)
+# while True:
+#     movieTitle = input("Enter a movie title: ")
+#     if movieTitle == "exit":
+#         break
+#     recommendation = get_recommendation(movieTitle, moviesData)
+#     recommendation.drop(recommendation.loc[recommendation["title"]==movieTitle].index, inplace=True)
+#     print(recommendation)
 
 
-# def get_similar_movies(movieTitle, moviesData):
-#     row = moviesData[moviesData["title"].str.match(movieTitle, na=False)]
-#     if row.empty:
-#         print("Movie not found")
-#         return
-#     return row
+def get_similar_movies(movieTitle, moviesData):
+    row = moviesData[moviesData["title"].str.match(movieTitle, na=False)]
+    if row.empty:
+        print("[]")
+        return
+    return row
 
 
 # while True:
@@ -174,3 +172,11 @@ while True:
 #         break
 #     movies = get_similar_movies(movieTitle, moviesData)
 #     print(movies)
+
+while True:
+    movieTitle = input()
+    # print(movieTitle)
+    movies = get_recommendation(movieTitle, moviesData)
+    print([str(movie) for movie in movies["_id"]])
+    sys.stdout.flush()
+    time.sleep(2)
