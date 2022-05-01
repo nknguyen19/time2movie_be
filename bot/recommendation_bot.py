@@ -1,4 +1,3 @@
-import sys, time
 import pandas as pd
 from pymongo import MongoClient
 import spacy
@@ -36,7 +35,7 @@ def import_mongo(
     port=27017,
     username=None,
     password=None,
-    no_id=False,
+    no_id=True,
     no_version=True,
 ):
     # Connect to MongoDB
@@ -62,8 +61,6 @@ moviesData = import_mongo(
     password="time2movie",
 )
 
-<<<<<<<< HEAD:controller/MovieRecommender.py
-========
 # print(moviesData.columns)
 # print(moviesData.head(10))
 
@@ -76,7 +73,6 @@ for genre in genres:
 genres = list(set(temp_genres))
 # print(genres)
 
->>>>>>>> master:bot/recommendation_bot.py
 
 def compute_title_similarity(row, model_row):
     current_title = str(row["title"])
@@ -169,7 +165,7 @@ def get_recommendation_by_title(movieTitle, moviesData):
     row = moviesData.loc[moviesData["title"] == movieTitle]
 
     if row.empty:
-        print("[]")
+        print("Movie not found")
         return
 
     row = row.squeeze()
@@ -177,37 +173,15 @@ def get_recommendation_by_title(movieTitle, moviesData):
 
     # Sort the movies by points
     sorted_movies = moviesData.sort_values(by="points", ascending=False)
-<<<<<<<< HEAD:controller/MovieRecommender.py
-    # moviesData.drop(columns=["points"], inplace=True)
-    # sorted_movies.drop(columns=["points"], inplace=True)
-========
     moviesData.drop(columns=["points"], inplace=True)
     sorted_movies.drop(columns=["points"], inplace=True)
     sorted_movies.drop(
         sorted_movies.loc[sorted_movies["title"] == movieTitle].index, inplace=True
     )
->>>>>>>> master:bot/recommendation_bot.py
 
     return sorted_movies.head(RECOMMENDATION_COUNT)
 
 
-<<<<<<<< HEAD:controller/MovieRecommender.py
-# while True:
-#     movieTitle = input("Enter a movie title: ")
-#     if movieTitle == "exit":
-#         break
-#     recommendation = get_recommendation(movieTitle, moviesData)
-#     recommendation.drop(recommendation.loc[recommendation["title"]==movieTitle].index, inplace=True)
-#     print(recommendation)
-
-
-def get_similar_movies(movieTitle, moviesData):
-    row = moviesData[moviesData["title"].str.match(movieTitle, na=False)]
-    if row.empty:
-        print("[]")
-        return
-    return row
-========
 def extract_movie_genre(movieGenre):
     mx_point = 0
     ans = "Action"
@@ -233,27 +207,13 @@ def get_recommendation_by_genre(genre, moviesData):
 
 def get_random_recommendation(moviesData):
     return moviesData.sample(RECOMMENDATION_COUNT)
->>>>>>>> master:bot/recommendation_bot.py
 
 
 # while True:
 #     movieTitle = input("Enter a movie title: ")
 #     if movieTitle == "exit":
 #         break
-<<<<<<<< HEAD:controller/MovieRecommender.py
-#     movies = get_similar_movies(movieTitle, moviesData)
-#     print(movies)
-
-while True:
-    movieTitle = input()
-    # print(movieTitle)
-    movies = get_recommendation(movieTitle, moviesData)
-    print([str(movie) for movie in movies["_id"]])
-    sys.stdout.flush()
-    time.sleep(2)
-========
 #     recommendation = get_recommendation_by_genre(movieTitle, moviesData)
 #     if recommendation is None:
 #         continue
 #     print(recommendation)
->>>>>>>> master:bot/recommendation_bot.py
