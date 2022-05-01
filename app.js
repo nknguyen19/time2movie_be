@@ -15,23 +15,10 @@ app.use(session({
     cookie: { maxAge: 60000 }
 }));   
 
-// const runPy = new Promise(function(success, nosuccess) {
-
-//     const { spawn } = require('child_process');
-//     const movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
-//     setInterval(() => {
-//         movieRecommender.stdin.write("Inside Out\n");
-//         console.log('debug');
-//         movieRecommender.stdout.once('data', function(data) {
-//             success(data);
-//             console.log(JSON.parse(data.toString().replaceAll('\'', '"')));
-//             console.log(data.toString().replaceAll('\'', '"'));
-//         });
-//     }, 5000)
-
-// });
 const { spawn } = require('child_process');
+//movie recommender process
 app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
+
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -39,15 +26,6 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
         console.log("connected to database");
         app.listen(PORT, () => {
             console.log('Listening to port' + PORT);
-
-            // setInterval(() => {
-            //     movieRecommender.stdin.write("Inside Out\n");
-            //     console.log('debug');
-            //     movieRecommender.stdout.once('data', function(data) {
-            //         console.log(JSON.parse(data.toString().replaceAll('\'', '"')));
-            //         console.log(data.toString().replaceAll('\'', '"'));
-            //     });
-            // }, 5000)
         });
     })
     .catch((err) => console.log(err));
