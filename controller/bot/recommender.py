@@ -1,8 +1,10 @@
+import timeit
 import pandas as pd
 from pymongo import MongoClient
 import spacy
 import warnings
 from fuzzywuzzy import fuzz
+import data
 
 RECOMMENDATION_COUNT = 20
 
@@ -10,53 +12,21 @@ warnings.filterwarnings("ignore")
 
 nlp = spacy.load("en_core_web_sm")
 
+moviesData = pd.DataFrame(list(data.moviesdc))
+reviewsData = pd.DataFrame(list(data.reviewsdc))
+commentsData = pd.DataFrame(list(data.commentsdc))
 
-def connect_mongo(host, username, password, db):
-    """A util for making a connection to mongo"""
+print("moviesData")
+print(moviesData.columns)
+print("length =", len(moviesData))
 
-    if username and password:
-        mongo_uri = "mongodb+srv://%s:%s@%s/%s" % (username, password, host, db)
-        conn = MongoClient(mongo_uri)
-    else:
-        conn = MongoClient(host)
-    return conn[db]
+print("commentsData")
+print(reviewsData.columns)
+print("length =", len(moviesData))
 
-
-def import_mongo(
-    db,
-    collection,
-    query={},
-    host="localhost",
-    port=27017,
-    username=None,
-    password=None,
-    no_id=True,
-    no_version=True,
-):
-    # Connect to MongoDB
-    db = connect_mongo(host, username=username, password=password, db=db)
-
-    # Make query to DB and Collection
-    cursor = db[collection].find(query)
-
-    # Delete _id from dataframe if no_id is True
-    df = pd.DataFrame(list(cursor))
-    if no_id:
-        del df["_id"]
-    if no_version:
-        del df["__v"]
-    return df
-
-
-moviesData = import_mongo(
-    "cs422",
-    "movies",
-    host="time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority",
-    username="cs422",
-    password="time2movie",
-)
-
-# print(moviesData.columns)
+print("reviewsData")
+print(reviewsData.columns)
+print("length =", len(reviewsData))
 # print(moviesData.head(10))
 
 moviesTitles = list(moviesData["title"])
@@ -66,11 +36,31 @@ temp_genres = []
 for genre in genres:
     temp_genres.extend(genre.split(","))
 genres = list(set(temp_genres))
-# print(genres)
+print("All genres", genres)
+
+
+def get_current_userid():
+    return "1"
+
+
+def compute_weights(row, user_reviews, user_comments):
+    return
 
 
 def get_user_movies_with_weights(user_id):  # limit to 10 sorted by importance
-    return moviesData.head(10)
+    global moviesData
+    global reviewsData
+    global commentsData
+    user_reviews = reviewsData[reviewsData["userid"] == user_id]
+    user_comments = commentsData[commentsData["userid"] == user_id]
+    user_movies = moviesData[
+        moviesData["_id"].isin(user_reviews["movieid"])
+        or moviesData["_id"].isin(user_comments["movieid"])
+    ]
+    user_movies["weights"] = user_movies.apply(
+        lambda row: compute_weights(row, user_reviews, user_comments), axis=1
+    )
+    return user_movies.sort_values(by="weights", ascending=False)
 
 
 def compute_title_similarity(row, model_row):
@@ -84,6 +74,9 @@ def compute_title_similarity(row, model_row):
 
 def compute_genre_similarity(row, model_row):
     # TODO: FIX TYPO IN COLUMN NAME GERNE TO GENRE
+    # print("modeljnklnklnkln", model_row)
+    # print(type(model_row))
+    # print(type(row))
     current_genre = str(row["gerne"]).split(",")
     model_genre = str(model_row["gerne"]).split(",")
 
@@ -110,10 +103,19 @@ def compute_points(row, important_movies):
         "title": 100,
     }
     genre_similarity = 0
-    important_movies.apply(lambda model_row : genre_similarity += compute_genre_similarity(row, model_row))
+    # print("important_movies", important_movies)
+    genre_similarity = important_movies.apply(
+        lambda model_row: compute_genre_similarity(row, model_row)
+        * model_row["weights"],
+        axis=1,
+    ).sum()
     genre_similarity /= len(important_movies)
     title_similarity = 0
-    important_movies.apply(lambda model_row : title_similarity += compute_title_similarity(row, model_row))
+    title_similarity = important_movies.apply(
+        lambda model_row: compute_title_similarity(row, model_row)
+        * model_row["weights"],
+        axis=1,
+    ).sum()
     title_similarity /= len(important_movies)
 
     points = (
@@ -127,10 +129,28 @@ def compute_points(row, important_movies):
 
 def get_personal_recommendations(user_id):
     global moviesData
+    print("Getting personal recommendations...")
     user_movies = get_user_movies_with_weights(user_id)
     important_movies = user_movies.head(min(len(user_movies), 10))
+    print("Assigning points...")
     moviesData["points"] = moviesData.apply(
-        lambda row: compute_points(row, important_movies) * important_movies["weights"], axis=1
-    ) # at most quadratic * title and genre similarity
+        lambda row: compute_points(row, important_movies),
+        axis=1,
+    )  # at most quadratic * title and genre similarity
+    print("Sorting...")
     moviesData = moviesData.sort_values(by="points", ascending=False)
     return moviesData.head(RECOMMENDATION_COUNT)
+
+
+def test():
+    print("Testing...")
+    start = timeit.default_timer()
+
+    print(get_personal_recommendations(1))
+
+    stop = timeit.default_timer()
+
+    print("Time: ", stop - start)  # in seconds
+
+
+test()
