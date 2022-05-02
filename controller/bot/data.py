@@ -56,5 +56,8 @@ commentsdc = import_mongo_data(
     username="cs422",
     password="time2movie",
 )
+# print("YUUYUUUYUYUYUYUYUUYU")
+# for x in moviesdc:
+#     print(x)
 
 print("Data fetched!")

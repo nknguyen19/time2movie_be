@@ -209,11 +209,11 @@ def get_random_recommendation(moviesData):
     return moviesData.sample(RECOMMENDATION_COUNT)
 
 
-# while True:
-#     movieTitle = input("Enter a movie title: ")
-#     if movieTitle == "exit":
-#         break
-#     recommendation = get_recommendation_by_genre(movieTitle, moviesData)
-#     if recommendation is None:
-#         continue
-#     print(recommendation)
+while True:
+    movieTitle = input("Enter a movie title: ")
+    if movieTitle == "exit":
+        break
+    recommendation = get_recommendation_by_genre(movieTitle, moviesData)
+    if recommendation is None:
+        continue
+    print(recommendation)
