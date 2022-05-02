@@ -1,11 +1,11 @@
 import timeit
-from matplotlib.font_manager import _Weight
 import pandas as pd
-from pymongo import MongoClient
 import spacy
 import warnings
 from fuzzywuzzy import fuzz
 import data
+from bson.objectid import ObjectId
+
 
 RECOMMENDATION_COUNT = 20
 
@@ -17,6 +17,7 @@ moviesData = pd.DataFrame(list(data.moviesdc))
 reviewsData = pd.DataFrame(list(data.reviewsdc))
 commentsData = pd.DataFrame(list(data.commentsdc))
 
+print("Data information")
 print("moviesData")
 print(moviesData.columns)
 print("length =", len(moviesData))
@@ -41,7 +42,7 @@ print("All genres", genres)
 
 
 def get_current_userid():
-    return "625bc6a99acc015c467d9313"
+    return ObjectId("625bc6a99acc015c467d9313")
 
 
 def compute_weights(row, user_reviews, user_comments):
@@ -49,7 +50,7 @@ def compute_weights(row, user_reviews, user_comments):
     user_reviews_for_movie = user_reviews[user_reviews["movieid"] == row["_id"]]
     user_comments_for_movie = user_comments[user_comments["movieid"] == row["_id"]]
     if len(user_reviews_for_movie) > 0:
-        weight += user_reviews_for_movie["rating"].mean() - 2
+        weight += user_reviews_for_movie["ratings"].mean() - 2
     if len(user_comments_for_movie) > 0:
         weight += 0
     return weight
@@ -59,12 +60,20 @@ def get_user_movies_with_weights(user_id):  # limit to 10 sorted by importance
     global moviesData
     global reviewsData
     global commentsData
+    print("user_id", user_id)
+    print(type(user_id))
     user_reviews = reviewsData[reviewsData["userid"] == user_id]
+    # print(len(user_reviews))
     user_comments = commentsData[commentsData["userid"] == user_id]
     user_movies = moviesData[
         moviesData["_id"].isin(user_reviews["movieid"])
-        or moviesData["_id"].isin(user_comments["movieid"])
+        | moviesData["_id"].isin(user_comments["movieid"])
     ]
+
+    # print("user movies", len(user_movies))
+    if len(user_movies) == 0:
+        moviesData["weights"] = 1
+        return moviesData.head()
     user_movies["weights"] = user_movies.apply(
         lambda row: compute_weights(row, user_reviews, user_comments), axis=1
     )
@@ -154,7 +163,7 @@ def test():
     print("Testing...")
     start = timeit.default_timer()
 
-    print(get_personal_recommendations(1))
+    print(get_personal_recommendations(get_current_userid()))
 
     stop = timeit.default_timer()
 
