@@ -91,9 +91,6 @@ def compute_title_similarity(row, model_row):
 
 def compute_genre_similarity(row, model_row):
     # TODO: FIX TYPO IN COLUMN NAME GERNE TO GENRE
-    # print("modeljnklnklnkln", model_row)
-    # print(type(model_row))
-    # print(type(row))
     current_genre = str(row["gerne"]).split(",")
     model_genre = str(model_row["gerne"]).split(",")
 
@@ -111,37 +108,29 @@ def compute_genre_similarity(row, model_row):
     return similarity
 
 
-def compute_points(row, important_movies):
-    # Compute points for this row based on all the user watched movies
-    weights = {
-        "genre": 50,
-        "IMDB_Rating": 0.1,
-        "votes": 0.000001,
-        "title": 100,
-    }
-    genre_similarity = 0
-    # print("important_movies", important_movies)
-    genre_similarity = important_movies.apply(
-        lambda model_row: compute_genre_similarity(row, model_row)
-        * model_row["weights"],
-        axis=1,
-    ).sum()
-    genre_similarity /= len(important_movies)
-    title_similarity = 0
-    title_similarity = important_movies.apply(
-        lambda model_row: compute_title_similarity(row, model_row)
-        * model_row["weights"],
-        axis=1,
-    ).sum()
-    title_similarity /= len(important_movies)
+weights = {
+    "genre": 50,
+    "IMDB_Rating": 0.1,
+    "votes": 0.000001,
+    "title": 100,
+}
 
-    points = (
-        weights["genre"] * genre_similarity
-        + weights["IMDB_Rating"] * row["IMDB_Rating"]
-        + weights["votes"] * row["noOfVotes"]
-        + weights["title"] * title_similarity
-    )
-    return points
+
+def compute_points(row, important_movies):
+    global weights
+    points = 0
+    # print("important_movies", important_movies)
+    points = important_movies.apply(
+        lambda model_row: (
+            (
+                compute_genre_similarity(row, model_row)
+                + compute_title_similarity(row, model_row)
+            )
+            * model_row["weights"]
+        ),
+        axis=1,
+    ).sum()
+    return points / len(important_movies)
 
 
 def get_personal_recommendations(user_id):
