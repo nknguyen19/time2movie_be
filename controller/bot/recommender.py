@@ -1,4 +1,5 @@
 import timeit
+from matplotlib.font_manager import _Weight
 import pandas as pd
 from pymongo import MongoClient
 import spacy
@@ -40,11 +41,18 @@ print("All genres", genres)
 
 
 def get_current_userid():
-    return "1"
+    return "625bc6a99acc015c467d9313"
 
 
 def compute_weights(row, user_reviews, user_comments):
-    return
+    weight = 0
+    user_reviews_for_movie = user_reviews[user_reviews["movieid"] == row["_id"]]
+    user_comments_for_movie = user_comments[user_comments["movieid"] == row["_id"]]
+    if len(user_reviews_for_movie) > 0:
+        weight += user_reviews_for_movie["rating"].mean() - 2
+    if len(user_comments_for_movie) > 0:
+        weight += 0
+    return weight
 
 
 def get_user_movies_with_weights(user_id):  # limit to 10 sorted by importance
