@@ -1,3 +1,4 @@
+from urllib import response
 import pandas as pd
 from pymongo import MongoClient
 import spacy
@@ -8,7 +9,8 @@ warnings.filterwarnings("ignore")
 
 nlp = spacy.load("en_core_web_sm")
 
-RECOMMENDATION_COUNT = 10
+RECOMMENDATION_COUNT = 5
+HOST = "http://localhost:3000"
 
 
 def input_csv(fileName):
@@ -59,6 +61,7 @@ moviesData = import_mongo(
     host="time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority",
     username="cs422",
     password="time2movie",
+    no_id=False,
 )
 
 # print(moviesData.columns)
@@ -151,10 +154,14 @@ def extract_movie_title(movieTitle):
     return ans, mx_point
 
 
+def convert_title_to_ref_tag(title, id):
+    return "<a href='" + HOST + "/movie/" + str(id) + "'>" + str(title) + "</a>"
+
+
 def get_recommendation_by_title(movieTitle, moviesData):
 
     movieTitle, confidence = extract_movie_title(movieTitle)
-    print("recommendation for: " + movieTitle, "points: ", confidence)
+    # print("recommendation for: " + movieTitle, "points: ", confidence)
 
     if confidence < 70:
         return "Sorry, I don't know what you mean. Try again."
@@ -165,8 +172,7 @@ def get_recommendation_by_title(movieTitle, moviesData):
     row = moviesData.loc[moviesData["title"] == movieTitle]
 
     if row.empty:
-        print("Movie not found")
-        return
+        return "Sorry, I don't know what you mean. Try again."
 
     row = row.squeeze()
     assign_points(row, moviesData)
@@ -178,8 +184,14 @@ def get_recommendation_by_title(movieTitle, moviesData):
     sorted_movies.drop(
         sorted_movies.loc[sorted_movies["title"] == movieTitle].index, inplace=True
     )
+    response = "Here are my recommendations for " + movieTitle + ":\n"
+    for i in range(min(RECOMMENDATION_COUNT, len(sorted_movies))):
+        response += convert_title_to_ref_tag(
+            sorted_movies.iloc[i]["title"], sorted_movies.iloc[i]["_id"]
+        )
+        response += "\n"
 
-    return sorted_movies.head(RECOMMENDATION_COUNT)
+    return response
 
 
 def extract_movie_genre(movieGenre):
@@ -195,25 +207,38 @@ def extract_movie_genre(movieGenre):
 
 def get_recommendation_by_genre(genre, moviesData):
     genre, confidence = extract_movie_genre(genre)
-    print("Recommendation for: " + genre, "points: ", confidence)
+    # print("Recommendation for: " + genre, "points: ", confidence)
 
     if confidence < 60:
         return "Sorry, I don't know what you mean. Try again."
 
     recommendation = moviesData.loc[moviesData["gerne"].str.contains(genre)]
     recommendation = recommendation.sort_values(by="IMDB_Rating", ascending=False)
-    return recommendation.head(RECOMMENDATION_COUNT)
+
+    response = "Here are my recommendations for " + genre + ":\n"
+    for i in range(min(RECOMMENDATION_COUNT, len(recommendation))):
+        response += convert_title_to_ref_tag(
+            recommendation.iloc[i]["title"], recommendation.iloc[i]["_id"]
+        )
+        response += "\n"
+
+    return response
 
 
 def get_random_recommendation(moviesData):
-    return moviesData.sample(RECOMMENDATION_COUNT)
+    rec = moviesData.sample(RECOMMENDATION_COUNT)
+    response = "Here are my recommendations for you:\n"
+    for i in range(RECOMMENDATION_COUNT):
+        response += convert_title_to_ref_tag(rec.iloc[i]["title"], rec.iloc[i]["_id"])
+        response += "\n"
+    return response
 
 
 while True:
     movieTitle = input("Enter a movie title: ")
     if movieTitle == "exit":
         break
-    recommendation = get_recommendation_by_genre(movieTitle, moviesData)
+    recommendation = get_recommendation_by_title(movieTitle, moviesData)
     if recommendation is None:
         continue
     print(recommendation)
