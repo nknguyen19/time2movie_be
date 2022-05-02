@@ -1,4 +1,8 @@
 from pymongo import MongoClient
+import pandas as pd
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 def connect_mongo(host, username, password, db):
@@ -41,6 +45,8 @@ moviesdc = import_mongo_data(
     password="time2movie",
 )
 
+moviesdf = pd.DataFrame(list(moviesdc))
+
 reviewsdc = import_mongo_data(
     "cs422",
     "reviews",
@@ -49,6 +55,8 @@ reviewsdc = import_mongo_data(
     password="time2movie",
 )
 
+reviewsdf = pd.DataFrame(list(reviewsdc))
+
 commentsdc = import_mongo_data(
     "cs422",
     "comments",
@@ -56,8 +64,10 @@ commentsdc = import_mongo_data(
     username="cs422",
     password="time2movie",
 )
+
+commentsdf = pd.DataFrame(list(commentsdc))
 # print("YUUYUUUYUYUYUYUYUUYU")
-# for x in moviesdc:
+# for x in reviewsdc:
 #     print(x)
 
 print("Data fetched!")

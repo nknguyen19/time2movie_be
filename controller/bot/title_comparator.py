@@ -2,8 +2,10 @@ import data
 import pandas as pd
 from fuzzywuzzy import fuzz
 
+df = data.moviesdf.copy(deep=True)
 
-df = pd.DataFrame(list(data.moviesdc))
+
+print("Buildind relationship between movies...")
 
 
 def extract_all_movies_name():
