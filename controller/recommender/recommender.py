@@ -109,15 +109,15 @@ def compute_points(row, important_movies):
 
 def get_personal_recommendations(user_id):
     global moviesData
-    print("Getting personal recommendations...")
+    # print("Getting personal recommendations...")
     user_movies = get_user_movies_with_weights(user_id)
     important_movies = user_movies.head(min(len(user_movies), 10))
-    print("Assigning points...")
+    # print("Assigning points...")
     moviesData["points"] = moviesData.apply(
         lambda row: compute_points(row, important_movies),
         axis=1,
     )
-    print("Sorting...")
+    # print("Sorting...")
     moviesData = moviesData.sort_values(by="points", ascending=False)
     return moviesData.head(RECOMMENDATION_COUNT)
 
@@ -127,15 +127,15 @@ timeRestart = stop - start
 
 
 def test():
-    print("Testing...")
+    # print("Testing...")
     start = timeit.default_timer()
 
-    print(get_personal_recommendations(get_current_userid()))
+    # print(get_personal_recommendations(get_current_userid()))
 
     stop = timeit.default_timer()
 
-    print("Time for every input: ", stop - start)  # in seconds
+    # print("Time for every input: ", stop - start)  # in seconds
 
 
 test()
-print("Time for every restart: ", timeRestart)
+# print("Time for every restart: ", timeRestart)

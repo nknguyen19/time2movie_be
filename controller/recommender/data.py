@@ -35,7 +35,7 @@ def import_mongo_data(
     return cursor
 
 
-print("Fetching data...")
+# print("Fetching data...")
 
 moviesdc = import_mongo_data(
     "cs422",
@@ -70,4 +70,4 @@ commentsdf = pd.DataFrame(list(commentsdc))
 # for x in reviewsdc:
 #     print(x)
 
-print("Data fetched!")
+# print("Data fetched!")

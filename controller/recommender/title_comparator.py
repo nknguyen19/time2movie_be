@@ -5,7 +5,7 @@ from fuzzywuzzy import fuzz
 df = data.moviesdf.copy(deep=True)
 
 
-print("Buildind relationship between movies...")
+# print("Buildind relationship between movies...")
 
 
 def extract_all_movies_name():

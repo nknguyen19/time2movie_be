@@ -18,6 +18,7 @@ app.use(session({
 const { spawn } = require('child_process');
 //movie recommender process
 app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
+app.chatBot = spawn('python3', ['controller/bot/main.py']);
 
 //connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"

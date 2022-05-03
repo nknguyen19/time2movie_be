@@ -2,6 +2,7 @@ const Movie = require('../models/movie')
 const ObjectId = require('mongoose').Types.ObjectId;
 const { parse } = require('csv-parse');
 const fs = require('fs');
+const { spawn } = require('child_process');
 
 exports.create_movie = (req, res) => {
     const req_movie = JSON.parse(req.body.movie);
@@ -107,7 +108,17 @@ exports.get_similar_movie = async (req, res) => {
             const movie = await Movie.findById(movies_id[i]);
             result.push(movie);
         }
-        console.log(result);
         res.send(result); 
+    });
+}
+
+exports.bot_reply = async (req, res) => {
+    const user_message = req.body.message;
+    const chatBot = spawn('python3', ['controller/bot/main.py']);
+    chatBot.stdin.write(user_message + "\n");
+    chatBot.stdout.on('data',async (data) => {
+        if (data.toString().includes("Here")) {
+            res.send({ message: data.toString() });
+        }
     });
 }

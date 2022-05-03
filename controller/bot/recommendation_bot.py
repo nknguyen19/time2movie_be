@@ -184,12 +184,12 @@ def get_recommendation_by_title(movieTitle, moviesData):
     sorted_movies.drop(
         sorted_movies.loc[sorted_movies["title"] == movieTitle].index, inplace=True
     )
-    response = "Here are my recommendations for " + movieTitle + ":\n"
+    response = "Here are my recommendations for " + movieTitle + ":<br>"
     for i in range(min(RECOMMENDATION_COUNT, len(sorted_movies))):
         response += convert_title_to_ref_tag(
             sorted_movies.iloc[i]["title"], sorted_movies.iloc[i]["_id"]
         )
-        response += "\n"
+        response += "<br>"
 
     return response
 
@@ -215,30 +215,30 @@ def get_recommendation_by_genre(genre, moviesData):
     recommendation = moviesData.loc[moviesData["gerne"].str.contains(genre)]
     recommendation = recommendation.sort_values(by="IMDB_Rating", ascending=False)
 
-    response = "Here are my recommendations for " + genre + ":\n"
+    response = "Here are my recommendations for " + genre + ":<br>"
     for i in range(min(RECOMMENDATION_COUNT, len(recommendation))):
         response += convert_title_to_ref_tag(
             recommendation.iloc[i]["title"], recommendation.iloc[i]["_id"]
         )
-        response += "\n"
+        response += "<br>"
 
     return response
 
 
 def get_random_recommendation(moviesData):
     rec = moviesData.sample(RECOMMENDATION_COUNT)
-    response = "Here are my recommendations for you:\n"
+    response = "Here are my recommendations for you:<br>"
     for i in range(RECOMMENDATION_COUNT):
         response += convert_title_to_ref_tag(rec.iloc[i]["title"], rec.iloc[i]["_id"])
-        response += "\n"
+        response += "<br>"
     return response
 
 
-while True:
-    movieTitle = input("Enter a movie title: ")
-    if movieTitle == "exit":
-        break
-    recommendation = get_recommendation_by_title(movieTitle, moviesData)
-    if recommendation is None:
-        continue
-    print(recommendation)
+# while True:
+#     movieTitle = input("Enter a movie title: ")
+#     if movieTitle == "exit":
+#         break
+#     recommendation = get_recommendation_by_title(movieTitle, moviesData)
+#     if recommendation is None:
+#         continue
+#     print(recommendation)
