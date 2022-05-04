@@ -1,4 +1,4 @@
-import timeit
+import timeit, sys
 
 start = timeit.default_timer()
 import data
@@ -119,7 +119,7 @@ def get_personal_recommendations(user_id):
     )
     # print("Sorting...")
     moviesData = moviesData.sort_values(by="points", ascending=False)
-    return moviesData.head(RECOMMENDATION_COUNT)
+    return [str(id) for id in moviesData.head(RECOMMENDATION_COUNT)["_id"]]
 
 
 stop = timeit.default_timer()
@@ -130,12 +130,14 @@ def test():
     # print("Testing...")
     start = timeit.default_timer()
 
-    # print(get_personal_recommendations(get_current_userid()))
+    print(get_personal_recommendations(get_current_userid()))
 
     stop = timeit.default_timer()
 
     # print("Time for every input: ", stop - start)  # in seconds
 
 
-test()
-# print("Time for every restart: ", timeRestart)
+while (True):
+    user_id = input()
+    print(get_personal_recommendations(ObjectId(user_id)))
+    sys.stdout.flush()

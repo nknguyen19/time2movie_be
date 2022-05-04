@@ -24,5 +24,5 @@ router.get('/get-newest', movie.get_newest);
 router.get('/fetch-data', movie.fetch_data);
 router.get('/get-similar/:title', movie.get_similar_movie);
 router.post('/bot-reply', movie.bot_reply);
-
+router.get('/get-user-recommendation/:id', movie.get_user_recommendation)
 module.exports = router

@@ -122,3 +122,18 @@ exports.bot_reply = async (req, res) => {
         }
     });
 }
+
+exports.get_user_recommendation = async (req, res) => {
+    const user_id = req.params.id;
+    const userRecommender = app.userRecommender;
+    userRecommender.stdin.write(user_id + "\n");
+    userRecommender.stdout.once('data',async (data) => {
+        const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
+        let result = [];
+        for (let i = 0; i < movies_id.length; ++i) {
+            const movie = await Movie.findById(movies_id[i]);
+            result.push(movie);
+        }
+        res.send(result); 
+    })
+}
