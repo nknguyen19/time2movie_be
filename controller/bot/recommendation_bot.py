@@ -155,7 +155,7 @@ def extract_movie_title(movieTitle):
 
 
 def convert_title_to_ref_tag(title, id):
-    return "<a href='" + HOST + "/movie/" + str(id) + "'>" + str(title) + "</a>"
+    return "<a href='" + HOST + "/movie/" + str(id) + "' target=\"_blank\">" + str(title) + "</a>"
 
 
 def get_recommendation_by_title(movieTitle, moviesData):
