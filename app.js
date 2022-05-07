@@ -34,6 +34,14 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
 
 require('dotenv').config()
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", ["http://localhost:3000", "https://sheltered-retreat-14346.herokuapp.com"]);
+    res.header("Access-Control-Allow-Credentials", "true");
+    res.header("Access-Control-Allow-Headers", "Origin,Content-Type, Authorization, x-id, Content-Length, X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+    next();
+});
+
 app.use("/", express.static(path.join(__dirname, "./public")));
 
 app.use('/api/user/', require('./routes/user'));
