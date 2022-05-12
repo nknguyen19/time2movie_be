@@ -4,6 +4,13 @@ from pymongo import MongoClient
 import spacy
 import warnings
 from fuzzywuzzy import fuzz
+import csv
+
+movie_recommendation_dict = {}
+
+with open("movie_recommendation.csv", mode="r") as inp:
+    reader = csv.reader(inp)
+    movie_recommendation_dict = {rows[0]: rows[1] for rows in reader}
 
 warnings.filterwarnings("ignore")
 
@@ -155,7 +162,15 @@ def extract_movie_title(movieTitle):
 
 
 def convert_title_to_ref_tag(title, id):
-    return "<a href='" + HOST + "/movie/" + str(id) + "' target=\"_blank\">" + str(title) + "</a>"
+    return (
+        "<a href='"
+        + HOST
+        + "/movie/"
+        + str(id)
+        + '\' target="_blank">'
+        + str(title)
+        + "</a>"
+    )
 
 
 def get_recommendation_by_title(movieTitle, moviesData):
@@ -168,30 +183,33 @@ def get_recommendation_by_title(movieTitle, moviesData):
 
     global RECOMMENDATION_COUNT
     RECOMMENDATION_COUNT = min(RECOMMENDATION_COUNT, len(moviesData))
+
+    return movie_recommendation_dict[movieTitle]
+
     # Get the row containing the movie
-    row = moviesData.loc[moviesData["title"] == movieTitle]
+    # row = moviesData.loc[moviesData["title"] == movieTitle]
 
-    if row.empty:
-        return "Sorry, I don't know what you mean. Try again."
+    # if row.empty:
+    #     return "Sorry, I don't know what you mean. Try again."
 
-    row = row.squeeze()
-    assign_points(row, moviesData)
+    # row = row.squeeze()
+    # assign_points(row, moviesData)
 
-    # Sort the movies by points
-    sorted_movies = moviesData.sort_values(by="points", ascending=False)
-    moviesData.drop(columns=["points"], inplace=True)
-    sorted_movies.drop(columns=["points"], inplace=True)
-    sorted_movies.drop(
-        sorted_movies.loc[sorted_movies["title"] == movieTitle].index, inplace=True
-    )
-    response = "Here are my recommendations for " + movieTitle + ":<br>"
-    for i in range(min(RECOMMENDATION_COUNT, len(sorted_movies))):
-        response += convert_title_to_ref_tag(
-            sorted_movies.iloc[i]["title"], sorted_movies.iloc[i]["_id"]
-        )
-        response += "<br>"
+    # # Sort the movies by points
+    # sorted_movies = moviesData.sort_values(by="points", ascending=False)
+    # moviesData.drop(columns=["points"], inplace=True)
+    # sorted_movies.drop(columns=["points"], inplace=True)
+    # sorted_movies.drop(
+    #     sorted_movies.loc[sorted_movies["title"] == movieTitle].index, inplace=True
+    # )
+    # response = "Here are my recommendations for " + movieTitle + ":<br>"
+    # for i in range(min(RECOMMENDATION_COUNT, len(sorted_movies))):
+    #     response += convert_title_to_ref_tag(
+    #         sorted_movies.iloc[i]["title"], sorted_movies.iloc[i]["_id"]
+    #     )
+    #     response += "<br>"
 
-    return response
+    # return response
 
 
 def extract_movie_genre(movieGenre):
@@ -238,7 +256,7 @@ def get_random_recommendation(moviesData):
 #     movieTitle = input("Enter a movie title: ")
 #     if movieTitle == "exit":
 #         break
-#     recommendation = get_recommendation_by_title(movieTitle, moviesData)
+#     recommendation = get_recommendation_by_genre(movieTitle, moviesData)
 #     if recommendation is None:
 #         continue
 #     print(recommendation)

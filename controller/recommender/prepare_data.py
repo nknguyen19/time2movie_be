@@ -70,12 +70,12 @@ def compute_points(row, model_row):
         "title": 100,
     }
     genre_similarity = compute_genre_similarity(row, model_row)
-    # overview_similarity = compute_overview_similarity(row, model_row)
+    overview_similarity = compute_overview_similarity(row, model_row)
     title_similarity = compute_title_similarity(row, model_row)
 
     points = (
         weights["genre"] * genre_similarity
-        # + weights["overview"] * overview_similarity
+        + weights["overview"] * overview_similarity
         + weights["IMDB_Rating"] * row["IMDB_Rating"]
         + weights["votes"] * row["noOfVotes"]
         + weights["title"] * title_similarity
