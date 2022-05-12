@@ -160,7 +160,6 @@ rlp==2.0.1
 rsa==4.8
 rubik-cube==0.0.1
 s3transfer==0.5.2
-scikit-learn==1.0.1
 scipy==1.7.3
 seaborn==0.11.2
 semantic-version==2.9.0
