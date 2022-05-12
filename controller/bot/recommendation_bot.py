@@ -243,7 +243,7 @@ def get_recommendation_by_genre(genre, moviesData):
     return response
 
 
-def get_random_recommendation(moviesData):
+def get_random_recommendation(inp, moviesData):
     rec = moviesData.sample(RECOMMENDATION_COUNT)
     response = "Here are my recommendations for you:<br>"
     for i in range(RECOMMENDATION_COUNT):

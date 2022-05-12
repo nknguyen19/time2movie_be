@@ -9,7 +9,7 @@ RECOMMEND_MOVIES_BASED_ON_GENRE = 4
 
 def classify(input):
     title, confidence = recommendation_bot.extract_movie_title(input)
-    if confidence >= 70:
+    if confidence >= 87:
         return RECOMMEND_SIMILAR_MOVIES
     genre, confidence = recommendation_bot.extract_movie_genre(input)
     if confidence >= 70:
