@@ -115,7 +115,6 @@ soupsieve==2.3.2
 spacy==3.3.0
 spacy-legacy==3.0.9
 spacy-loggers==1.0.2
-SQLAlchemy==1.2.19
 sqlparse==0.4.2
 srsly==2.4.3
 stack-data==0.2.0
