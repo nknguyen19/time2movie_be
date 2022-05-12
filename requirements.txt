@@ -142,7 +142,6 @@ pycodestyle==2.8.0
 pycparser==2.20
 pycryptodome==3.14.1
 pydantic==1.8.2
-pygame==2.0.2
 Pygments==2.10.0
 pymongo==3.12.3
 pyobjc==8.4.1
