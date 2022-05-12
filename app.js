@@ -37,6 +37,7 @@ require('dotenv').config()
 app.use(function(req, res, next) {
     const allowedOrigins = ["http://localhost:3000", "https://enigmatic-lake-66448.herokuapp.com"];
     const origin = req.headers.origin;
+    console.log(origin);
     if (allowedOrigins.includes(origin)) {
         res.setHeader('Access-Control-Allow-Origin', origin);
     }

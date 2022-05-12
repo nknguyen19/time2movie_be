@@ -102,13 +102,15 @@ exports.get_similar_movie = async (req, res) => {
     const movieRecommender = req.app.movieRecommender;
     movieRecommender.stdin.write(movie_title + "\n");
     movieRecommender.stdout.once('data',async (data) => {
-        const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
-        let result = [];
-        for (let i = 0; i < movies_id.length; ++i) {
-            const movie = await Movie.findById(movies_id[i]);
-            result.push(movie);
-        }
-        res.send(result); 
+        // const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
+        // let result = [];
+        // for (let i = 0; i < movies_id.length; ++i) {
+        //     const movie = await Movie.findById(movies_id[i]);
+        //     result.push(movie);
+        // }
+        // res.send(result); 
+        console.log(data.toString());
+        res.send({"movie": data.toString()});
     });
 }
 
