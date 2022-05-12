@@ -33,8 +33,6 @@ entrypoints==0.4
 executing==0.8.3
 feedparser==6.0.8
 filelock==3.4.0
-Flask==2.1.1
-Flask-SQLAlchemy==2.5.1
 fonttools==4.28.5
 fsspec==2021.11.1
 fuzzywuzzy==0.18.0
