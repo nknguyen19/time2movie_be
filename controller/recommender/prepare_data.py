@@ -1,6 +1,7 @@
 import title_comparator
 import spacy
 import data
+import csv
 
 nlp = spacy.load("en_core_web_sm")
 RECOMMENDATION_COUNT = 5
@@ -69,12 +70,12 @@ def compute_points(row, model_row):
         "title": 100,
     }
     genre_similarity = compute_genre_similarity(row, model_row)
-    overview_similarity = compute_overview_similarity(row, model_row)
+    # overview_similarity = compute_overview_similarity(row, model_row)
     title_similarity = compute_title_similarity(row, model_row)
 
     points = (
         weights["genre"] * genre_similarity
-        + weights["overview"] * overview_similarity
+        # + weights["overview"] * overview_similarity
         + weights["IMDB_Rating"] * row["IMDB_Rating"]
         + weights["votes"] * row["noOfVotes"]
         + weights["title"] * title_similarity
@@ -130,5 +131,17 @@ def get_recommendation_by_title(movieTitle, moviesData):
     return response
 
 
-name = input()
-print(get_recommendation_by_title(name, moviesData))
+# name = input()
+# print(get_recommendation_by_title(name, moviesData))
+
+table = {}
+for movie in moviesTitles:
+    print(movie)
+    table[movie] = get_recommendation_by_title(movie, moviesData)
+new_path = open("movie_recommendation.csv", "w")
+
+z = csv.writer(new_path)
+for new_k, new_v in table.items():
+    z.writerow([new_k, new_v])
+
+new_path.close()
