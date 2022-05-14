@@ -81,13 +81,37 @@ exports.login_google = async (req,res)=>{
         res.send(user[0]);
     }
 }
-
-exports.get_user = async (req, res) => {
-    const id = req.params.id;
-    const user = await User.findById(id);
-    res.send({ user: user, session: req.session });
+exports.save_changes = async(req,res)=>{
+    console.log(req.body);
+    username = req.body.username;
+    password = req.body.password;
+    current_name = req.body.name;
+    dob = req.body.dob;
+    old_username = req.body.original;
+    if (username === '') 
+    {
+        username = old_username;
+    }
+    console.log(res.body);
+    const user = await User.find({username: old_username});
+    const conflict = await User.find({username: username});
+    if (user.length === 0) {
+        res.status(401).send({ message: "This account does not exist" });
+    }
+    else if(conflict.length >= 2)
+    {
+        res.status(409).send({ message: "This username already exists" });
+    }
+    else {
+        user[0].username = username;
+        user[0].password = password;
+        user[0].dob = dob;
+        user[0].name = current_name;
+        res.send(user[0]);
+    }
 }
 
+    
 exports.signin = async (req, res) => {
     const username = req.body.username;
     const user = await User.find({username: username});

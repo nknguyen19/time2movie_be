@@ -6,9 +6,10 @@ const express = require('express'),
 
 router.post('/create', user.create_user);
 router.post('/login-facebook', user.login_facebook);
-router.get('/get-user/:id', user.get_user);
+//router.get('/get-user/:id', user.get_user);
 router.post('/signin', user.signin);
 router.get('/get-current-user', user.get_current_user);
 router.post('/login-google', user.login_google);
+router.post('/save-changes', user.save_changes);
 
 module.exports = router
