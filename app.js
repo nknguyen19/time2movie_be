@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const session = require('express-session');
 const path = require("path");
-
+const {PythonShell} = require('python-shell')
 app = express()
 
 app.use(express.urlencoded());
@@ -20,20 +20,30 @@ const { spawn } = require('child_process');
 app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
 // app.chatBot = spawn('python3', ['controller/bot/main.py']);
 app.userRecommender = spawn('python3', ['controller/recommender/recommender.py']);
-
-//connnection string to mongodb
 const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     .then((res) => {
         console.log("connected to database");
         app.listen(PORT, () => {
             console.log('Listening to port' + PORT);
+
         });
     })
     .catch((err) => console.log(err));
 
 require('dotenv').config()
+const pyshell = new PythonShell('test.py');//connnection string to mongodb
 
+pyshell.send(JSON.stringify({"hello": "hello"}));
+
+pyshell.on('message', function (message) {
+console.log(message);
+ 
+});
+pyshell.end(function (err,code,signal) {
+    if (err) throw err;
+    console.log('finished');
+  });  
 app.use(function(req, res, next) {
     const allowedOrigins = ["http://localhost:3000", "https://enigmatic-lake-66448.herokuapp.com"];
     const origin = req.headers.origin;
