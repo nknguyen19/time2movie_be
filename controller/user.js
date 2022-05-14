@@ -1,6 +1,8 @@
 const User = require('../models/user')
 const download = require('image-downloader');
 const { isRequired } = require('nodemon/lib/utils');
+const jwt_decode = require('jwt-decode');
+
 
 exports.create_user = async (req, res) => {
     const user = await User.find({username: req.body.username});
@@ -42,6 +44,39 @@ exports.login_facebook = async (req, res) => {
         res.send(result);
     }
     else {
+        req.session.current_user = user[0];
+        res.send(user[0]);
+    }
+}
+exports.login_google = async (req,res)=>{
+    //parse credentials
+    //console.log(req.body);
+    const parsedCredentials = jwt_decode(req.body.credentials);
+    //console.log(parsedCredentials);
+    const user = await User.find({username: parsedCredentials.email});
+    if (user.length === 0) {
+
+        const options = {
+            url: parsedCredentials.picture,
+            dest: '../../public/avatar/' + parsedCredentials.email + '.png',
+        }
+        const filename = await download.image(options);
+        console.log('Saved to', filename)
+
+        const new_user = new User({
+            username: parsedCredentials.email,
+            password: parsedCredentials.nbf,
+            name: parsedCredentials.name,
+            image: '/avatar/' + parsedCredentials.email + '.png',
+        })
+
+        const result = await new_user.save();
+        req.session.current_user = result;
+        console.log(result);
+        res.send(result);
+    }
+    else
+    {
         req.session.current_user = user[0];
         res.send(user[0]);
     }
