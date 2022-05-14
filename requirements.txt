@@ -1,4 +1,4 @@
-chatterbot==1.1.0
+chatterbot
 fuzzywuzzy==0.18.0
 pandas==1.4.2
 pymongo==4.1.1
