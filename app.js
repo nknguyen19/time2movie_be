@@ -30,7 +30,7 @@ app.chatBot.on('message', (message) => {
 })
 app.chatBot.end(function (err,code,signal) {
     if (err) throw err;
-    console.log('finished');
+    console.log(err);
 });
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
