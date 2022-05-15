@@ -4,3 +4,4 @@ pandas
 pymongo
 spacy==2.1.0
 pyyaml
+chatterbot_corpus
