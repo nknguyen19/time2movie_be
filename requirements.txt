@@ -2,3 +2,4 @@ fuzzywuzzy
 pandas
 pymongo
 spacy
+ChatterBot
