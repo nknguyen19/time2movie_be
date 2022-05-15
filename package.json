@@ -8,7 +8,7 @@
     "dev": "nodemon app.js",
     "start": "npm run dev",
     "heroku-prebuild": "npm install -f && pip install ChatterBot && python -m spacy download en_core_web_sm",
-    "heroku-postbuild": "npm run prod"
+    "heroku-postbuild": "npm run dev"
   },
   "keywords": [],
   "author": "",
