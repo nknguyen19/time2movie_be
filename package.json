@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "npm run dev",
-    "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "pip install ChatterBot==1.0.4 && python -m spacy download en_core_web_sm && pip install \"pymongo[srv]\" && npm run prod"
+    "heroku-prebuild": "npm install -f && pip install ChatterBot==1.0.4 --no-dependencies && python -m spacy download en_core_web_sm && pip install \"pymongo[srv]\"",
+    "heroku-postbuild": "npm run prod"
   },
   "keywords": [],
   "author": "",
