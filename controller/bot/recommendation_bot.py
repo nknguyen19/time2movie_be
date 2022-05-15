@@ -5,7 +5,8 @@ import spacy
 import warnings
 from fuzzywuzzy import fuzz
 import csv
-
+from spacy.cli.download import download
+download(model="en_core_web_sm")
 movie_recommendation_dict = {}
 
 with open("controller/bot/movie_recommendation.csv", mode="r") as inp:
