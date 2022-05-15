@@ -28,6 +28,10 @@ app.chatBot.on('message', (message) => {
     const res = message.toString().split(': ');
     res.length > 1 && app.chatBotReplies.set(res[0], res[1]);
 })
+app.chatBot.end(function (err,code,signal) {
+    if (err) throw err;
+    console.log('finished');
+});
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     .then((res) => {
