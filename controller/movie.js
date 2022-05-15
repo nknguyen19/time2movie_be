@@ -116,13 +116,15 @@ exports.get_similar_movie = async (req, res) => {
 
 exports.bot_reply = async (req, res) => {
     const user_message = req.body.message;
-    const chatBot = spawn('python3', ['controller/bot/main.py']);
-    chatBot.stdin.write(user_message + "\n");
-    chatBot.stdout.on('data',async (data) => {
-        if (data.toString().includes("Here")) {
-            res.send({ message: data.toString() });
+    const chatBot = app.chatBot;
+    chatBot.send(`${req.body.user_id} ${req.body.message}`);
+    const wait = setInterval(() => {
+        if (app.chatBotReplies.get(req.body.user_id)) {
+            res.send({ message: app.chatBotReplies.get(req.body.user_id)});
+            app.chatBotReplies.delete(req.body.user_id);
+            clearInterval(wait);
         }
-    });
+    }, 500);
 }
 
 exports.get_user_recommendation = async (req, res) => {

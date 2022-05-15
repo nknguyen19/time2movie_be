@@ -8,7 +8,7 @@ import csv
 
 movie_recommendation_dict = {}
 
-with open("movie_recommendation.csv", mode="r") as inp:
+with open("controller/bot/movie_recommendation.csv", mode="r") as inp:
     reader = csv.reader(inp)
     movie_recommendation_dict = {rows[0]: rows[1] for rows in reader}
 

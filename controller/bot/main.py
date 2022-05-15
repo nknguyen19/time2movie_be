@@ -49,7 +49,7 @@ def get_response(input_type, bot_input):
 
 
 while True:
-    bot_input = input()
+    user_id, bot_input = input().split(' ', 1)
     input_type = classify(bot_input)
     output = get_response(input_type, bot_input)
-    print(output)
+    print('''{}: {}'''.format(user_id, output))
