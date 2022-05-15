@@ -14,7 +14,7 @@ with open("controller/bot/movie_recommendation.csv", mode="r") as inp:
 
 warnings.filterwarnings("ignore")
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load('en_core_web_sm')
 
 RECOMMENDATION_COUNT = 5
 HOST = "http://localhost:3000"
