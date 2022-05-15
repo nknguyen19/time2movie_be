@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "npm run dev",
-    "heroku-prebuild": "npm install -f && pip install -r requirements.txt && python -m spacy download en_core_web_sm",
+    "heroku-prebuild": "npm install -f && pip install ChatterBot && python -m spacy download en_core_web_sm",
     "heroku-postbuild": "npm run prod"
   },
   "keywords": [],
