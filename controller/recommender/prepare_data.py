@@ -5,7 +5,8 @@ import csv
 
 nlp = spacy.load("en_core_web_sm")
 RECOMMENDATION_COUNT = 5
-HOST = "http://localhost:3000"
+# HOST = "http://localhost:3000"
+HOST = "https://sheltered-retreat-14346.herokuapp.com"
 
 moviesData = data.moviesdf.copy(deep=True)
 
