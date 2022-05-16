@@ -5,16 +5,17 @@ import spacy
 import warnings
 from fuzzywuzzy import fuzz
 import csv
-
+# from spacy.cli.download import download
+# download(model="en_core_web_sm")
 movie_recommendation_dict = {}
 
-with open("movie_recommendation.csv", mode="r") as inp:
+with open("controller/bot/movie_recommendation.csv", mode="r") as inp:
     reader = csv.reader(inp)
     movie_recommendation_dict = {rows[0]: rows[1] for rows in reader}
 
 warnings.filterwarnings("ignore")
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load('en_core_web_sm')
 
 RECOMMENDATION_COUNT = 5
 HOST = "http://localhost:3000"

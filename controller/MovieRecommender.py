@@ -175,8 +175,8 @@ def get_similar_movies(movieTitle, moviesData):
 
 while True:
     movieTitle = input()
-    # print(movieTitle)
-    movies = get_recommendation(movieTitle, moviesData)
-    print([str(movie) for movie in movies["_id"]])
-    sys.stdout.flush()
-    time.sleep(2)
+    print(movieTitle)
+    # movies = get_recommendation(movieTitle, moviesData)
+    # print([str(movie) for movie in movies["_id"]])
+    # sys.stdout.flush()
+    # time.sleep(2)

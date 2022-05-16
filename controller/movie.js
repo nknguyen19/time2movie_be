@@ -102,25 +102,29 @@ exports.get_similar_movie = async (req, res) => {
     const movieRecommender = req.app.movieRecommender;
     movieRecommender.stdin.write(movie_title + "\n");
     movieRecommender.stdout.once('data',async (data) => {
-        const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
-        let result = [];
-        for (let i = 0; i < movies_id.length; ++i) {
-            const movie = await Movie.findById(movies_id[i]);
-            result.push(movie);
-        }
-        res.send(result); 
+        // const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
+        // let result = [];
+        // for (let i = 0; i < movies_id.length; ++i) {
+        //     const movie = await Movie.findById(movies_id[i]);
+        //     result.push(movie);
+        // }
+        // res.send(result); 
+        console.log(data.toString());
+        res.send({"movie": data.toString()});
     });
 }
 
 exports.bot_reply = async (req, res) => {
     const user_message = req.body.message;
-    const chatBot = spawn('python3', ['controller/bot/main.py']);
-    chatBot.stdin.write(user_message + "\n");
-    chatBot.stdout.on('data',async (data) => {
-        if (data.toString().includes("Here")) {
-            res.send({ message: data.toString() });
+    const chatBot = app.chatBot;
+    chatBot.send(`${req.body.user_id} ${req.body.message}`);
+    const wait = setInterval(() => {
+        if (app.chatBotReplies.get(req.body.user_id)) {
+            res.send({ message: app.chatBotReplies.get(req.body.user_id)});
+            app.chatBotReplies.delete(req.body.user_id);
+            clearInterval(wait);
         }
-    });
+    }, 500);
 }
 
 exports.get_user_recommendation = async (req, res) => {

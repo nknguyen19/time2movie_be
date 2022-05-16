@@ -1,5 +1,7 @@
-chatterbot
-fuzzywuzzy==0.18.0
-pandas==1.4.2
-pymongo==4.1.1
-spacy==3.3.0
+ChatterBot
+fuzzywuzzy
+pandas
+pymongo
+spacy==2.1.0
+pyyaml
+chatterbot_corpus

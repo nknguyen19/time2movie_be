@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const session = require('express-session');
 const path = require("path");
-
+const {PythonShell} = require('python-shell')
 app = express()
 
 app.use(express.urlencoded());
@@ -20,14 +20,21 @@ const { spawn } = require('child_process');
 app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
 // app.chatBot = spawn('python3', ['controller/bot/main.py']);
 app.userRecommender = spawn('python3', ['controller/recommender/recommender.py']);
+const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority" //connnection string to mongodb
 
-//connnection string to mongodb
-const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority"
+app.chatBot = new PythonShell('controller/bot/main.py');
+app.chatBotReplies = new Map();
+app.chatBot.on('message', (message) => {
+    const res = message.toString().split(': ');
+    res.length > 1 && app.chatBotReplies.set(res[0], res[1]);
+})
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     .then((res) => {
         console.log("connected to database");
         app.listen(PORT, () => {
             console.log('Listening to port' + PORT);
+
         });
     })
     .catch((err) => console.log(err));

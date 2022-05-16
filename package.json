@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "npm run dev",
-    "heroku-prebuild": "npm install -f",
+    "heroku-prebuild": "npm install -f && python -m spacy download en && python -m pip install pymongo[srv]",
     "heroku-postbuild": "npm run prod"
   },
   "keywords": [],
@@ -27,6 +27,7 @@
     "mongoose": "^6.2.4",
     "multer": "^1.4.4",
     "nodemon": "^2.0.15",
+    "python-shell": "^3.0.1",
     "react-slick": "^0.28.1",
     "serve": "^13.0.2",
     "slick-carousel": "^1.8.1"
