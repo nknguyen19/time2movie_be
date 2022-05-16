@@ -111,3 +111,22 @@ exports.get_current_user = (req, res) => {
         res.status(408).send({ message: "Session timeout"});
     }
 }
+
+exports.image_upload = async (req, res) => {
+    res.send(`/avatar/${req.file.filename}`);
+}
+
+exports.update_user = async (req, res) => {
+    const id = req.params.id;
+    const user = await User.findById(id);
+    if (user.length === 0) {
+        res.status(404).send({ message: "User not found" });
+    }
+    else {
+        user.name = req.body.name;
+        user.image = req.body.image;
+        user.dob = req.body.dob;
+        const result = await user.save();
+        res.send(result);
+    }
+}
