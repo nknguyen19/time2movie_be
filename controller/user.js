@@ -30,7 +30,6 @@ exports.login_facebook = async (req, res) => {
         }
 
         const filename = await download.image(options);
-        console.log('Saved to', filename)
 
         const new_user = new User({
             username: req.body.username,
@@ -50,9 +49,7 @@ exports.login_facebook = async (req, res) => {
 }
 exports.login_google = async (req,res)=>{
     //parse credentials
-    //console.log(req.body);
     const parsedCredentials = jwt_decode(req.body.credentials);
-    //console.log(parsedCredentials);
     const user = await User.find({username: parsedCredentials.email});
     if (user.length === 0) {
 
@@ -61,7 +58,6 @@ exports.login_google = async (req,res)=>{
             dest: '../../public/avatar/' + parsedCredentials.email + '.png',
         }
         const filename = await download.image(options);
-        console.log('Saved to', filename)
 
         const new_user = new User({
             username: parsedCredentials.email,
@@ -72,7 +68,6 @@ exports.login_google = async (req,res)=>{
 
         const result = await new_user.save();
         req.session.current_user = result;
-        console.log(result);
         res.send(result);
     }
     else

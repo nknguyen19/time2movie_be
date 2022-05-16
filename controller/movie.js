@@ -2,7 +2,6 @@ const Movie = require('../models/movie')
 const ObjectId = require('mongoose').Types.ObjectId;
 const { parse } = require('csv-parse');
 const fs = require('fs');
-const { spawn } = require('child_process');
 
 exports.create_movie = (req, res) => {
     const req_movie = JSON.parse(req.body.movie);
@@ -76,9 +75,7 @@ exports.fetch_data = async (req, res) => {
             csvData.push(csvrow);        
         })
         .on('end', async () => {
-            console.log(csvData);
             for (let i = 1; i < csvData.length; ++i) {
-                console.log(i);
                 const movie = new Movie({
                     title: csvData[i][0],
                     release: csvData[i][1],
@@ -98,19 +95,22 @@ exports.fetch_data = async (req, res) => {
 }
 
 exports.get_similar_movie = async (req, res) => {
-    const movie_title = req.params.title;
-    const movieRecommender = req.app.movieRecommender;
-    movieRecommender.stdin.write(movie_title + "\n");
-    movieRecommender.stdout.once('data',async (data) => {
-        // const movies_id = JSON.parse(data.toString().replaceAll('\'', '"'));
-        // let result = [];
-        // for (let i = 0; i < movies_id.length; ++i) {
-        //     const movie = await Movie.findById(movies_id[i]);
-        //     result.push(movie);
-        // }
-        // res.send(result); 
-        console.log(data.toString());
-        res.send({"movie": data.toString()});
+    let csvData = [];
+
+    fs.createReadStream(`data/movie_recommendations/${req.params.id}.csv`)
+    .pipe(parse())
+    .on('data', (csvrow) => {
+        csvData.push(csvrow);        
+    })
+    .on('end', async () => {
+        csvData = csvData.slice(1);
+        result = csvData.sort(() => 0.5 - Math.random()).slice(0, 10);
+        let data = [];
+        for (let i = 0; i < result.length; ++i) {
+            const movie = await Movie.findById(result[i][0]);
+            data.push(movie);
+        }
+        res.send(data);
     });
 }
 
@@ -138,6 +138,6 @@ exports.get_user_recommendation = async (req, res) => {
             const movie = await Movie.findById(movies_id[i]);
             result.push(movie);
         }
-        res.send(result); 
+        res.send(result.sort(() => 0.5 - Math.random()).slice(0, 10)); 
     })
 }
