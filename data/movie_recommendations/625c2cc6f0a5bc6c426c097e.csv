@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2b71f0a5bc6c426c06f2,Nuovo Cinema Paradiso,1988,155 min,"Drama, Romance",8.5,2.6788782327982164,A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.,80.0,Giuseppe Tornatore,"['Philippe Noiret', 'Enzo Cannavale', 'Antonella Attili', 'Isa Danieli']",230763,2022-04-17 15:00:01.104,2022-04-17 15:00:01.104
-625c2d43f0a5bc6c426c0ae6,Hiroshima mon amour,1959,90 min,"Drama, Romance",7.9,4.632575580587485,A French actress filming an anti-war film in Hiroshima has an affair with a married Japanese architect as they share their differing perspectives on war.,,Alain Resnais,"['Emmanuelle Riva', 'Eiji Okada', 'Stella Dassas', 'Pierre Barbaud']",28421,2022-04-17 15:07:47.779,2022-04-17 15:07:47.779
-625c2c13f0a5bc6c426c081e,Portrait de la jeune fille en feu,2019,122 min,"Drama, Romance",8.1,4.587971402846379,"On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.",95.0,Céline Sciamma,"['Noémie Merlant', 'Adèle Haenel', 'Luàna Bajrami', 'Valeria Golino']",63134,2022-04-17 15:02:43.005,2022-04-17 15:02:43.005
-625c2b54f0a5bc6c426c06ae,Forrest Gump,1994,142 min,"Drama, Romance",8.8,4.476678813544045,"The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",82.0,Robert Zemeckis,"['Tom Hanks', 'Robin Wright', 'Gary Sinise', 'Sally Field']",1809221,2022-04-17 14:59:32.773,2022-04-17 14:59:32.773
-625c2db1f0a5bc6c426c0c1c,Jules et Jim,1962,105 min,"Drama, Romance",7.8,3.9598925815221886,Decades of a love triangle concerning two friends and an impulsive woman.,97.0,François Truffaut,"['Jeanne Moreau', 'Oskar Werner', 'Henri Serre', 'Vanna Urbino']",37605,2022-04-17 15:09:37.584,2022-04-17 15:09:37.584
-625c2dd8f0a5bc6c426c0ca2,Brokeback Mountain,2005,134 min,"Drama, Romance",7.7,1.3978929170308418,"The story of a forbidden and secretive relationship between two cowboys, and their lives over the years.",87.0,Ang Lee,"['Jake Gyllenhaal', 'Heath Ledger', 'Michelle Williams', 'Randy Quaid']",323103,2022-04-17 15:10:16.680,2022-04-17 15:10:16.680
-625c2cd7f0a5bc6c426c09c6,Der Himmel über Berlin,1987,128 min,"Drama, Fantasy, Romance",8.0,2.9996835652463183,An angel tires of overseeing human activity and wishes to become human when he falls in love with a mortal.,79.0,Wim Wenders,"['Bruno Ganz', 'Solveig Dommartin', 'Otto Sander', 'Curt Bois']",64722,2022-04-17 15:05:59.361,2022-04-17 15:05:59.361
-625c2c4ff0a5bc6c426c089c,Dilwale Dulhania Le Jayenge,1995,189 min,"Drama, Romance",8.1,0.5831313825144835,"When Raj meets Simran in Europe, it isn't love at first sight but when Simran moves to India for an arranged marriage, love makes its presence felt.",,Aditya Chopra,"['Shah Rukh Khan', 'Kajol', 'Amrish Puri', 'Farida Jalal']",63516,2022-04-17 15:03:43.609,2022-04-17 15:03:43.609
-625c2c54f0a5bc6c426c08aa,Dà hóng denglong gaogao guà,1991,125 min,"Drama, History, Romance",8.1,3.1489540737698754,"A young woman becomes the fourth wife of a wealthy lord, and must learn to live with the strict rules and tensions within the household.",,Yimou Zhang,"['Gong Li', 'Jingwu Ma', 'Saifei He', 'Cuifen Cao']",29662,2022-04-17 15:03:48.881,2022-04-17 15:03:48.881
-625c2d24f0a5bc6c426c0a88,Gegen die Wand,2004,121 min,"Drama, Romance",7.9,2.3465882439737893,"With the intention to break free from the strict familial restrictions, a suicidal young woman sets up a marriage of convenience with a forty-year-old addict, an act that will lead to an outburst of envious love.",78.0,Fatih Akin,"['Birol Ünel', 'Sibel Kekilli', 'Güven Kiraç', 'Zarah Jane McKenzie']",51325,2022-04-17 15:07:16.265,2022-04-17 15:07:16.265
-625c2cbbf0a5bc6c426c095c,Slumdog Millionaire,2008,120 min,"Drama, Romance",8.0,2.9813310248270373,"A Mumbai teenager reflects on his life after being accused of cheating on the Indian version of ""Who Wants to be a Millionaire?"".",84.0,Danny Boyle,"['Loveleen Tandan', 'Dev Patel', 'Freida Pinto', 'Saurabh Shukla']",798882,2022-04-17 15:05:31.460,2022-04-17 15:05:31.460
-625c2db7f0a5bc6c426c0c3a,God's Own Country,2017,104 min,"Drama, Romance",7.7,0.8823427683595797,"Spring. Yorkshire. Young farmer Johnny Saxby numbs his daily frustrations with binge drinking and casual sex, until the arrival of a Romanian migrant worker for lambing season ignites an intense relationship that sets Johnny on a new path.",85.0,Francis Lee,"[""Josh O'Connor"", 'Alec Secareanu', 'Gemma Jones', 'Ian Hart']",25198,2022-04-17 15:09:43.696,2022-04-17 15:09:43.696
-625c2bc3f0a5bc6c426c0754,Eternal Sunshine of the Spotless Mind,2004,108 min,"Drama, Romance, Sci-Fi",8.3,0.00921502275041508,"When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",89.0,Michel Gondry,"['Jim Carrey', 'Kate Winslet', 'Tom Wilkinson', 'Gerry Robert Byrne']",911664,2022-04-17 15:01:23.822,2022-04-17 15:01:23.822
-625c2be9f0a5bc6c426c07b6,El secreto de sus ojos,2009,129 min,"Drama, Mystery, Romance",8.2,2.234094293029915,A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later.,80.0,Juan José Campanella,"['Ricardo Darín', 'Soledad Villamil', 'Pablo Rago', 'Carla Quevedo']",193217,2022-04-17 15:02:01.547,2022-04-17 15:02:01.547
-625c2ce2f0a5bc6c426c09e2,The Last Picture Show,1971,118 min,"Drama, Romance",8.0,0.7830669710354965,"In 1951, a group of high schoolers come of age in a bleak, isolated, atrophied North Texas town that is slowly dying, both culturally and economically.",93.0,Peter Bogdanovich,"['Timothy Bottoms', 'Jeff Bridges', 'Cybill Shepherd', 'Ben Johnson']",42456,2022-04-17 15:06:10.649,2022-04-17 15:06:10.649
-625c2c4cf0a5bc6c426c0892,Fa yeung nin wah,2000,98 min,"Drama, Romance",8.1,2.390005178737753,"Two neighbors, a woman and a man, form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs.",85.0,Kar-Wai Wong,"['Tony Chiu-Wai Leung', 'Maggie Cheung', 'Ping Lam Siu', ""Tung Cho 'Joe' Cheung""]",124383,2022-04-17 15:03:40.631,2022-04-17 15:03:40.631
-625c2c75f0a5bc6c426c0904,The Red Shoes,1948,135 min,"Drama, Music, Romance",8.1,0.5685666044611248,A young ballet dancer is torn between the man she loves and her pursuit to become a prima ballerina.,,Michael Powell,"['Emeric Pressburger', 'Anton Walbrook', 'Marius Goring', 'Moira Shearer']",30935,2022-04-17 15:04:21.882,2022-04-17 15:04:21.882
-625c2dfdf0a5bc6c426c0d4a,Belle de jour,1967,100 min,"Drama, Romance",7.7,4.22587405202126,A frigid young housewife decides to spend her midweek afternoons as a prostitute.,,Luis Buñuel,"['Catherine Deneuve', 'Jean Sorel', 'Michel Piccoli', 'Geneviève Page']",40274,2022-04-17 15:10:53.932,2022-04-17 15:10:53.932
-625c2cf1f0a5bc6c426c0a20,Brief Encounter,1945,86 min,"Drama, Romance",8.0,4.237002622780704,"Meeting a stranger in a railway station, a woman is tempted to cheat on her husband.",92.0,David Lean,"['Celia Johnson', 'Trevor Howard', 'Stanley Holloway', 'Joyce Carey']",35601,2022-04-17 15:06:25.209,2022-04-17 15:06:25.209
-625c2c7bf0a5bc6c426c0916,Sunrise: A Song of Two Humans,1927,94 min,"Drama, Romance",8.1,1.8260501833694132,An allegorical tale about a man fighting the good and evil within him. Both sides are made flesh - one a sophisticated woman he is attracted to and the other his wife.,,F.W. Murnau,"[""George O'Brien"", 'Janet Gaynor', 'Margaret Livingston', 'Bodil Rosing']",46865,2022-04-17 15:04:27.282,2022-04-17 15:04:27.282
+_id
+625c2b71f0a5bc6c426c06f2
+625c2d43f0a5bc6c426c0ae6
+625c2c13f0a5bc6c426c081e
+625c2b54f0a5bc6c426c06ae
+625c2db1f0a5bc6c426c0c1c
+625c2dd8f0a5bc6c426c0ca2
+625c2cd7f0a5bc6c426c09c6
+625c2c4ff0a5bc6c426c089c
+625c2c54f0a5bc6c426c08aa
+625c2d24f0a5bc6c426c0a88
+625c2cbbf0a5bc6c426c095c
+625c2db7f0a5bc6c426c0c3a
+625c2bc3f0a5bc6c426c0754
+625c2be9f0a5bc6c426c07b6
+625c2ce2f0a5bc6c426c09e2
+625c2c4cf0a5bc6c426c0892
+625c2c75f0a5bc6c426c0904
+625c2dfdf0a5bc6c426c0d4a
+625c2cf1f0a5bc6c426c0a20
+625c2c7bf0a5bc6c426c0916

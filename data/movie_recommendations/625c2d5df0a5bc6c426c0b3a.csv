@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2c1ef0a5bc6c426c0838,OMG: Oh My God!,2012,125 min,"Comedy, Drama, Fantasy",8.1,4.746396469217041,A shopkeeper takes God to court when his shop is destroyed by an earthquake.,,Umesh Shukla,"['Paresh Rawal', 'Akshay Kumar', 'Mithun Chakraborty', 'Mahesh Manjrekar']",51739,2022-04-17 15:02:54.034,2022-04-17 15:02:54.034
-625c2d48f0a5bc6c426c0af2,Harvey,1950,104 min,"Comedy, Drama, Fantasy",7.9,3.672078736620321,"Due to his insistence that he has an invisible six foot-tall rabbit for a best friend, a whimsical middle-aged man is thought by his family to be insane - but he may be wiser than anyone knows.",,Henry Koster,"['James Stewart', 'Wallace Ford', 'William H. Lynn', 'Victoria Horne']",52573,2022-04-17 15:07:52.918,2022-04-17 15:07:52.918
-625c2de4f0a5bc6c426c0ce2,Being John Malkovich,1999,113 min,"Comedy, Drama, Fantasy",7.7,3.614905349001077,A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.,90.0,Spike Jonze,"['John Cusack', 'Cameron Diaz', 'Catherine Keener', 'John Malkovich']",312542,2022-04-17 15:10:28.330,2022-04-17 15:10:28.330
-625c2c79f0a5bc6c426c090a,Mr. Smith Goes to Washington,1939,129 min,"Comedy, Drama",8.1,3.2016330807813667,"A naive man is appointed to fill a vacancy in the United States Senate. His plans promptly collide with political corruption, but he doesn't back down.",73.0,Frank Capra,"['James Stewart', 'Jean Arthur', 'Claude Rains', 'Edward Arnold']",107017,2022-04-17 15:04:25.537,2022-04-17 15:04:25.537
-625c2dcaf0a5bc6c426c0c66,Midnight in Paris,2011,96 min,"Comedy, Fantasy, Romance",7.7,0.6365339394331049,"While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",81.0,Woody Allen,"['Owen Wilson', 'Rachel McAdams', 'Kathy Bates', 'Kurt Fuller']",388089,2022-04-17 15:10:02.222,2022-04-17 15:10:02.222
-625c2c30f0a5bc6c426c0852,Zindagi Na Milegi Dobara,2011,155 min,"Comedy, Drama",8.1,0.7234510822379614,Three friends decide to turn their fantasy vacation into reality after one of their friends gets engaged.,,Zoya Akhtar,"['Hrithik Roshan', 'Farhan Akhtar', 'Abhay Deol', 'Katrina Kaif']",67927,2022-04-17 15:03:12.403,2022-04-17 15:03:12.403
-625c2d49f0a5bc6c426c0af4,Miracle on 34th Street,1947,96 min,"Comedy, Drama, Family",7.9,2.17765834885691,"When a nice old man who claims to be Santa Claus is institutionalized as insane, a young lawyer decides to defend him by arguing in court that he is the real thing.",88.0,George Seaton,"['Edmund Gwenn', ""Maureen O'Hara"", 'John Payne', 'Gene Lockhart']",41625,2022-04-17 15:07:53.137,2022-04-17 15:07:53.137
-625c2df4f0a5bc6c426c0d20,After Hours,1985,97 min,"Comedy, Crime, Drama",7.7,3.6818512258075184,An ordinary word processor has the worst night of his life after he agrees to visit a girl in Soho who he met that evening at a coffee shop.,90.0,Martin Scorsese,"['Griffin Dunne', 'Rosanna Arquette', 'Verna Bloom', 'Tommy Chong']",59635,2022-04-17 15:10:44.278,2022-04-17 15:10:44.278
-625c2e08f0a5bc6c426c0d76,Once Upon a Time... in Hollywood,2019,161 min,"Comedy, Drama",7.6,2.0921399892452297,A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.,83.0,Quentin Tarantino,"['Leonardo DiCaprio', 'Brad Pitt', 'Margot Robbie', 'Emile Hirsch']",551309,2022-04-17 15:11:04.191,2022-04-17 15:11:04.191
-625c2cfbf0a5bc6c426c0a46,Captain Fantastic,2016,118 min,"Comedy, Drama",7.9,3.5701799330001927,"In the forests of the Pacific Northwest, a father devoted to raising his six kids with a rigorous physical and intellectual education is forced to leave his paradise and enter the world, challenging his idea of what it means to be a parent.",72.0,Matt Ross,"['Viggo Mortensen', 'George MacKay', 'Samantha Isler', 'Annalise Basso']",189400,2022-04-17 15:06:35.672,2022-04-17 15:06:35.672
-625c2c20f0a5bc6c426c083e,Ôkami kodomo no Ame to Yuki,2012,117 min,"Animation, Drama, Fantasy",8.1,2.503668080502713,"After her werewolf lover unexpectedly dies in an accident while hunting for food for their children, a young woman must find ways to raise the werewolf son and daughter that she had with him while keeping their trait hidden from society.",71.0,Mamoru Hosoda,"['Aoi Miyazaki', 'Takao Osawa', 'Haru Kuroki', 'Yukito Nishii']",38803,2022-04-17 15:02:56.221,2022-04-17 15:02:56.221
-625c2c41f0a5bc6c426c0874,Munna Bhai M.B.B.S.,2003,156 min,"Comedy, Drama, Musical",8.1,1.7532626607554902,A gangster sets out to fulfill his father's dream of becoming a doctor.,,Rajkumar Hirani,"['Sanjay Dutt', 'Arshad Warsi', 'Gracy Singh', 'Sunil Dutt']",73992,2022-04-17 15:03:29.341,2022-04-17 15:03:29.341
-625c2da1f0a5bc6c426c0bf6,The King of Comedy,1982,109 min,"Comedy, Crime, Drama",7.8,3.61142330620709,"Rupert Pupkin is a passionate yet unsuccessful comic who craves nothing more than to be in the spotlight and to achieve this, he stalks and kidnaps his idol to take the spotlight for himself.",73.0,Martin Scorsese,"['Robert De Niro', 'Jerry Lewis', 'Diahnne Abbott', 'Sandra Bernhard']",88511,2022-04-17 15:09:21.120,2022-04-17 15:09:21.120
-625c2d98f0a5bc6c426c0be8,Down by Law,1986,107 min,"Comedy, Crime, Drama",7.8,2.0810577232944882,"Two men are framed and sent to jail, where they meet a murderer who helps them escape and leave the state.",75.0,Jim Jarmusch,"['Tom Waits', 'John Lurie', 'Roberto Benigni', 'Nicoletta Braschi']",47834,2022-04-17 15:09:12.801,2022-04-17 15:09:12.801
-625c2cfcf0a5bc6c426c0a48,Sing Street,2016,106 min,"Comedy, Drama, Music",7.9,3.0595977257832185,A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.,79.0,John Carney,"['Ferdia Walsh-Peelo', 'Aidan Gillen', 'Maria Doyle Kennedy', 'Jack Reynor']",85109,2022-04-17 15:06:36.510,2022-04-17 15:06:36.510
-625c2ddcf0a5bc6c426c0cbc,Good Bye Lenin!,2003,121 min,"Comedy, Drama, Romance",7.7,1.5246790747908878,"In 1990, to protect his fragile mother from a fatal shock after a long coma, a young man must keep her from learning that her beloved nation of East Germany as she knew it has disappeared.",68.0,Wolfgang Becker,"['Daniel Brühl', 'Katrin Saß', 'Chulpan Khamatova', 'Florian Lukas']",137981,2022-04-17 15:10:20.492,2022-04-17 15:10:20.492
-625c2c7df0a5bc6c426c0926,La La Land,2016,128 min,"Comedy, Drama, Music",8.0,2.762712765898799,"While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",94.0,Damien Chazelle,"['Ryan Gosling', 'Emma Stone', 'Rosemarie DeWitt', 'J.K. Simmons']",505918,2022-04-17 15:04:29.583,2022-04-17 15:04:29.583
-625c2be0f0a5bc6c426c07a0,"Three Billboards Outside Ebbing, Missouri",2017,115 min,"Comedy, Crime, Drama",8.2,3.6723246719935334,A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.,88.0,Martin McDonagh,"['Frances McDormand', 'Woody Harrelson', 'Sam Rockwell', 'Caleb Landry Jones']",432610,2022-04-17 15:01:52.409,2022-04-17 15:01:52.409
-625c2d7df0a5bc6c426c0b7c,Little Miss Sunshine,2006,101 min,"Comedy, Drama",7.8,3.547795617340049,A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.,80.0,Jonathan Dayton,"['Valerie Faris', 'Steve Carell', 'Toni Collette', 'Greg Kinnear']",439856,2022-04-17 15:08:45.694,2022-04-17 15:08:45.694
-625c2d4af0a5bc6c426c0afe,His Girl Friday,1940,92 min,"Comedy, Drama, Romance",7.9,2.6019735422402688,A newspaper editor uses every trick in the book to keep his ace reporter ex-wife from remarrying.,,Howard Hawks,"['Cary Grant', 'Rosalind Russell', 'Ralph Bellamy', 'Gene Lockhart']",53667,2022-04-17 15:07:54.144,2022-04-17 15:07:54.144
+_id
+625c2c1ef0a5bc6c426c0838
+625c2d48f0a5bc6c426c0af2
+625c2de4f0a5bc6c426c0ce2
+625c2c79f0a5bc6c426c090a
+625c2dcaf0a5bc6c426c0c66
+625c2c30f0a5bc6c426c0852
+625c2d49f0a5bc6c426c0af4
+625c2df4f0a5bc6c426c0d20
+625c2e08f0a5bc6c426c0d76
+625c2cfbf0a5bc6c426c0a46
+625c2c20f0a5bc6c426c083e
+625c2c41f0a5bc6c426c0874
+625c2da1f0a5bc6c426c0bf6
+625c2d98f0a5bc6c426c0be8
+625c2cfcf0a5bc6c426c0a48
+625c2ddcf0a5bc6c426c0cbc
+625c2c7df0a5bc6c426c0926
+625c2be0f0a5bc6c426c07a0
+625c2d7df0a5bc6c426c0b7c
+625c2d4af0a5bc6c426c0afe

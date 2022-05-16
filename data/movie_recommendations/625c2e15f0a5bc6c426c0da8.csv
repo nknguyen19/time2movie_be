@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2bfff0a5bc6c426c07e6,Unforgiven,1992,130 min,"Drama, Western",8.2,4.0260365977676695,"Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The ""Schofield Kid.""",85.0,Clint Eastwood,"['Clint Eastwood', 'Gene Hackman', 'Morgan Freeman', 'Richard Harris']",375935,2022-04-17 15:02:23.786,2022-04-17 15:02:23.786
-625c2bacf0a5bc6c426c0714,Django Unchained,2012,165 min,"Drama, Western",8.4,4.280966566521654,"With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",81.0,Quentin Tarantino,"['Jamie Foxx', 'Christoph Waltz', 'Leonardo DiCaprio', 'Kerry Washington']",1357682,2022-04-17 15:01:00.094,2022-04-17 15:01:00.094
-625c2c6cf0a5bc6c426c08e6,The Man Who Shot Liberty Valance,1962,123 min,"Drama, Western",8.1,3.631922167237761,A senator returns to a western town for the funeral of an old friend and tells the story of his origins.,94.0,John Ford,"['James Stewart', 'John Wayne', 'Vera Miles', 'Lee Marvin']",68827,2022-04-17 15:04:12.918,2022-04-17 15:04:12.918
-625c2d46f0a5bc6c426c0aee,High Noon,1952,85 min,"Drama, Thriller, Western",7.9,1.2780236168447923,"A town Marshal, despite the disagreements of his newlywed bride and the townspeople around him, must face a gang of deadly killers alone at high noon when the gang leader, an outlaw he sent up years ago, arrives on the noon train.",89.0,Fred Zinnemann,"['Gary Cooper', 'Grace Kelly', 'Thomas Mitchell', 'Lloyd Bridges']",97222,2022-04-17 15:07:50.527,2022-04-17 15:07:50.527
-625c2e3bf0a5bc6c426c0e60,Giant,1956,201 min,"Drama, Western",7.6,0.28293887733291,Sprawling epic covering the life of a Texas cattle rancher and his family and associates.,84.0,George Stevens,"['Elizabeth Taylor', 'Rock Hudson', 'James Dean', 'Carroll Baker']",34075,2022-04-17 15:11:55.112,2022-04-17 15:11:55.112
-625c2e27f0a5bc6c426c0de4,Mysterious Skin,2004,105 min,Drama,7.6,2.250478454560435,"A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",73.0,Gregg Araki,"['Brady Corbet', 'Joseph Gordon-Levitt', 'Elisabeth Shue', 'Chase Ellison']",65939,2022-04-17 15:11:35.530,2022-04-17 15:11:35.530
-625c2e38f0a5bc6c426c0e54,Giù la testa,1971,157 min,"Drama, War, Western",7.6,4.005714617615426,A low-life bandit and an I.R.A. explosives expert rebel against the government and become heroes of the Mexican Revolution.,77.0,Sergio Leone,"['Rod Steiger', 'James Coburn', 'Romolo Valli', 'Maria Monti']",30144,2022-04-17 15:11:52.930,2022-04-17 15:11:52.930
-625c2cbff0a5bc6c426c095e,Black Swan,2010,108 min,"Drama, Thriller",8.0,3.4936288956322725,"A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's ""Swan Lake"".",79.0,Darren Aronofsky,"['Natalie Portman', 'Mila Kunis', 'Vincent Cassel', 'Winona Ryder']",699673,2022-04-17 15:05:35.684,2022-04-17 15:05:35.684
-625c2b6df0a5bc6c426c06e8,American History X,1998,119 min,Drama,8.5,1.2834472896333238,A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.,62.0,Tony Kaye,"['Edward Norton', 'Edward Furlong', ""Beverly D'Angelo"", 'Jennifer Lien']",1034705,2022-04-17 14:59:57.054,2022-04-17 14:59:57.054
-625c2daef0a5bc6c426c0c0e,Midnight Cowboy,1969,113 min,Drama,7.8,4.224138388021959,"A naive hustler travels from Texas to New York City to seek personal fortune, finding a new friend in the process.",79.0,John Schlesinger,"['Dustin Hoffman', 'Jon Voight', 'Sylvia Miles', 'John McGiver']",101124,2022-04-17 15:09:34.643,2022-04-17 15:09:34.643
-625c2bc9f0a5bc6c426c0768,Full Metal Jacket,1987,116 min,"Drama, War",8.3,3.5406088506166844,A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.,76.0,Stanley Kubrick,"['Matthew Modine', 'R. Lee Ermey', ""Vincent D'Onofrio"", 'Adam Baldwin']",675146,2022-04-17 15:01:29.583,2022-04-17 15:01:29.583
-625c2df5f0a5bc6c426c0d2a,Ordinary People,1980,124 min,Drama,7.7,3.4760837368322015,"The accidental death of the older son of an affluent family deeply strains the relationships among the bitter mother, the good-natured father, and the guilt-ridden younger son.",86.0,Robert Redford,"['Donald Sutherland', 'Mary Tyler Moore', 'Judd Hirsch', 'Timothy Hutton']",47099,2022-04-17 15:10:45.524,2022-04-17 15:10:45.524
-625c2bc5f0a5bc6c426c075c,American Beauty,1999,122 min,Drama,8.3,3.079981612315301,A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.,84.0,Sam Mendes,"['Kevin Spacey', 'Annette Bening', 'Thora Birch', 'Wes Bentley']",1069738,2022-04-17 15:01:25.820,2022-04-17 15:01:25.820
-625c2d43f0a5bc6c426c0ae6,Hiroshima mon amour,1959,90 min,"Drama, Romance",7.9,4.632575580587485,A French actress filming an anti-war film in Hiroshima has an affair with a married Japanese architect as they share their differing perspectives on war.,,Alain Resnais,"['Emmanuelle Riva', 'Eiji Okada', 'Stella Dassas', 'Pierre Barbaud']",28421,2022-04-17 15:07:47.779,2022-04-17 15:07:47.779
-625c2e08f0a5bc6c426c0d78,Nelyubov,2017,127 min,Drama,7.6,2.3858908223095887,A couple going through a divorce must team up to find their son who has disappeared during one of their bitter arguments.,86.0,Andrey Zvyagintsev,"['Maryana Spivak', 'Aleksey Rozin', 'Matvey Novikov', 'Marina Vasileva']",29765,2022-04-17 15:11:04.397,2022-04-17 15:11:04.397
-625c2e08f0a5bc6c426c0d7e,Gifted,2017,101 min,Drama,7.6,3.016150793280773,"Frank, a single man raising his child prodigy niece Mary, is drawn into a custody battle with his mother.",60.0,Marc Webb,"['Chris Evans', 'Mckenna Grace', 'Lindsay Duncan', 'Octavia Spencer']",99643,2022-04-17 15:11:04.985,2022-04-17 15:11:04.985
-625c2df3f0a5bc6c426c0d1c,Blue Velvet,1986,120 min,"Drama, Mystery, Thriller",7.7,1.4546634168008121,"The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",76.0,David Lynch,"['Isabella Rossellini', 'Kyle MacLachlan', 'Dennis Hopper', 'Laura Dern']",181285,2022-04-17 15:10:43.527,2022-04-17 15:10:43.527
-625c2c5cf0a5bc6c426c08c8,Network,1976,121 min,Drama,8.1,3.852851228576771,A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit.,83.0,Sidney Lumet,"['Faye Dunaway', 'William Holden', 'Peter Finch', 'Robert Duvall']",144911,2022-04-17 15:03:56.937,2022-04-17 15:03:56.937
-625c2cd4f0a5bc6c426c09c0,Rain Man,1988,133 min,Drama,8.0,1.7469463745237956,Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.,65.0,Barry Levinson,"['Dustin Hoffman', 'Tom Cruise', 'Valeria Golino', 'Gerald R. Molen']",473064,2022-04-17 15:05:56.706,2022-04-17 15:05:56.706
-625c2debf0a5bc6c426c0cfc,Philadelphia,1993,125 min,Drama,7.7,1.4984271079705747,"When a man with HIV is fired by his law firm because of his condition, he hires a homophobic small time lawyer as the only willing advocate for a wrongful dismissal suit.",66.0,Jonathan Demme,"['Tom Hanks', 'Denzel Washington', 'Roberta Maxwell', 'Buzz Kilman']",224169,2022-04-17 15:10:35.495,2022-04-17 15:10:35.495
+_id
+625c2bfff0a5bc6c426c07e6
+625c2bacf0a5bc6c426c0714
+625c2c6cf0a5bc6c426c08e6
+625c2d46f0a5bc6c426c0aee
+625c2e3bf0a5bc6c426c0e60
+625c2e27f0a5bc6c426c0de4
+625c2e38f0a5bc6c426c0e54
+625c2cbff0a5bc6c426c095e
+625c2b6df0a5bc6c426c06e8
+625c2daef0a5bc6c426c0c0e
+625c2bc9f0a5bc6c426c0768
+625c2df5f0a5bc6c426c0d2a
+625c2bc5f0a5bc6c426c075c
+625c2d43f0a5bc6c426c0ae6
+625c2e08f0a5bc6c426c0d78
+625c2e08f0a5bc6c426c0d7e
+625c2df3f0a5bc6c426c0d1c
+625c2c5cf0a5bc6c426c08c8
+625c2cd4f0a5bc6c426c09c0
+625c2debf0a5bc6c426c0cfc

@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2d30f0a5bc6c426c0aa6,Once Were Warriors,1994,102 min,"Crime, Drama",7.9,3.924024053496459,A family descended from Maori warriors is bedeviled by a violent father and the societal problems of being treated as outcasts.,77.0,Lee Tamahori,"['Rena Owen', 'Temuera Morrison', 'Mamaengaroa Kerr-Bell', 'Julian Arahanga']",31590,2022-04-17 15:07:28.232,2022-04-17 15:07:28.232
-625c2bcef0a5bc6c426c077a,A Clockwork Orange,1971,136 min,"Crime, Drama, Sci-Fi",8.3,0.05659038523109117,"In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.",77.0,Stanley Kubrick,"['Malcolm McDowell', 'Patrick Magee', 'Michael Bates', 'Warren Clarke']",757904,2022-04-17 15:01:34.158,2022-04-17 15:01:34.158
-625c2ccdf0a5bc6c426c0990,Dogville,2003,178 min,"Crime, Drama",8.0,4.596795647818935,"A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town she finds out that their support has a price.",60.0,Lars von Trier,"['Nicole Kidman', 'Paul Bettany', 'Lauren Bacall', 'Harriet Andersson']",137963,2022-04-17 15:05:49.180,2022-04-17 15:05:49.180
-625c2b4ef0a5bc6c426c06a4,Pulp Fiction,1994,154 min,"Crime, Drama",8.9,4.664637176527167,"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",94.0,Quentin Tarantino,"['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']",1826188,2022-04-17 14:59:26.767,2022-04-17 14:59:26.767
-625c2b62f0a5bc6c426c06ca,The Green Mile,1999,189 min,"Crime, Drama, Fantasy",8.6,0.08676333883240961,"The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",61.0,Frank Darabont,"['Tom Hanks', 'Michael Clarke Duncan', 'David Morse', 'Bonnie Hunt']",1147794,2022-04-17 14:59:46.061,2022-04-17 14:59:46.061
-625c2c69f0a5bc6c426c08d8,Cool Hand Luke,1967,127 min,"Crime, Drama",8.1,4.292952800857495,"A laid back Southern man is sentenced to two years in a rural prison, but refuses to conform.",92.0,Stuart Rosenberg,"['Paul Newman', 'George Kennedy', 'Strother Martin', 'J.D. Cannon']",161984,2022-04-17 15:04:09.394,2022-04-17 15:04:09.394
-625c2d57f0a5bc6c426c0b28,The Hateful Eight,2015,168 min,"Crime, Drama, Mystery",7.8,1.5927685431898764,"In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",68.0,Quentin Tarantino,"['Samuel L. Jackson', 'Kurt Russell', 'Jennifer Jason Leigh', 'Walton Goggins']",517059,2022-04-17 15:08:07.632,2022-04-17 15:08:07.632
-625c2d60f0a5bc6c426c0b4e,The Girl with the Dragon Tattoo,2011,158 min,"Crime, Drama, Mystery",7.8,1.4927004395228083,"Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.",71.0,David Fincher,"['Daniel Craig', 'Rooney Mara', 'Christopher Plummer', 'Stellan Skarsgård']",423010,2022-04-17 15:08:16.635,2022-04-17 15:08:16.635
-625c2d09f0a5bc6c426c0a58,Bir Zamanlar Anadolu'da,2011,157 min,"Crime, Drama",7.9,4.488120834276128,A group of men set out in search of a dead body in the Anatolian steppes.,82.0,Nuri Bilge Ceylan,"['Muhammet Uzuner', 'Yilmaz Erdogan', 'Taner Birsel', 'Ahmet Mümtaz Taylan']",41995,2022-04-17 15:06:49.711,2022-04-17 15:06:49.711
-625c2b4cf0a5bc6c426c069e,The Godfather: Part II,1974,202 min,"Crime, Drama",9.0,4.8909190356088175,"The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",90.0,Francis Ford Coppola,"['Al Pacino', 'Robert De Niro', 'Robert Duvall', 'Diane Keaton']",1129952,2022-04-17 14:59:24.973,2022-04-17 14:59:24.973
-625c2bc1f0a5bc6c426c0744,Andhadhun,2018,139 min,"Crime, Drama, Music",8.3,2.759634346660537,"A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.",,Sriram Raghavan,"['Ayushmann Khurrana', 'Tabu', 'Radhika Apte', 'Anil Dhawan']",71875,2022-04-17 15:01:21.183,2022-04-17 15:01:21.183
-625c2d34f0a5bc6c426c0aae,Carlito's Way,1993,144 min,"Crime, Drama, Thriller",7.9,2.64443459622321,"A Puerto Rican former convict, just released from prison, pledges to stay away from drugs and violence despite the pressure around him and lead on to a better life outside of N.Y.C.",65.0,Brian De Palma,"['Al Pacino', 'Sean Penn', 'Penelope Ann Miller', 'John Leguizamo']",201000,2022-04-17 15:07:32.422,2022-04-17 15:07:32.422
-625c2bb9f0a5bc6c426c0736,Witness for the Prosecution,1957,116 min,"Crime, Drama, Mystery",8.4,4.428824742858506,A veteran British barrister must defend his client in a murder trial that has surprise after surprise.,,Billy Wilder,"['Tyrone Power', 'Marlene Dietrich', 'Charles Laughton', 'Elsa Lanchester']",108862,2022-04-17 15:01:13.540,2022-04-17 15:01:13.540
-625c2de6f0a5bc6c426c0cee,Primal Fear,1996,129 min,"Crime, Drama, Mystery",7.7,1.316213584063698,"An altar boy is accused of murdering a priest, and the truth is buried several layers deep.",47.0,Gregory Hoblit,"['Richard Gere', 'Laura Linney', 'Edward Norton', 'John Mahoney']",189716,2022-04-17 15:10:30.101,2022-04-17 15:10:30.101
-625c2bcbf0a5bc6c426c0770,Scarface,1983,170 min,"Crime, Drama",8.3,1.9615119865685948,"In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",65.0,Brian De Palma,"['Al Pacino', 'Michelle Pfeiffer', 'Steven Bauer', 'Mary Elizabeth Mastrantonio']",740911,2022-04-17 15:01:31.001,2022-04-17 15:01:31.001
-625c2deef0a5bc6c426c0d06,Glengarry Glen Ross,1992,100 min,"Crime, Drama, Mystery",7.7,0.002808918853294262,An examination of the machinations behind the scenes at a real estate office.,82.0,James Foley,"['Al Pacino', 'Jack Lemmon', 'Alec Baldwin', 'Alan Arkin']",95826,2022-04-17 15:10:38.259,2022-04-17 15:10:38.259
-625c2d92f0a5bc6c426c0bc8,A Bronx Tale,1993,121 min,"Crime, Drama, Romance",7.8,2.882802386450697,A father becomes worried when a local gangster befriends his son in the Bronx in the 1960s.,80.0,Robert De Niro,"['Robert De Niro', 'Chazz Palminteri', 'Lillo Brancato', 'Francis Capra']",128171,2022-04-17 15:09:06.724,2022-04-17 15:09:06.724
-625c2e33f0a5bc6c426c0e34,The Godfather: Part III,1990,162 min,"Crime, Drama",7.6,2.513831695142893,"Follows Michael Corleone, now in his 60s, as he seeks to free his family from crime and find a suitable successor to his empire.",60.0,Francis Ford Coppola,"['Al Pacino', 'Diane Keaton', 'Andy Garcia', 'Talia Shire']",359809,2022-04-17 15:11:47.210,2022-04-17 15:11:47.210
-625c2bb4f0a5bc6c426c0732,Tengoku to jigoku,1963,143 min,"Crime, Drama, Mystery",8.4,3.6815883858686362,An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.,,Akira Kurosawa,"['Toshirô Mifune', 'Yutaka Sada', 'Tatsuya Nakadai', 'Kyôko Kagawa']",34357,2022-04-17 15:01:08.743,2022-04-17 15:01:08.743
-625c2e36f0a5bc6c426c0e40,Blood Simple,1984,99 min,"Crime, Drama, Thriller",7.6,1.7240105246019743,"The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",82.0,Joel Coen,"['Ethan Coen', 'John Getz', 'Frances McDormand', 'Dan Hedaya']",87745,2022-04-17 15:11:50.032,2022-04-17 15:11:50.032
+_id
+625c2d30f0a5bc6c426c0aa6
+625c2bcef0a5bc6c426c077a
+625c2ccdf0a5bc6c426c0990
+625c2b4ef0a5bc6c426c06a4
+625c2b62f0a5bc6c426c06ca
+625c2c69f0a5bc6c426c08d8
+625c2d57f0a5bc6c426c0b28
+625c2d60f0a5bc6c426c0b4e
+625c2d09f0a5bc6c426c0a58
+625c2b4cf0a5bc6c426c069e
+625c2bc1f0a5bc6c426c0744
+625c2d34f0a5bc6c426c0aae
+625c2bb9f0a5bc6c426c0736
+625c2de6f0a5bc6c426c0cee
+625c2bcbf0a5bc6c426c0770
+625c2deef0a5bc6c426c0d06
+625c2d92f0a5bc6c426c0bc8
+625c2e33f0a5bc6c426c0e34
+625c2bb4f0a5bc6c426c0732
+625c2e36f0a5bc6c426c0e40

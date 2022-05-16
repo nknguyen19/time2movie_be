@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2e36f0a5bc6c426c0e40,Blood Simple,1984,99 min,"Crime, Drama, Thriller",7.6,1.7240105246019743,"The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",82.0,Joel Coen,"['Ethan Coen', 'John Getz', 'Frances McDormand', 'Dan Hedaya']",87745,2022-04-17 15:11:50.032,2022-04-17 15:11:50.032
-625c2bcdf0a5bc6c426c0776,Taxi Driver,1976,114 min,"Crime, Drama",8.3,3.9121916868713837,"A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",94.0,Martin Scorsese,"['Robert De Niro', 'Jodie Foster', 'Cybill Shepherd', 'Albert Brooks']",724636,2022-04-17 15:01:33.218,2022-04-17 15:01:33.218
-625c2de1f0a5bc6c426c0cdc,Training Day,2001,122 min,"Crime, Drama, Thriller",7.7,3.34310148709294,A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be.,69.0,Antoine Fuqua,"['Denzel Washington', 'Ethan Hawke', 'Scott Glenn', 'Tom Berenger']",390247,2022-04-17 15:10:25.837,2022-04-17 15:10:25.837
-625c2c21f0a5bc6c426c0840,Hacksaw Ridge,2016,139 min,"Biography, Drama, History",8.1,0.6937921818386383,"World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot.",71.0,Mel Gibson,"['Andrew Garfield', 'Sam Worthington', 'Luke Bracey', 'Teresa Palmer']",435928,2022-04-17 15:02:57.560,2022-04-17 15:02:57.560
-625c2decf0a5bc6c426c0d00,Malcolm X,1992,202 min,"Biography, Drama, History",7.7,4.619424228654964,"Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam.",73.0,Spike Lee,"['Denzel Washington', 'Angela Bassett', 'Delroy Lindo', 'Spike Lee']",85819,2022-04-17 15:10:36.826,2022-04-17 15:10:36.826
-625c2c40f0a5bc6c426c086e,Hotel Rwanda,2004,121 min,"Biography, Drama, History",8.1,1.6392188208885738,"Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.",79.0,Terry George,"['Don Cheadle', 'Sophie Okonedo', 'Joaquin Phoenix', 'Xolani Mali']",334320,2022-04-17 15:03:28.677,2022-04-17 15:03:28.677
-625c2d52f0a5bc6c426c0b16,Hidden Figures,2016,127 min,"Biography, Drama, History",7.8,3.712635787972105,The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.S. space program.,74.0,Theodore Melfi,"['Taraji P. Henson', 'Octavia Spencer', 'Janelle Monáe', 'Kevin Costner']",200876,2022-04-17 15:08:02.060,2022-04-17 15:08:02.060
-625c2df3f0a5bc6c426c0d1a,Der Name der Rose,1986,130 min,"Crime, Drama, Mystery",7.7,4.433988159634847,An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey.,54.0,Jean-Jacques Annaud,"['Sean Connery', 'Christian Slater', 'Helmut Qualtinger', 'Elya Baskin']",102031,2022-04-17 15:10:43.316,2022-04-17 15:10:43.316
-625c2d09f0a5bc6c426c0a58,Bir Zamanlar Anadolu'da,2011,157 min,"Crime, Drama",7.9,4.488120834276128,A group of men set out in search of a dead body in the Anatolian steppes.,82.0,Nuri Bilge Ceylan,"['Muhammet Uzuner', 'Yilmaz Erdogan', 'Taner Birsel', 'Ahmet Mümtaz Taylan']",41995,2022-04-17 15:06:49.711,2022-04-17 15:06:49.711
-625c2cc7f0a5bc6c426c0982,Cinderella Man,2005,144 min,"Biography, Drama, History",8.0,0.15815611441763466,"The story of James J. Braddock, a supposedly washed-up boxer who came back to become a champion and an inspiration in the 1930s.",69.0,Ron Howard,"['Russell Crowe', 'Renée Zellweger', 'Craig Bierko', 'Paul Giamatti']",176151,2022-04-17 15:05:43.344,2022-04-17 15:05:43.344
-625c2c5ef0a5bc6c426c08ca,Barry Lyndon,1975,185 min,"Adventure, Drama, History",8.1,1.811410823150179,An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.,89.0,Stanley Kubrick,"[""Ryan O'Neal"", 'Marisa Berenson', 'Patrick Magee', 'Hardy Krüger']",149843,2022-04-17 15:03:58.713,2022-04-17 15:03:58.713
-625c2db8f0a5bc6c426c0c3e,Wind River,2017,107 min,"Crime, Drama, Mystery",7.7,2.5,A veteran hunter helps an FBI agent investigate the murder of a young woman on a Wyoming Native American reservation.,73.0,Taylor Sheridan,"['Kelsey Asbille', 'Jeremy Renner', 'Julia Jones', 'Teo Briones']",205444,2022-04-17 15:09:44.792,2022-04-18 04:08:04.640
-625c2dd4f0a5bc6c426c0c8c,Death Note: Desu nôto,2006,126 min,"Crime, Drama, Fantasy",7.7,0.4527374175112808,"A battle between the world's two greatest minds begins when Light Yagami finds the Death Note, a notebook with the power to kill, and decides to rid the world of criminals.",,Shûsuke Kaneko,"['Tatsuya Fujiwara', ""Ken'ichi Matsuyama"", 'Asaka Seto', 'Yû Kashii']",28630,2022-04-17 15:10:12.284,2022-04-17 15:10:12.284
-625c2b4ef0a5bc6c426c06a4,Pulp Fiction,1994,154 min,"Crime, Drama",8.9,4.664637176527167,"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",94.0,Quentin Tarantino,"['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']",1826188,2022-04-17 14:59:26.767,2022-04-17 14:59:26.767
-625c2e07f0a5bc6c426c0d72,Dark Waters,2019,126 min,"Biography, Drama, History",7.6,4.596929284715828,A corporate defense attorney takes on an environmental lawsuit against a chemical company that exposes a lengthy history of pollution.,73.0,Todd Haynes,"['Mark Ruffalo', 'Anne Hathaway', 'Tim Robbins', 'Bill Pullman']",60408,2022-04-17 15:11:03.360,2022-04-17 15:11:03.360
-625c2bcbf0a5bc6c426c0770,Scarface,1983,170 min,"Crime, Drama",8.3,1.9615119865685948,"In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",65.0,Brian De Palma,"['Al Pacino', 'Michelle Pfeiffer', 'Steven Bauer', 'Mary Elizabeth Mastrantonio']",740911,2022-04-17 15:01:31.001,2022-04-17 15:01:31.001
-625c2c69f0a5bc6c426c08d8,Cool Hand Luke,1967,127 min,"Crime, Drama",8.1,4.292952800857495,"A laid back Southern man is sentenced to two years in a rural prison, but refuses to conform.",92.0,Stuart Rosenberg,"['Paul Newman', 'George Kennedy', 'Strother Martin', 'J.D. Cannon']",161984,2022-04-17 15:04:09.394,2022-04-17 15:04:09.394
-625c2deef0a5bc6c426c0d06,Glengarry Glen Ross,1992,100 min,"Crime, Drama, Mystery",7.7,0.002808918853294262,An examination of the machinations behind the scenes at a real estate office.,82.0,James Foley,"['Al Pacino', 'Jack Lemmon', 'Alec Baldwin', 'Alan Arkin']",95826,2022-04-17 15:10:38.259,2022-04-17 15:10:38.259
-625c2d61f0a5bc6c426c0b54,Straight Outta Compton,2015,147 min,"Biography, Drama, History",7.8,3.9561889449815366,"The rap group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.",72.0,F. Gary Gray,"[""O'Shea Jackson Jr."", 'Corey Hawkins', 'Jason Mitchell', 'Neil Brown Jr.']",179264,2022-04-17 15:08:17.891,2022-04-17 15:08:17.891
-625c2d57f0a5bc6c426c0b28,The Hateful Eight,2015,168 min,"Crime, Drama, Mystery",7.8,1.5927685431898764,"In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",68.0,Quentin Tarantino,"['Samuel L. Jackson', 'Kurt Russell', 'Jennifer Jason Leigh', 'Walton Goggins']",517059,2022-04-17 15:08:07.632,2022-04-17 15:08:07.632
+_id
+625c2e36f0a5bc6c426c0e40
+625c2bcdf0a5bc6c426c0776
+625c2de1f0a5bc6c426c0cdc
+625c2c21f0a5bc6c426c0840
+625c2decf0a5bc6c426c0d00
+625c2c40f0a5bc6c426c086e
+625c2d52f0a5bc6c426c0b16
+625c2df3f0a5bc6c426c0d1a
+625c2d09f0a5bc6c426c0a58
+625c2cc7f0a5bc6c426c0982
+625c2c5ef0a5bc6c426c08ca
+625c2db8f0a5bc6c426c0c3e
+625c2dd4f0a5bc6c426c0c8c
+625c2b4ef0a5bc6c426c06a4
+625c2e07f0a5bc6c426c0d72
+625c2bcbf0a5bc6c426c0770
+625c2c69f0a5bc6c426c08d8
+625c2deef0a5bc6c426c0d06
+625c2d61f0a5bc6c426c0b54
+625c2d57f0a5bc6c426c0b28

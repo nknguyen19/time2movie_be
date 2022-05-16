@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2e19f0a5bc6c426c0dc0,The Visitor,2007,104 min,Drama,7.6,4.329784793972047,A college professor travels to New York City to attend a conference and finds a young couple living in his apartment.,79.0,Tom McCarthy,"['Richard Jenkins', 'Haaz Sleiman', 'Danai Gurira', 'Hiam Abbass']",41544,2022-04-17 15:11:21.308,2022-04-17 15:11:21.308
-625c2d5cf0a5bc6c426c0b34,The Lunchbox,2013,104 min,"Drama, Romance",7.8,0.3264388998341605,A mistaken delivery in Mumbai's famously efficient lunchbox delivery system connects a young housewife to an older man in the dusk of his life as they build a fantasy world together through notes in the lunchbox.,76.0,Ritesh Batra,"['Irrfan Khan', 'Nimrat Kaur', 'Nawazuddin Siddiqui', 'Lillete Dubey']",50523,2022-04-17 15:08:12.492,2022-04-17 15:08:12.492
-625c2d13f0a5bc6c426c0a6a,The Wrestler,2008,109 min,"Drama, Sport",7.9,2.0020007514035254,"A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle.",80.0,Darren Aronofsky,"['Mickey Rourke', 'Marisa Tomei', 'Evan Rachel Wood', 'Mark Margolis']",289415,2022-04-17 15:06:59.369,2022-04-17 15:06:59.369
-625c2bb3f0a5bc6c426c072a,The Shining,1980,146 min,"Drama, Horror",8.4,2.770617041112936,"A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",66.0,Stanley Kubrick,"['Jack Nicholson', 'Shelley Duvall', 'Danny Lloyd', 'Scatman Crothers']",898237,2022-04-17 15:01:07.316,2022-04-17 15:01:07.316
-625c2e00f0a5bc6c426c0d54,The Birds,1963,119 min,"Drama, Horror, Mystery",7.7,4.449730160793268,A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.,90.0,Alfred Hitchcock,"['Rod Taylor', 'Tippi Hedren', 'Jessica Tandy', 'Suzanne Pleshette']",171739,2022-04-17 15:10:56.053,2022-04-17 15:10:56.053
-625c2d84f0a5bc6c426c0b92,The Notebook,2004,123 min,"Drama, Romance",7.8,4.811816390170578,"A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.",53.0,Nick Cassavetes,"['Gena Rowlands', 'James Garner', 'Rachel McAdams', 'Ryan Gosling']",520284,2022-04-17 15:08:52.563,2022-04-17 15:08:52.563
-625c2d9af0a5bc6c426c0bec,The Color Purple,1985,154 min,Drama,7.8,1.0587551428593212,A black Southern woman struggles to find her identity after suffering abuse from her father and others over four decades.,78.0,Steven Spielberg,"['Danny Glover', 'Whoopi Goldberg', 'Oprah Winfrey', 'Margaret Avery']",78321,2022-04-17 15:09:14.471,2022-04-17 15:09:14.471
-625c2c5cf0a5bc6c426c08c4,The Deer Hunter,1978,183 min,"Drama, War",8.1,3.6124131829337225,An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.,86.0,Michael Cimino,"['Robert De Niro', 'Christopher Walken', 'John Cazale', 'John Savage']",311361,2022-04-17 15:03:56.431,2022-04-17 15:03:56.431
-625c2b6cf0a5bc6c426c06e0,The Prestige,2006,130 min,"Drama, Mystery, Sci-Fi",8.5,0.1261262535588925,"After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",66.0,Christopher Nolan,"['Christian Bale', 'Hugh Jackman', 'Scarlett Johansson', 'Michael Caine']",1190259,2022-04-17 14:59:56.091,2022-04-17 14:59:56.091
-625c2e08f0a5bc6c426c0d7a,The Florida Project,2017,111 min,Drama,7.6,4.2017898791249255,"Set over one summer, the film follows precocious six-year-old Moonee as she courts mischief and adventure with her ragtag playmates and bonds with her rebellious but caring mother, all while living in the shadows of Walt Disney World.",92.0,Sean Baker,"['Brooklynn Prince', 'Bria Vinaite', 'Willem Dafoe', 'Christopher Rivera']",95181,2022-04-17 15:11:04.601,2022-04-17 15:11:04.601
-625c2df4f0a5bc6c426c0d24,The Verdict,1982,129 min,Drama,7.7,0.4791998803837616,A lawyer sees the chance to salvage his career and self-respect by taking a medical malpractice case to trial rather than settling.,77.0,Sidney Lumet,"['Paul Newman', 'Charlotte Rampling', 'Jack Warden', 'James Mason']",36096,2022-04-17 15:10:44.688,2022-04-17 15:10:44.688
-625c2ddcf0a5bc6c426c0cba,The Magdalene Sisters,2002,114 min,Drama,7.7,3.4969687101300773,Three young Irish women struggle to maintain their spirits while they endure dehumanizing abuse as inmates of a Magdalene Sisters Asylum.,83.0,Peter Mullan,"['Eileen Walsh', 'Dorothy Duffy', 'Nora-Jane Noone', 'Anne-Marie Duff']",25938,2022-04-17 15:10:20.287,2022-04-17 15:10:20.287
-625c2b46f0a5bc6c426c0698,The Shawshank Redemption,1994,142 min,Drama,9.3,0.30976262621264405,"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",80.0,Frank Darabont,"['Tim Robbins', 'Morgan Freeman', 'Bob Gunton', 'William Sadler']",2343110,2022-04-17 14:59:18.658,2022-04-17 14:59:18.658
-625c2ce3f0a5bc6c426c09e6,Il conformista,1970,113 min,Drama,8.0,1.65756471323934,"A weak-willed Italian man becomes a fascist flunky who goes abroad to arrange the assassination of his old teacher, now a political dissident.",100.0,Bernardo Bertolucci,"['Jean-Louis Trintignant', 'Stefania Sandrelli', 'Gastone Moschin', 'Enzo Tarascio']",27067,2022-04-17 15:06:11.142,2022-04-17 15:06:11.142
-625c2ceaf0a5bc6c426c09fa,Vivre sa vie: Film en douze tableaux,1962,80 min,Drama,8.0,3.2085803844982683,Twelve episodic tales in the life of a Parisian woman and her slow descent into prostitution.,,Jean-Luc Godard,"['Anna Karina', 'Sady Rebbot', 'André S. Labarthe', 'Guylaine Schlumberger']",28057,2022-04-17 15:06:18.237,2022-04-17 15:06:18.237
-625c2c6cf0a5bc6c426c08e6,The Man Who Shot Liberty Valance,1962,123 min,"Drama, Western",8.1,3.631922167237761,A senator returns to a western town for the funeral of an old friend and tells the story of his origins.,94.0,John Ford,"['James Stewart', 'John Wayne', 'Vera Miles', 'Lee Marvin']",68827,2022-04-17 15:04:12.918,2022-04-17 15:04:12.918
-625c2b59f0a5bc6c426c06ba,One Flew Over the Cuckoo's Nest,1975,133 min,Drama,8.7,3.134088967746539,"A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients.",83.0,Milos Forman,"['Jack Nicholson', 'Louise Fletcher', 'Michael Berryman', 'Peter Brocco']",918088,2022-04-17 14:59:37.278,2022-04-17 14:59:37.278
-625c2d3cf0a5bc6c426c0ae0,The Manchurian Candidate,1962,126 min,"Drama, Thriller",7.9,4.913912769025664,A former prisoner of war is brainwashed as an unwitting assassin for an international Communist conspiracy.,94.0,John Frankenheimer,"['Frank Sinatra', 'Laurence Harvey', 'Janet Leigh', 'Angela Lansbury']",71122,2022-04-17 15:07:40.671,2022-04-17 15:07:40.671
-625c2c6df0a5bc6c426c08e8,Ivanovo detstvo,1962,95 min,"Drama, War",8.1,2.9519195919980126,"In WW2, twelve year old Soviet orphan Ivan Bondarev works for the Soviet army as a scout behind the German lines and strikes a friendship with three sympathetic Soviet officers.",,Andrei Tarkovsky,"['Eduard Abalov', 'Nikolay Burlyaev', 'Valentin Zubkov', 'Evgeniy Zharikov']",31728,2022-04-17 15:04:13.622,2022-04-17 15:04:13.622
-625c2cf2f0a5bc6c426c0a2a,The Grapes of Wrath,1940,129 min,"Drama, History",8.0,0.8981540500842844,"A poor Midwest family is forced off their land. They travel to California, suffering the misfortunes of the homeless in the Great Depression.",96.0,John Ford,"['Henry Fonda', 'Jane Darwell', 'John Carradine', 'Charley Grapewin']",85559,2022-04-17 15:06:26.210,2022-04-17 15:06:26.210
+_id
+625c2e19f0a5bc6c426c0dc0
+625c2d5cf0a5bc6c426c0b34
+625c2d13f0a5bc6c426c0a6a
+625c2bb3f0a5bc6c426c072a
+625c2e00f0a5bc6c426c0d54
+625c2d84f0a5bc6c426c0b92
+625c2d9af0a5bc6c426c0bec
+625c2c5cf0a5bc6c426c08c4
+625c2b6cf0a5bc6c426c06e0
+625c2e08f0a5bc6c426c0d7a
+625c2df4f0a5bc6c426c0d24
+625c2ddcf0a5bc6c426c0cba
+625c2b46f0a5bc6c426c0698
+625c2ce3f0a5bc6c426c09e6
+625c2ceaf0a5bc6c426c09fa
+625c2c6cf0a5bc6c426c08e6
+625c2b59f0a5bc6c426c06ba
+625c2d3cf0a5bc6c426c0ae0
+625c2c6df0a5bc6c426c08e8
+625c2cf2f0a5bc6c426c0a2a

@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2e2bf0a5bc6c426c0e04,Enemy at the Gates,2001,131 min,"Drama, History, War",7.6,1.3612616347626427,A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad.,53.0,Jean-Jacques Annaud,"['Jude Law', 'Ed Harris', 'Joseph Fiennes', 'Rachel Weisz']",243729,2022-04-17 15:11:39.394,2022-04-17 15:11:39.394
-625c2dddf0a5bc6c426c0cc4,Black Hawk Down,2001,144 min,"Drama, History, War",7.7,0.43834779700151816,160 elite U.S. soldiers drop into Somalia to capture two top lieutenants of a renegade warlord and find themselves in a desperate battle with a large force of heavily-armed Somalis.,74.0,Ridley Scott,"['Josh Hartnett', 'Ewan McGregor', 'Tom Sizemore', 'Eric Bana']",364254,2022-04-17 15:10:21.928,2022-04-17 15:10:21.928
-625c2d55f0a5bc6c426c0b22,Under sandet,2015,100 min,"Drama, History, War",7.8,0.700044174762553,"In post-World War II Denmark, a group of young German POWs are forced to clear a beach of thousands of land mines under the watch of a Danish Sergeant who slowly learns to appreciate their plight.",75.0,Martin Zandvliet,"['Roland Møller', 'Louis Hofmann', 'Joel Basman', 'Mikkel Boe Følsgaard']",35539,2022-04-17 15:08:05.517,2022-04-17 15:08:05.517
-625c2cdbf0a5bc6c426c09d0,Kagemusha,1980,180 min,"Drama, History, War",8.0,2.575765341504679,A petty thief with an utter resemblance to a samurai warlord is hired as the lord's double. When the warlord later dies the thief is forced to take up arms in his place.,84.0,Akira Kurosawa,"['Tatsuya Nakadai', 'Tsutomu Yamazaki', ""Ken'ichi Hagiwara"", 'Jinpachi Nezu']",32195,2022-04-17 15:06:03.123,2022-04-17 15:06:03.123
-625c2c5cf0a5bc6c426c08c4,The Deer Hunter,1978,183 min,"Drama, War",8.1,3.6124131829337225,An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.,86.0,Michael Cimino,"['Robert De Niro', 'Christopher Walken', 'John Cazale', 'John Savage']",311361,2022-04-17 15:03:56.431,2022-04-17 15:03:56.431
-625c2dcbf0a5bc6c426c0c6e,Beasts of No Nation,2015,137 min,"Drama, War",7.7,0.9984286312933366,"A drama based on the experiences of Agu, a child soldier fighting in the civil war of an unnamed African country.",79.0,Cary Joji Fukunaga,"['Abraham Attah', 'Emmanuel Affadzi', 'Ricky Adelayitor', 'Andrew Adote']",73964,2022-04-17 15:10:03.684,2022-04-17 15:10:03.684
-625c2cf2f0a5bc6c426c0a2a,The Grapes of Wrath,1940,129 min,"Drama, History",8.0,0.8981540500842844,"A poor Midwest family is forced off their land. They travel to California, suffering the misfortunes of the homeless in the Great Depression.",96.0,John Ford,"['Henry Fonda', 'Jane Darwell', 'John Carradine', 'Charley Grapewin']",85559,2022-04-17 15:06:26.210,2022-04-17 15:06:26.210
-625c2d63f0a5bc6c426c0b60,The Trial of the Chicago 7,2020,129 min,"Drama, History, Thriller",7.8,3.7002495069935493,"The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.",77.0,Aaron Sorkin,"['Eddie Redmayne', 'Alex Sharp', 'Sacha Baron Cohen', 'Jeremy Strong']",89896,2022-04-17 15:08:19.857,2022-04-17 15:08:19.857
-625c2bc9f0a5bc6c426c0768,Full Metal Jacket,1987,116 min,"Drama, War",8.3,3.5406088506166844,A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.,76.0,Stanley Kubrick,"['Matthew Modine', 'R. Lee Ermey', ""Vincent D'Onofrio"", 'Adam Baldwin']",675146,2022-04-17 15:01:29.583,2022-04-17 15:01:29.583
-625c2cf3f0a5bc6c426c0a32,All Quiet on the Western Front,1930,152 min,"Drama, War",8.0,1.6417383769874638,"A German youth eagerly enters World War I, but his enthusiasm wanes as he gets a firsthand view of the horror.",91.0,Lewis Milestone,"['Lew Ayres', 'Louis Wolheim', 'John Wray', 'Arnold Lucy']",57318,2022-04-17 15:06:27.885,2022-04-17 15:06:27.885
-625c2e2df0a5bc6c426c0e0e,The Thin Red Line,1998,170 min,"Drama, War",7.6,0.7817434491541297,"Adaptation of James Jones' autobiographical 1962 novel, focusing on the conflict at Guadalcanal during the second World War.",78.0,Terrence Malick,"['Jim Caviezel', 'Sean Penn', 'Nick Nolte', 'Kirk Acevedo']",172710,2022-04-17 15:11:41.351,2022-04-17 15:11:41.351
-625c2c79f0a5bc6c426c090c,Gone with the Wind,1939,238 min,"Drama, History, Romance",8.1,0.7159504947948758,A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods.,97.0,Victor Fleming,"['George Cukor', 'Sam Wood', 'Clark Gable', 'Vivien Leigh']",290074,2022-04-17 15:04:25.753,2022-04-17 15:04:25.753
-625c2dfff0a5bc6c426c0d50,Zulu,1964,138 min,"Drama, History, War",7.7,3.5541304311649027,Outnumbered British soldiers do battle with Zulu warriors at Rorke's Drift.,77.0,Cy Endfield,"['Stanley Baker', 'Jack Hawkins', 'Ulla Jacobsson', 'James Booth']",35999,2022-04-17 15:10:55.567,2022-04-17 15:10:55.567
-625c2c6df0a5bc6c426c08e8,Ivanovo detstvo,1962,95 min,"Drama, War",8.1,2.9519195919980126,"In WW2, twelve year old Soviet orphan Ivan Bondarev works for the Soviet army as a scout behind the German lines and strikes a friendship with three sympathetic Soviet officers.",,Andrei Tarkovsky,"['Eduard Abalov', 'Nikolay Burlyaev', 'Valentin Zubkov', 'Evgeniy Zharikov']",31728,2022-04-17 15:04:13.622,2022-04-17 15:04:13.622
-625c2cf4f0a5bc6c426c0a34,Bronenosets Potemkin,1925,75 min,"Drama, History, Thriller",8.0,2.1443964747789557,"In the midst of the Russian Revolution of 1905, the crew of the battleship Potemkin mutiny against the brutal, tyrannical regime of the vessel's officers. The resulting street demonstration in Odessa brings on a police massacre.",97.0,Sergei M. Eisenstein,"['Aleksandr Antonov', 'Vladimir Barskiy', 'Grigoriy Aleksandrov', 'Ivan Bobrov']",53054,2022-04-17 15:06:28.685,2022-04-17 15:06:28.685
-625c2c08f0a5bc6c426c0804,Judgment at Nuremberg,1961,179 min,"Drama, War",8.2,1.1210419935209293,"In 1948, an American court in occupied Germany tries four Nazis judged for war crimes.",60.0,Stanley Kramer,"['Spencer Tracy', 'Burt Lancaster', 'Richard Widmark', 'Marlene Dietrich']",69458,2022-04-17 15:02:32.917,2022-04-17 15:02:32.917
-625c2bf1f0a5bc6c426c07c4,Pan's Labyrinth,2006,118 min,"Drama, Fantasy, War",8.2,2.6067831839176803,"In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",98.0,Guillermo del Toro,"['Ivana Baquero', 'Ariadna Gil', 'Sergi López', 'Maribel Verdú']",618623,2022-04-17 15:02:09.605,2022-04-17 15:02:09.605
-625c2c6bf0a5bc6c426c08de,La battaglia di Algeri,1966,121 min,"Drama, War",8.1,3.7043596113599353,"In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government.",96.0,Gillo Pontecorvo,"['Brahim Hadjadj', 'Jean Martin', 'Yacef Saadi', 'Samia Kerbash']",53089,2022-04-17 15:04:11.551,2022-04-17 15:04:11.551
-625c2e3bf0a5bc6c426c0e64,Lifeboat,1944,97 min,"Drama, War",7.6,3.1802582533367563,Several survivors of a torpedoed merchant ship in World War II find themselves in the same lifeboat with one of the crew members of the U-boat that sank their ship.,78.0,Alfred Hitchcock,"['Tallulah Bankhead', 'John Hodiak', 'Walter Slezak', 'William Bendix']",26471,2022-04-17 15:11:55.530,2022-04-17 15:11:55.530
-625c2cd8f0a5bc6c426c09c8,Au revoir les enfants,1987,104 min,"Drama, War",8.0,1.5687426903323765,"A French boarding school run by priests seems to be a haven from World War II until a new student arrives. He becomes the roommate of the top student in his class. Rivals at first, the roommates form a bond and share a secret.",88.0,Louis Malle,"['Gaspard Manesse', 'Raphael Fejtö', 'Francine Racette', 'Stanislas Carré de Malberg']",31163,2022-04-17 15:06:00.095,2022-04-17 15:06:00.095
+_id
+625c2e2bf0a5bc6c426c0e04
+625c2dddf0a5bc6c426c0cc4
+625c2d55f0a5bc6c426c0b22
+625c2cdbf0a5bc6c426c09d0
+625c2c5cf0a5bc6c426c08c4
+625c2dcbf0a5bc6c426c0c6e
+625c2cf2f0a5bc6c426c0a2a
+625c2d63f0a5bc6c426c0b60
+625c2bc9f0a5bc6c426c0768
+625c2cf3f0a5bc6c426c0a32
+625c2e2df0a5bc6c426c0e0e
+625c2c79f0a5bc6c426c090c
+625c2dfff0a5bc6c426c0d50
+625c2c6df0a5bc6c426c08e8
+625c2cf4f0a5bc6c426c0a34
+625c2c08f0a5bc6c426c0804
+625c2bf1f0a5bc6c426c07c4
+625c2c6bf0a5bc6c426c08de
+625c2e3bf0a5bc6c426c0e64
+625c2cd8f0a5bc6c426c09c8

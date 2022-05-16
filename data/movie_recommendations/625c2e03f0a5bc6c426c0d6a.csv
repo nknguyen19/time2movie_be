@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2d8af0a5bc6c426c0ba6,Cast Away,2000,143 min,"Adventure, Drama, Romance",7.8,1.8604939812213195,A FedEx executive undergoes a physical and emotional transformation after crash landing on a deserted island.,73.0,Robert Zemeckis,"['Tom Hanks', 'Helen Hunt', 'Paul Sanchez', 'Lari White']",524235,2022-04-17 15:08:58.086,2022-04-17 15:08:58.086
-625c2d46f0a5bc6c426c0aea,The Searchers,1956,119 min,"Adventure, Drama, Western",7.9,2.877130297415611,An American Civil War veteran embarks on a journey to rescue his niece from the Comanches.,94.0,John Ford,"['John Wayne', 'Jeffrey Hunter', 'Vera Miles', 'Ward Bond']",80316,2022-04-17 15:07:50.084,2022-04-17 15:07:50.084
-625c2d0cf0a5bc6c426c0a5a,The Artist,2011,100 min,"Comedy, Drama, Romance",7.9,2.8538249510576232,An egomaniacal film star develops a relationship with a young dancer against the backdrop of Hollywood's silent era.,89.0,Michel Hazanavicius,"['Jean Dujardin', 'Bérénice Bejo', 'John Goodman', 'James Cromwell']",230624,2022-04-17 15:06:52.073,2022-04-17 15:06:52.073
-625c2ce4f0a5bc6c426c09ee,The Graduate,1967,106 min,"Comedy, Drama, Romance",8.0,2.855440925050763,A disillusioned college graduate finds himself torn between his older lover and her daughter.,83.0,Mike Nichols,"['Dustin Hoffman', 'Anne Bancroft', 'Katharine Ross', 'William Daniels']",253676,2022-04-17 15:06:12.404,2022-04-17 15:06:12.404
-625c2c08f0a5bc6c426c07fe,The Great Escape,1963,172 min,"Adventure, Drama, History",8.2,4.298792008488299,Allied prisoners of war plan for several hundred of their number to escape from a German camp during World War II.,86.0,John Sturges,"['Steve McQueen', 'James Garner', 'Richard Attenborough', 'Charles Bronson']",224730,2022-04-17 15:02:32.303,2022-04-17 15:02:32.303
-625c2e03f0a5bc6c426c0d66,The Quiet Man,1952,129 min,"Comedy, Drama, Romance",7.7,1.0785021289128671,"A retired American boxer returns to the village of his birth in Ireland, where he falls for a spirited redhead whose brother is contemptuous of their union.",,John Ford,"['John Wayne', ""Maureen O'Hara"", 'Barry Fitzgerald', 'Ward Bond']",34677,2022-04-17 15:10:59.371,2022-04-17 15:10:59.371
-625c2c80f0a5bc6c426c092a,The Martian,2015,144 min,"Adventure, Drama, Sci-Fi",8.0,2.5150608424176104,"An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",80.0,Ridley Scott,"['Matt Damon', 'Jessica Chastain', 'Kristen Wiig', 'Kate Mara']",760094,2022-04-17 15:04:32.788,2022-04-17 15:04:32.788
-625c2b76f0a5bc6c426c0700,City Lights,1931,87 min,"Comedy, Drama, Romance",8.5,0.4001693336818479,"With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",99.0,Charles Chaplin,"['Charles Chaplin', 'Virginia Cherrill', 'Florence Lee', 'Harry Myers']",167839,2022-04-17 15:00:06.195,2022-04-17 15:00:06.195
-625c2d44f0a5bc6c426c0ae8,The Ten Commandments,1956,220 min,"Adventure, Drama",7.9,4.876003666433251,"Moses, an Egyptian Prince, learns of his true heritage as a Hebrew and his divine mission as the deliverer of his people.",,Cecil B. DeMille,"['Charlton Heston', 'Yul Brynner', 'Anne Baxter', 'Edward G. Robinson']",63560,2022-04-17 15:07:48.544,2022-04-17 15:07:48.544
-625c2ccbf0a5bc6c426c098a,Big Fish,2003,125 min,"Adventure, Drama, Fantasy",8.0,3.6834999545863223,A frustrated son tries to determine the fact from fiction in his dying father's life.,58.0,Tim Burton,"['Ewan McGregor', 'Albert Finney', 'Billy Crudup', 'Jessica Lange']",415218,2022-04-17 15:05:47.714,2022-04-17 15:05:47.714
-625c2d20f0a5bc6c426c0a7a,The Fall,2006,117 min,"Adventure, Drama, Fantasy",7.9,1.4508468121286944,"In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story of five mythical heroes. Thanks to his fractured state of mind and her vivid imagination, the line between fiction and reality blurs as the tale advances.",64.0,Tarsem Singh,"['Lee Pace', 'Catinca Untaru', 'Justine Waddell', 'Kim Uylenbroek']",107290,2022-04-17 15:07:12.454,2022-04-17 15:07:12.454
-625c2d5ff0a5bc6c426c0b44,Moonrise Kingdom,2012,94 min,"Comedy, Drama, Romance",7.8,0.4394409345655559,"A pair of young lovers flee their New England town, which causes a local search party to fan out to find them.",84.0,Wes Anderson,"['Jared Gilman', 'Kara Hayward', 'Bruce Willis', 'Bill Murray']",318789,2022-04-17 15:08:15.015,2022-04-17 15:08:15.015
-625c2d2cf0a5bc6c426c0a9c,Almost Famous,2000,122 min,"Adventure, Comedy, Drama",7.9,3.5268336933392295,A high-school boy is given the chance to write a story for Rolling Stone Magazine about an up-and-coming rock band as he accompanies them on their concert tour.,90.0,Cameron Crowe,"['Billy Crudup', 'Patrick Fugit', 'Kate Hudson', 'Frances McDormand']",252586,2022-04-17 15:07:24.740,2022-04-17 15:07:24.740
-625c2c76f0a5bc6c426c0906,The Shop Around the Corner,1940,99 min,"Comedy, Drama, Romance",8.1,0.32116668203771903,"Two employees at a gift shop can barely stand each other, without realizing that they are falling in love through the post as each other's anonymous pen pal.",96.0,Ernst Lubitsch,"['Margaret Sullavan', 'James Stewart', 'Frank Morgan', 'Joseph Schildkraut']",28450,2022-04-17 15:04:22.101,2022-04-17 15:04:22.101
-625c2c71f0a5bc6c426c08f8,The Bridge on the River Kwai,1957,161 min,"Adventure, Drama, War",8.1,3.1055210732228424,"British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors, not knowing that the allied forces are planning to destroy it.",87.0,David Lean,"['William Holden', 'Alec Guinness', 'Jack Hawkins', 'Sessue Hayakawa']",203463,2022-04-17 15:04:17.274,2022-04-17 15:04:17.274
-625c2c0ef0a5bc6c426c0816,The Treasure of the Sierra Madre,1948,126 min,"Adventure, Drama, Western",8.2,1.3205746779947347,Two Americans searching for work in Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.,98.0,John Huston,"['Humphrey Bogart', 'Walter Huston', 'Tim Holt', 'Bruce Bennett']",114304,2022-04-17 15:02:38.957,2022-04-17 15:02:38.957
-625c2bc3f0a5bc6c426c0752,Inglourious Basterds,2009,153 min,"Adventure, Drama, War",8.3,1.0761554042386345,"In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",69.0,Quentin Tarantino,"['Brad Pitt', 'Diane Kruger', 'Eli Roth', 'Mélanie Laurent']",1267869,2022-04-17 15:01:23.148,2022-04-17 15:01:23.148
-625c2d9ef0a5bc6c426c0bf4,The Right Stuff,1983,193 min,"Adventure, Biography, Drama",7.8,3.779896850079727,"The story of the original Mercury 7 astronauts and their macho, seat-of-the-pants approach to the space program.",91.0,Philip Kaufman,"['Sam Shepard', 'Scott Glenn', 'Ed Harris', 'Dennis Quaid']",56235,2022-04-17 15:09:18.617,2022-04-17 15:09:18.617
-625c2e30f0a5bc6c426c0e20,Dead Man,1995,121 min,"Adventure, Drama, Fantasy",7.6,2.8623587792487095,"On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world.",62.0,Jim Jarmusch,"['Johnny Depp', 'Gary Farmer', 'Crispin Glover', 'Lance Henriksen']",90442,2022-04-17 15:11:44.114,2022-04-17 15:11:44.114
-625c2bd2f0a5bc6c426c0782,The Apartment,1960,125 min,"Comedy, Drama, Romance",8.3,1.8684354726242758,"A man tries to rise in his company by letting its executives use his apartment for trysts, but complications and a romance of his own ensue.",94.0,Billy Wilder,"['Jack Lemmon', 'Shirley MacLaine', 'Fred MacMurray', 'Ray Walston']",164363,2022-04-17 15:01:38.040,2022-04-17 15:01:38.040
+_id
+625c2d8af0a5bc6c426c0ba6
+625c2d46f0a5bc6c426c0aea
+625c2d0cf0a5bc6c426c0a5a
+625c2ce4f0a5bc6c426c09ee
+625c2c08f0a5bc6c426c07fe
+625c2e03f0a5bc6c426c0d66
+625c2c80f0a5bc6c426c092a
+625c2b76f0a5bc6c426c0700
+625c2d44f0a5bc6c426c0ae8
+625c2ccbf0a5bc6c426c098a
+625c2d20f0a5bc6c426c0a7a
+625c2d5ff0a5bc6c426c0b44
+625c2d2cf0a5bc6c426c0a9c
+625c2c76f0a5bc6c426c0906
+625c2c71f0a5bc6c426c08f8
+625c2c0ef0a5bc6c426c0816
+625c2bc3f0a5bc6c426c0752
+625c2d9ef0a5bc6c426c0bf4
+625c2e30f0a5bc6c426c0e20
+625c2bd2f0a5bc6c426c0782

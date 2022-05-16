@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2c52f0a5bc6c426c08a0,Trois couleurs: Rouge,1994,99 min,"Drama, Mystery, Romance",8.1,0.8946112152458174,A model discovers a retired judge is keen on invading people's privacy.,100.0,Krzysztof Kieslowski,"['Irène Jacob', 'Jean-Louis Trintignant', 'Frédérique Feder', 'Jean-Pierre Lorit']",90729,2022-04-17 15:03:46.760,2022-04-17 15:03:46.760
-625c2b6bf0a5bc6c426c06dc,Whiplash,2014,106 min,"Drama, Music",8.5,1.0894419728564575,A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.,88.0,Damien Chazelle,"['Miles Teller', 'J.K. Simmons', 'Melissa Benoist', 'Paul Reiser']",717585,2022-04-17 14:59:55.081,2022-04-17 14:59:55.081
-625c2cf1f0a5bc6c426c0a22,Laura,1944,88 min,"Drama, Film-Noir, Mystery",8.0,1.8554926281634043,A police detective falls in love with the woman whose murder he is investigating.,,Otto Preminger,"['Gene Tierney', 'Dana Andrews', 'Clifton Webb', 'Vincent Price']",42725,2022-04-17 15:06:25.405,2022-04-17 15:06:25.405
-625c2d5cf0a5bc6c426c0b30,Le passé,2013,130 min,"Drama, Mystery",7.8,3.300216530511256,"An Iranian man deserts his French wife and her two children to return to his homeland. Meanwhile, his wife starts up a new relationship, a reality her husband confronts upon his wife's request for a divorce.",85.0,Asghar Farhadi,"['Bérénice Bejo', 'Tahar Rahim', 'Ali Mosaffa', 'Pauline Burlet']",45002,2022-04-17 15:08:12.070,2022-04-17 15:08:12.070
-625c2cb9f0a5bc6c426c0952,Darbareye Elly,2009,119 min,"Drama, Mystery",8.0,1.3430809095774465,The mysterious disappearance of a kindergarten teacher during a picnic in the north of Iran is followed by a series of misadventures for her fellow travelers.,87.0,Asghar Farhadi,"['Golshifteh Farahani', 'Shahab Hosseini', 'Taraneh Alidoosti', ""Merila Zare'i""]",45803,2022-04-17 15:05:29.244,2022-04-17 15:05:29.244
-625c2c67f0a5bc6c426c08d4,Solaris,1972,167 min,"Drama, Mystery, Sci-Fi",8.1,0.4436238523485625,A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.,90.0,Andrei Tarkovsky,"['Natalya Bondarchuk', 'Donatas Banionis', 'Jüri Järvet', 'Vladislav Dvorzhetskiy']",81021,2022-04-17 15:04:07.159,2022-04-17 15:04:07.159
-625c2bc2f0a5bc6c426c074c,Incendies,2010,131 min,"Drama, Mystery, War",8.3,2.2322371245198003,Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.,80.0,Denis Villeneuve,"['Lubna Azabal', 'Mélissa Désormeaux-Poulin', 'Maxim Gaudette', 'Mustafa Kamel']",150023,2022-04-17 15:01:22.521,2022-04-17 15:01:22.521
-625c2c57f0a5bc6c426c08b8,Pink Floyd: The Wall,1982,95 min,"Drama, Fantasy, Music",8.1,4.495346475356038,A confined but troubled rock star descends into madness in the midst of his physical and social isolation from everyone.,47.0,Alan Parker,"['Bob Geldof', 'Christine Hargreaves', 'James Laurenson', 'Eleanor David']",76081,2022-04-17 15:03:51.343,2022-04-17 15:03:51.343
-625c2bd7f0a5bc6c426c0790,Citizen Kane,1941,119 min,"Drama, Mystery",8.3,0.710381138172278,"Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance; 'Rosebud'.",100.0,Orson Welles,"['Orson Welles', 'Joseph Cotten', 'Dorothy Comingore', 'Agnes Moorehead']",403351,2022-04-17 15:01:43.824,2022-04-17 15:01:43.824
-625c2d22f0a5bc6c426c0a82,Les choristes,2004,97 min,"Drama, Music",7.9,0.173909970724897,The new teacher at a severely administered boys' boarding school works to positively affect the students' lives through music.,56.0,Christophe Barratier,"['Gérard Jugnot', 'François Berléand', 'Jean-Baptiste Maunier', 'Kad Merad']",57430,2022-04-17 15:07:14.577,2022-04-17 15:07:14.577
-625c2d12f0a5bc6c426c0a64,Moon,2009,97 min,"Drama, Mystery, Sci-Fi",7.9,4.986237803631121,"Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our planet's power problems.",67.0,Duncan Jones,"['Sam Rockwell', 'Kevin Spacey', 'Dominique McElligott', 'Rosie Shaw']",335152,2022-04-17 15:06:58.631,2022-04-17 15:06:58.631
-625c2c04f0a5bc6c426c07f6,Höstsonaten,1978,99 min,"Drama, Music",8.2,4.085435837347583,"A married daughter who longs for her mother's love is visited by the latter, a successful concert pianist.",,Ingmar Bergman,"['Ingrid Bergman', 'Liv Ullmann', 'Lena Nyman', 'Halvar Björk']",26875,2022-04-17 15:02:28.995,2022-04-17 15:02:28.995
-625c2c39f0a5bc6c426c085e,Okuribito,2008,130 min,"Drama, Music",8.1,0.22324078080189547,A newly unemployed cellist takes a job preparing the dead for funerals.,68.0,Yôjirô Takita,"['Masahiro Motoki', 'Ryôko Hirosue', 'Tsutomu Yamazaki', 'Kazuko Yoshiyuki']",48582,2022-04-17 15:03:21.714,2022-04-17 15:03:21.714
-625c2c61f0a5bc6c426c08ce,Chinatown,1974,130 min,"Drama, Mystery, Thriller",8.1,0.7281021825703771,"A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption, and murder.",92.0,Roman Polanski,"['Jack Nicholson', 'Faye Dunaway', 'John Huston', 'Perry Lopez']",294230,2022-04-17 15:04:01.280,2022-04-17 15:04:01.280
-625c2de2f0a5bc6c426c0ce0,Abre los ojos,1997,119 min,"Drama, Mystery, Sci-Fi",7.7,0.497746000126017,"A very handsome man finds the love of his life, but he suffers an accident and needs to have his face rebuilt by surgery after it is severely disfigured.",,Alejandro Amenábar,"['Eduardo Noriega', 'Penélope Cruz', 'Chete Lera', 'Fele Martínez']",64082,2022-04-17 15:10:26.919,2022-04-17 15:10:26.919
-625c2d63f0a5bc6c426c0b5c,Das weiße Band - Eine deutsche Kindergeschichte,2009,144 min,"Drama, History, Mystery",7.8,0.5576117392153346,"Strange events happen in a small village in the north of Germany during the years before World War I, which seem to be ritual punishment. Who is responsible?",82.0,Michael Haneke,"['Christian Friedel', 'Ernst Jacobi', 'Leonie Benesch', 'Ulrich Tukur']",68715,2022-04-17 15:08:19.374,2022-04-17 15:08:19.374
-625c2dc9f0a5bc6c426c0c5c,Rockstar,2011,159 min,"Drama, Music, Musical",7.7,3.664788447097227,"Janardhan Jakhar chases his dreams of becoming a big Rock star, during which he falls in love with Heer.",,Imtiaz Ali,"['Ranbir Kapoor', 'Nargis Fakhri', 'Shammi Kapoor', 'Kumud Mishra']",39501,2022-04-17 15:10:01.170,2022-04-17 15:10:01.170
-625c2df3f0a5bc6c426c0d1c,Blue Velvet,1986,120 min,"Drama, Mystery, Thriller",7.7,1.4546634168008121,"The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",76.0,David Lynch,"['Isabella Rossellini', 'Kyle MacLachlan', 'Dennis Hopper', 'Laura Dern']",181285,2022-04-17 15:10:43.527,2022-04-17 15:10:43.527
-625c2ddff0a5bc6c426c0cca,Billy Elliot,2000,110 min,"Drama, Music",7.7,4.639187099643237,A talented young boy becomes torn between his unexpected love of dance and the disintegration of his family.,74.0,Stephen Daldry,"['Jamie Bell', 'Julie Walters', 'Jean Heywood', 'Jamie Draven']",126770,2022-04-17 15:10:23.031,2022-04-17 15:10:23.031
-625c2ccdf0a5bc6c426c0994,Donnie Darko,2001,113 min,"Drama, Mystery, Sci-Fi",8.0,0.9312626851443451,"After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",88.0,Richard Kelly,"['Jake Gyllenhaal', 'Jena Malone', 'Mary McDonnell', 'Holmes Osborne']",740086,2022-04-17 15:05:49.583,2022-04-17 15:05:49.583
+_id
+625c2c52f0a5bc6c426c08a0
+625c2b6bf0a5bc6c426c06dc
+625c2cf1f0a5bc6c426c0a22
+625c2d5cf0a5bc6c426c0b30
+625c2cb9f0a5bc6c426c0952
+625c2c67f0a5bc6c426c08d4
+625c2bc2f0a5bc6c426c074c
+625c2c57f0a5bc6c426c08b8
+625c2bd7f0a5bc6c426c0790
+625c2d22f0a5bc6c426c0a82
+625c2d12f0a5bc6c426c0a64
+625c2c04f0a5bc6c426c07f6
+625c2c39f0a5bc6c426c085e
+625c2c61f0a5bc6c426c08ce
+625c2de2f0a5bc6c426c0ce0
+625c2d63f0a5bc6c426c0b5c
+625c2dc9f0a5bc6c426c0c5c
+625c2df3f0a5bc6c426c0d1c
+625c2ddff0a5bc6c426c0cca
+625c2ccdf0a5bc6c426c0994

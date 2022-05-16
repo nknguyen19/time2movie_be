@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2cd4f0a5bc6c426c09c0,Rain Man,1988,133 min,Drama,8.0,1.7469463745237956,Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.,65.0,Barry Levinson,"['Dustin Hoffman', 'Tom Cruise', 'Valeria Golino', 'Gerald R. Molen']",473064,2022-04-17 15:05:56.706,2022-04-17 15:05:56.706
-625c2bc5f0a5bc6c426c075c,American Beauty,1999,122 min,Drama,8.3,3.079981612315301,A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.,84.0,Sam Mendes,"['Kevin Spacey', 'Annette Bening', 'Thora Birch', 'Wes Bentley']",1069738,2022-04-17 15:01:25.820,2022-04-17 15:01:25.820
-625c2d89f0a5bc6c426c0ba4,Todo sobre mi madre,1999,101 min,Drama,7.8,2.036182384969134,"Young Esteban wants to become a writer and also to discover the identity of his second mother, a trans woman, carefully concealed by his mother Manuela.",87.0,Pedro Almodóvar,"['Cecilia Roth', 'Marisa Paredes', 'Candela Peña', 'Antonia San Juan']",89058,2022-04-17 15:08:57.876,2022-04-17 15:08:57.876
-625c2b6df0a5bc6c426c06e8,American History X,1998,119 min,Drama,8.5,1.2834472896333238,A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.,62.0,Tony Kaye,"['Edward Norton', 'Edward Furlong', ""Beverly D'Angelo"", 'Jennifer Lien']",1034705,2022-04-17 14:59:57.054,2022-04-17 14:59:57.054
-625c2b5cf0a5bc6c426c06c0,Soorarai Pottru,2020,153 min,Drama,8.6,4.333727614180858,"Nedumaaran Rajangam ""Maara"" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.",,Sudha Kongara,"['Suriya', 'Madhavan', 'Paresh Rawal', 'Aparna Balamurali']",54995,2022-04-17 14:59:40.370,2022-04-17 14:59:40.370
-625c2e08f0a5bc6c426c0d7a,The Florida Project,2017,111 min,Drama,7.6,4.2017898791249255,"Set over one summer, the film follows precocious six-year-old Moonee as she courts mischief and adventure with her ragtag playmates and bonds with her rebellious but caring mother, all while living in the shadows of Walt Disney World.",92.0,Sean Baker,"['Brooklynn Prince', 'Bria Vinaite', 'Willem Dafoe', 'Christopher Rivera']",95181,2022-04-17 15:11:04.601,2022-04-17 15:11:04.601
-625c2b77f0a5bc6c426c0702,Capharnaüm,2018,126 min,Drama,8.4,1.5905239703404994,"While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",75.0,Nadine Labaki,"['Zain Al Rafeea', 'Yordanos Shiferaw', 'Boluwatife Treasure Bankole', 'Kawsar Al Haddad']",62635,2022-04-17 15:00:07.726,2022-04-17 15:00:07.726
-625c2cedf0a5bc6c426c0a06,Cat on a Hot Tin Roof,1958,108 min,Drama,8.0,2.822216147247852,Brick is an alcoholic ex-football player who drinks his days away and resists the affections of his wife. A reunion with his terminal father jogs a host of memories and revelations for both father and son.,84.0,Richard Brooks,"['Elizabeth Taylor', 'Paul Newman', 'Burl Ives', 'Jack Carson']",45062,2022-04-17 15:06:21.724,2022-04-17 15:06:21.724
-625c2ceef0a5bc6c426c0a0e,La Strada,1954,108 min,Drama,8.0,0.1216422681117657,"A care-free girl is sold to a traveling entertainer, consequently enduring physical and emotional pain along the way.",,Federico Fellini,"['Anthony Quinn', 'Giulietta Masina', 'Richard Basehart', 'Aldo Silvani']",58314,2022-04-17 15:06:22.986,2022-04-17 15:06:22.986
-625c2c34f0a5bc6c426c085a,Gran Torino,2008,116 min,Drama,8.1,0.9276259140771848,"Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",72.0,Clint Eastwood,"['Clint Eastwood', 'Bee Vang', 'Christopher Carley', 'Ahney Her']",720450,2022-04-17 15:03:16.928,2022-04-17 15:03:16.928
-625c2ce3f0a5bc6c426c09e6,Il conformista,1970,113 min,Drama,8.0,1.65756471323934,"A weak-willed Italian man becomes a fascist flunky who goes abroad to arrange the assassination of his old teacher, now a political dissident.",100.0,Bernardo Bertolucci,"['Jean-Louis Trintignant', 'Stefania Sandrelli', 'Gastone Moschin', 'Enzo Tarascio']",27067,2022-04-17 15:06:11.142,2022-04-17 15:06:11.142
-625c2d3cf0a5bc6c426c0ae0,The Manchurian Candidate,1962,126 min,"Drama, Thriller",7.9,4.913912769025664,A former prisoner of war is brainwashed as an unwitting assassin for an international Communist conspiracy.,94.0,John Frankenheimer,"['Frank Sinatra', 'Laurence Harvey', 'Janet Leigh', 'Angela Lansbury']",71122,2022-04-17 15:07:40.671,2022-04-17 15:07:40.671
-625c2ceaf0a5bc6c426c09fc,The Hustler,1961,134 min,"Drama, Sport",8.0,0.8957244893575744,An up-and-coming pool player plays a long-time champion in a single high-stakes match.,90.0,Robert Rossen,"['Paul Newman', 'Jackie Gleason', 'Piper Laurie', 'George C. Scott']",75067,2022-04-17 15:06:18.441,2022-04-17 15:06:18.441
-625c2da2f0a5bc6c426c0bfa,Kramer vs. Kramer,1979,105 min,Drama,7.8,1.223801397438511,"Ted Kramer's wife leaves him, allowing for a lost bond to be rediscovered between Ted and his son, Billy. But a heated custody battle ensues over the divorced couple's son, deepening the wounds left by the separation.",77.0,Robert Benton,"['Dustin Hoffman', 'Meryl Streep', 'Jane Alexander', 'Justin Henry']",133351,2022-04-17 15:09:22.189,2022-04-17 15:09:22.189
-625c2c1df0a5bc6c426c0834,Kis Uykusu,2014,196 min,Drama,8.1,3.657784455182517,A hotel owner and landlord in a remote Turkish village deals with conflicts within his family and a tenant behind on his rent.,88.0,Nuri Bilge Ceylan,"['Haluk Bilginer', 'Melisa Sözen', 'Demet Akbag', 'Ayberk Pekcan']",46547,2022-04-17 15:02:53.621,2022-04-17 15:02:53.621
-625c2bc9f0a5bc6c426c0768,Full Metal Jacket,1987,116 min,"Drama, War",8.3,3.5406088506166844,A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.,76.0,Stanley Kubrick,"['Matthew Modine', 'R. Lee Ermey', ""Vincent D'Onofrio"", 'Adam Baldwin']",675146,2022-04-17 15:01:29.583,2022-04-17 15:01:29.583
-625c2db7f0a5bc6c426c0c38,Roma,2018,135 min,Drama,7.7,4.479173475976166,A year in the life of a middle-class family's maid in Mexico City in the early 1970s.,96.0,Alfonso Cuarón,"['Yalitza Aparicio', 'Marina de Tavira', 'Diego Cortina Autrey', 'Carlos Peralta']",140375,2022-04-17 15:09:43.490,2022-04-17 15:09:43.490
-625c2d43f0a5bc6c426c0ae6,Hiroshima mon amour,1959,90 min,"Drama, Romance",7.9,4.632575580587485,A French actress filming an anti-war film in Hiroshima has an affair with a married Japanese architect as they share their differing perspectives on war.,,Alain Resnais,"['Emmanuelle Riva', 'Eiji Okada', 'Stella Dassas', 'Pierre Barbaud']",28421,2022-04-17 15:07:47.779,2022-04-17 15:07:47.779
-625c2bc2f0a5bc6c426c074e,Miracle in cell NO.7,2019,132 min,Drama,8.3,1.369804229993985,A story of love between a mentally-ill father who was wrongly accused of murder and his lovely six years old daughter. The prison would be their home. Based on the 2013 Korean movie 7-beon-bang-ui seon-mul (2013).,,Mehmet Ada Öztekin,"['Aras Bulut Iynemli', 'Nisa Sofiya Aksongur', 'Deniz Baysal', 'Celile Toyon Uysal']",33935,2022-04-17 15:01:22.733,2022-04-17 15:01:22.733
-625c2e3bf0a5bc6c426c0e64,Lifeboat,1944,97 min,"Drama, War",7.6,3.1802582533367563,Several survivors of a torpedoed merchant ship in World War II find themselves in the same lifeboat with one of the crew members of the U-boat that sank their ship.,78.0,Alfred Hitchcock,"['Tallulah Bankhead', 'John Hodiak', 'Walter Slezak', 'William Bendix']",26471,2022-04-17 15:11:55.530,2022-04-17 15:11:55.530
+_id
+625c2cd4f0a5bc6c426c09c0
+625c2bc5f0a5bc6c426c075c
+625c2d89f0a5bc6c426c0ba4
+625c2b6df0a5bc6c426c06e8
+625c2b5cf0a5bc6c426c06c0
+625c2e08f0a5bc6c426c0d7a
+625c2b77f0a5bc6c426c0702
+625c2cedf0a5bc6c426c0a06
+625c2ceef0a5bc6c426c0a0e
+625c2c34f0a5bc6c426c085a
+625c2ce3f0a5bc6c426c09e6
+625c2d3cf0a5bc6c426c0ae0
+625c2ceaf0a5bc6c426c09fc
+625c2da2f0a5bc6c426c0bfa
+625c2c1df0a5bc6c426c0834
+625c2bc9f0a5bc6c426c0768
+625c2db7f0a5bc6c426c0c38
+625c2d43f0a5bc6c426c0ae6
+625c2bc2f0a5bc6c426c074e
+625c2e3bf0a5bc6c426c0e64

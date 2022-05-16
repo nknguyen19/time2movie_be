@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2bfbf0a5bc6c426c07e0,Heat,1995,170 min,"Crime, Drama, Thriller",8.2,3.958137797978565,A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.,76.0,Michael Mann,"['Al Pacino', 'Robert De Niro', 'Val Kilmer', 'Jon Voight']",577113,2022-04-17 15:02:19.834,2022-04-17 15:02:19.834
-625c2cf0f0a5bc6c426c0a1c,Rope,1948,80 min,"Crime, Drama, Mystery",8.0,0.2301731777240401,Two men attempt to prove they committed the perfect crime by hosting a dinner party after strangling their former classmate to death.,73.0,Alfred Hitchcock,"['James Stewart', 'John Dall', 'Farley Granger', 'Dick Hogan']",129783,2022-04-17 15:06:24.816,2022-04-17 15:06:24.816
-625c2d68f0a5bc6c426c0b72,Drive,2011,100 min,"Crime, Drama",7.8,3.8739765215643063,A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself in trouble when he helps out his neighbor.,78.0,Nicolas Winding Refn,"['Ryan Gosling', 'Carey Mulligan', 'Bryan Cranston', 'Albert Brooks']",571571,2022-04-17 15:08:24.787,2022-04-17 15:08:24.787
-625c2d2cf0a5bc6c426c0a98,Nueve reinas,2000,114 min,"Crime, Drama, Thriller",7.9,3.0704524015778567,"Two con artists try to swindle a stamp collector by selling him a sheet of counterfeit rare stamps (the ""nine queens"").",80.0,Fabián Bielinsky,"['Ricardo Darín', 'Gastón Pauls', 'Graciela Tenenbaum', 'María Mercedes Villagra']",49721,2022-04-17 15:07:24.337,2022-04-17 15:07:24.337
-625c2bcdf0a5bc6c426c0776,Taxi Driver,1976,114 min,"Crime, Drama",8.3,3.9121916868713837,"A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",94.0,Martin Scorsese,"['Robert De Niro', 'Jodie Foster', 'Cybill Shepherd', 'Albert Brooks']",724636,2022-04-17 15:01:33.218,2022-04-17 15:01:33.218
-625c2bcbf0a5bc6c426c0770,Scarface,1983,170 min,"Crime, Drama",8.3,1.9615119865685948,"In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",65.0,Brian De Palma,"['Al Pacino', 'Michelle Pfeiffer', 'Steven Bauer', 'Mary Elizabeth Mastrantonio']",740911,2022-04-17 15:01:31.001,2022-04-17 15:01:31.001
-625c2e0ef0a5bc6c426c0d96,Leviafan,2014,140 min,"Crime, Drama",7.6,1.2513835818163765,"In a Russian coastal town, Kolya is forced to fight the corrupt mayor when he is told that his house will be demolished. He recruits a lawyer friend to help, but the man's arrival brings further misfortune for Kolya and his family.",92.0,Andrey Zvyagintsev,"['Aleksey Serebryakov', 'Elena Lyadova', 'Roman Madyanov', 'Vladimir Vdovichenkov']",49397,2022-04-17 15:11:10.242,2022-04-17 15:11:10.242
-625c2db8f0a5bc6c426c0c3e,Wind River,2017,107 min,"Crime, Drama, Mystery",7.7,2.5,A veteran hunter helps an FBI agent investigate the murder of a young woman on a Wyoming Native American reservation.,73.0,Taylor Sheridan,"['Kelsey Asbille', 'Jeremy Renner', 'Julia Jones', 'Teo Briones']",205444,2022-04-17 15:09:44.792,2022-04-18 04:08:04.640
-625c2d62f0a5bc6c426c0b56,Madeo,2009,129 min,"Crime, Drama, Mystery",7.8,1.77415341722731,A mother desperately searches for the killer who framed her son for a girl's horrific murder.,79.0,Bong Joon Ho,"['Hye-ja Kim', 'Won Bin', 'Jin Goo', 'Je-mun Yun']",52758,2022-04-17 15:08:18.104,2022-04-17 15:08:18.104
-625c2db1f0a5bc6c426c0c20,À bout de souffle,1960,90 min,"Crime, Drama",7.8,2.366142130639084,"A small-time thief steals a car and impulsively murders a motorcycle policeman. Wanted by the authorities, he reunites with a hip American journalism student and attempts to persuade her to run away with him to Italy.",,Jean-Luc Godard,"['Jean-Paul Belmondo', 'Jean Seberg', 'Daniel Boulanger', 'Henri-Jacques Huet']",73251,2022-04-17 15:09:37.990,2022-04-17 15:09:37.990
-625c2dd4f0a5bc6c426c0c8c,Death Note: Desu nôto,2006,126 min,"Crime, Drama, Fantasy",7.7,0.4527374175112808,"A battle between the world's two greatest minds begins when Light Yagami finds the Death Note, a notebook with the power to kill, and decides to rid the world of criminals.",,Shûsuke Kaneko,"['Tatsuya Fujiwara', ""Ken'ichi Matsuyama"", 'Asaka Seto', 'Yû Kashii']",28630,2022-04-17 15:10:12.284,2022-04-17 15:10:12.284
-625c2ccdf0a5bc6c426c0990,Dogville,2003,178 min,"Crime, Drama",8.0,4.596795647818935,"A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town she finds out that their support has a price.",60.0,Lars von Trier,"['Nicole Kidman', 'Paul Bettany', 'Lauren Bacall', 'Harriet Andersson']",137963,2022-04-17 15:05:49.180,2022-04-17 15:05:49.180
-625c2cf5f0a5bc6c426c0a3a,Manbiki kazoku,2018,121 min,"Crime, Drama",7.9,4.430013072403255,A family of small-time crooks take in a child they find outside in the cold.,93.0,Hirokazu Koreeda,"['Lily Franky', 'Sakura Andô', 'Kirin Kiki', 'Mayu Matsuoka']",62754,2022-04-17 15:06:29.304,2022-04-17 15:06:29.304
-625c2c68f0a5bc6c426c08d6,Le samouraï,1967,105 min,"Crime, Drama, Mystery",8.1,1.7896317875337997,After professional hitman Jef Costello is seen by witnesses his efforts to provide himself an alibi drive him further into a corner.,,Jean-Pierre Melville,"['Alain Delon', 'François Périer', 'Nathalie Delon', 'Cathy Rosier']",45434,2022-04-17 15:04:08.610,2022-04-17 15:04:08.610
-625c2d10f0a5bc6c426c0a62,Un prophète,2009,155 min,"Crime, Drama",7.9,0.5231508342104352,A young Arab man is sent to a French prison.,90.0,Jacques Audiard,"['Tahar Rahim', 'Niels Arestrup', 'Adel Bencherif', 'Reda Kateb']",93560,2022-04-17 15:06:56.893,2022-04-17 15:06:56.893
-625c2c41f0a5bc6c426c0876,Salinui chueok,2003,131 min,"Crime, Drama, Mystery",8.1,0.4382935615425798,"In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",82.0,Bong Joon Ho,"['Kang-ho Song', 'Kim Sang-kyung', 'Roe-ha Kim', 'Jae-ho Song']",139558,2022-04-17 15:03:29.551,2022-04-17 15:03:29.551
-625c2b4ef0a5bc6c426c06a4,Pulp Fiction,1994,154 min,"Crime, Drama",8.9,4.664637176527167,"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",94.0,Quentin Tarantino,"['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']",1826188,2022-04-17 14:59:26.767,2022-04-17 14:59:26.767
-625c2e33f0a5bc6c426c0e34,The Godfather: Part III,1990,162 min,"Crime, Drama",7.6,2.513831695142893,"Follows Michael Corleone, now in his 60s, as he seeks to free his family from crime and find a suitable successor to his empire.",60.0,Francis Ford Coppola,"['Al Pacino', 'Diane Keaton', 'Andy Garcia', 'Talia Shire']",359809,2022-04-17 15:11:47.210,2022-04-17 15:11:47.210
-625c2b47f0a5bc6c426c069a,The Godfather,1972,175 min,"Crime, Drama",9.2,1.2255383890480909,An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.,100.0,Francis Ford Coppola,"['Marlon Brando', 'Al Pacino', 'James Caan', 'Diane Keaton']",1620367,2022-04-17 14:59:19.890,2022-04-17 14:59:19.890
-625c2e29f0a5bc6c426c0dee,Boksuneun naui geot,2002,129 min,"Crime, Drama, Thriller",7.6,3.179737002803803,"A recently laid off factory worker kidnaps his former boss' friend's daughter, hoping to use the ransom money to pay for his sister's kidney transplant.",56.0,Chan-wook Park,"['Kang-ho Song', 'Shin Ha-kyun', 'Bae Doona', 'Ji-Eun Lim']",62659,2022-04-17 15:11:37.126,2022-04-17 15:11:37.126
+_id
+625c2bfbf0a5bc6c426c07e0
+625c2cf0f0a5bc6c426c0a1c
+625c2d68f0a5bc6c426c0b72
+625c2d2cf0a5bc6c426c0a98
+625c2bcdf0a5bc6c426c0776
+625c2bcbf0a5bc6c426c0770
+625c2e0ef0a5bc6c426c0d96
+625c2db8f0a5bc6c426c0c3e
+625c2d62f0a5bc6c426c0b56
+625c2db1f0a5bc6c426c0c20
+625c2dd4f0a5bc6c426c0c8c
+625c2ccdf0a5bc6c426c0990
+625c2cf5f0a5bc6c426c0a3a
+625c2c68f0a5bc6c426c08d6
+625c2d10f0a5bc6c426c0a62
+625c2c41f0a5bc6c426c0876
+625c2b4ef0a5bc6c426c06a4
+625c2e33f0a5bc6c426c0e34
+625c2b47f0a5bc6c426c069a
+625c2e29f0a5bc6c426c0dee

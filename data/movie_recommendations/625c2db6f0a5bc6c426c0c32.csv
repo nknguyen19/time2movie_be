@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2bbff0a5bc6c426c073e,The Great Dictator,1940,125 min,"Comedy, Drama, War",8.4,4.3102426830488305,Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.,,Charles Chaplin,"['Charles Chaplin', 'Paulette Goddard', 'Jack Oakie', 'Reginald Gardiner']",203150,2022-04-17 15:01:19.160,2022-04-17 15:01:19.160
-625c2d06f0a5bc6c426c0a4e,Jojo Rabbit,2019,108 min,"Comedy, Drama, War",7.9,3.136792486596881,A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.,58.0,Taika Waititi,"['Roman Griffin Davis', 'Thomasin McKenzie', 'Scarlett Johansson', 'Taika Waititi']",297918,2022-04-17 15:06:46.367,2022-04-17 15:06:46.367
-625c2e3af0a5bc6c426c0e5c,A Hard Day's Night,1964,87 min,"Comedy, Music, Musical",7.6,4.383807505325858,"Over two ""typical"" days in the life of The Beatles, the boys struggle to keep themselves and Sir Paul McCartney's mischievous grandfather in check while preparing for a live television performance.",96.0,Richard Lester,"['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr']",40351,2022-04-17 15:11:54.332,2022-04-17 15:11:54.332
-625c2c41f0a5bc6c426c0874,Munna Bhai M.B.B.S.,2003,156 min,"Comedy, Drama, Musical",8.1,1.7532626607554902,A gangster sets out to fulfill his father's dream of becoming a doctor.,,Rajkumar Hirani,"['Sanjay Dutt', 'Arshad Warsi', 'Gracy Singh', 'Sunil Dutt']",73992,2022-04-17 15:03:29.341,2022-04-17 15:03:29.341
-625c2d25f0a5bc6c426c0a92,No Man's Land,2001,98 min,"Comedy, Drama, War",7.9,4.755106435844839,"Bosnia and Herzegovina during 1993 at the time of the heaviest fighting between the two warring sides. Two soldiers from opposing sides in the conflict, Nino and Ciki, become trapped in no man's land, whilst a third soldier becomes a living booby trap.",84.0,Danis Tanovic,"['Branko Djuric', 'Rene Bitorajac', 'Filip Sovagovic', 'Georges Siatidis']",44618,2022-04-17 15:07:17.902,2022-04-17 15:07:17.902
-625c2cc7f0a5bc6c426c0984,Kal Ho Naa Ho,2003,186 min,"Comedy, Drama, Musical",8.0,4.582820531643581,"Naina, an introverted, perpetually depressed girl's life changes when she meets Aman. But Aman has a secret of his own which changes their lives forever. Embroiled in all this is Rohit, Naina's best friend who conceals his love for her.",54.0,Nikkhil Advani,"['Preity Zinta', 'Shah Rukh Khan', 'Saif Ali Khan', 'Jaya Bachchan']",63460,2022-04-17 15:05:43.545,2022-04-17 15:05:43.545
-625c2dfaf0a5bc6c426c0d34,Love and Death,1975,85 min,"Comedy, War",7.7,3.5339738280594037,"In czarist Russia, a neurotic soldier and his distant cousin formulate a plot to assassinate Napoleon.",89.0,Woody Allen,"['Woody Allen', 'Diane Keaton', 'Georges Adet', 'Frank Adu']",36037,2022-04-17 15:10:50.075,2022-04-17 15:10:50.075
-625c2cddf0a5bc6c426c09d4,Annie Hall,1977,93 min,"Comedy, Romance",8.0,0.5285180654865418,Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.,92.0,Woody Allen,"['Woody Allen', 'Diane Keaton', 'Tony Roberts', 'Carol Kane']",251823,2022-04-17 15:06:05.096,2022-04-17 15:06:05.096
-625c2c4ef0a5bc6c426c0898,Underground,1995,170 min,"Comedy, Drama, War",8.1,0.6946024045715204,"A group of Serbian socialists prepares for the war in a surreal underground filled by parties, tragedies, love and hate.",,Emir Kusturica,"[""Predrag 'Miki' Manojlovic"", 'Lazar Ristovski', 'Mirjana Jokovic', 'Slavko Stimac']",55220,2022-04-17 15:03:42.590,2022-04-17 15:03:42.590
-625c2ceff0a5bc6c426c0a12,Stalag 17,1953,120 min,"Comedy, Drama, War",8.0,1.444045323572728,"When two escaping American World War II prisoners are killed, the German P.O.W. camp barracks black marketeer, J.J. Sefton, is suspected of being an informer.",84.0,Billy Wilder,"['William Holden', 'Don Taylor', 'Otto Preminger', 'Robert Strauss']",51046,2022-04-17 15:06:23.377,2022-04-17 15:06:23.377
-625c2c55f0a5bc6c426c08ac,Dead Poets Society,1989,128 min,"Comedy, Drama",8.1,0.7805170389942628,Maverick teacher John Keating uses poetry to embolden his boarding school students to new heights of self-expression.,79.0,Peter Weir,"['Robin Williams', 'Robert Sean Leonard', 'Ethan Hawke', 'Josh Charles']",425457,2022-04-17 15:03:49.587,2022-04-17 15:03:49.587
-625c2deef0a5bc6c426c0d0c,Barton Fink,1991,116 min,"Comedy, Drama, Thriller",7.7,4.833752045658408,A renowned New York playwright is enticed to California to write for the movies and discovers the hellish truth of Hollywood.,69.0,Joel Coen,"['Ethan Coen', 'John Turturro', 'John Goodman', 'Judy Davis']",113240,2022-04-17 15:10:38.872,2022-04-17 15:10:38.872
-625c2bd3f0a5bc6c426c0788,Singin' in the Rain,1952,103 min,"Comedy, Musical, Romance",8.3,2.728796786720389,A silent film production company and cast make a difficult transition to sound.,99.0,Stanley Donen,"['Gene Kelly', 'Gene Kelly', ""Donald O'Connor"", 'Debbie Reynolds']",218957,2022-04-17 15:01:39.791,2022-04-17 15:01:39.791
-625c2d37f0a5bc6c426c0abe,A Christmas Story,1983,93 min,"Comedy, Family",7.9,4.485012161008294,"In the 1940s, a young boy named Ralphie attempts to convince his parents, his teacher and Santa that a Red Ryder BB gun really is the perfect Christmas gift.",77.0,Bob Clark,"['Peter Billingsley', 'Melinda Dillon', 'Darren McGavin', 'Scott Schwartz']",132947,2022-04-17 15:07:35.607,2022-04-17 15:07:35.607
-625c2ce7f0a5bc6c426c09f4,Doctor Zhivago,1965,197 min,"Drama, Romance, War",8.0,2.4804447835608734,"The life of a Russian physician and poet who, although married to another, falls in love with a political activist's wife and experiences hardship during World War I and then the October Revolution.",69.0,David Lean,"['Omar Sharif', 'Julie Christie', 'Geraldine Chaplin', 'Rod Steiger']",69903,2022-04-17 15:06:15.770,2022-04-17 15:06:15.770
-625c2cfbf0a5bc6c426c0a46,Captain Fantastic,2016,118 min,"Comedy, Drama",7.9,3.5701799330001927,"In the forests of the Pacific Northwest, a father devoted to raising his six kids with a rigorous physical and intellectual education is forced to leave his paradise and enter the world, challenging his idea of what it means to be a parent.",72.0,Matt Ross,"['Viggo Mortensen', 'George MacKay', 'Samantha Isler', 'Annalise Basso']",189400,2022-04-17 15:06:35.672,2022-04-17 15:06:35.672
-625c2d4af0a5bc6c426c0b02,A Night at the Opera,1935,96 min,"Comedy, Music, Musical",7.9,2.481818578946445,A sly business manager and two wacky friends of two opera singers help them achieve success while humiliating their stuffy and snobbish enemies.,,Sam Wood,"['Edmund Goulding', 'Groucho Marx', 'Chico Marx', 'Harpo Marx']",30580,2022-04-17 15:07:54.539,2022-04-17 15:07:54.539
-625c2e2df0a5bc6c426c0e0e,The Thin Red Line,1998,170 min,"Drama, War",7.6,0.7817434491541297,"Adaptation of James Jones' autobiographical 1962 novel, focusing on the conflict at Guadalcanal during the second World War.",78.0,Terrence Malick,"['Jim Caviezel', 'Sean Penn', 'Nick Nolte', 'Kirk Acevedo']",172710,2022-04-17 15:11:41.351,2022-04-17 15:11:41.351
-625c2bc9f0a5bc6c426c0768,Full Metal Jacket,1987,116 min,"Drama, War",8.3,3.5406088506166844,A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.,76.0,Stanley Kubrick,"['Matthew Modine', 'R. Lee Ermey', ""Vincent D'Onofrio"", 'Adam Baldwin']",675146,2022-04-17 15:01:29.583,2022-04-17 15:01:29.583
-625c2bc3f0a5bc6c426c0752,Inglourious Basterds,2009,153 min,"Adventure, Drama, War",8.3,1.0761554042386345,"In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",69.0,Quentin Tarantino,"['Brad Pitt', 'Diane Kruger', 'Eli Roth', 'Mélanie Laurent']",1267869,2022-04-17 15:01:23.148,2022-04-17 15:01:23.148
+_id
+625c2bbff0a5bc6c426c073e
+625c2d06f0a5bc6c426c0a4e
+625c2e3af0a5bc6c426c0e5c
+625c2c41f0a5bc6c426c0874
+625c2d25f0a5bc6c426c0a92
+625c2cc7f0a5bc6c426c0984
+625c2dfaf0a5bc6c426c0d34
+625c2cddf0a5bc6c426c09d4
+625c2c4ef0a5bc6c426c0898
+625c2ceff0a5bc6c426c0a12
+625c2c55f0a5bc6c426c08ac
+625c2deef0a5bc6c426c0d0c
+625c2bd3f0a5bc6c426c0788
+625c2d37f0a5bc6c426c0abe
+625c2ce7f0a5bc6c426c09f4
+625c2cfbf0a5bc6c426c0a46
+625c2d4af0a5bc6c426c0b02
+625c2e2df0a5bc6c426c0e0e
+625c2bc9f0a5bc6c426c0768
+625c2bc3f0a5bc6c426c0752

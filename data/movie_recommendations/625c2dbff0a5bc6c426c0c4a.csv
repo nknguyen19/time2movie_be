@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2ce7f0a5bc6c426c09f2,The Sound of Music,1965,172 min,"Biography, Drama, Family",8.0,2.941277592669531,A woman leaves an Austrian convent to become a governess to the children of a Naval officer widower.,63.0,Robert Wise,"['Julie Andrews', 'Christopher Plummer', 'Eleanor Parker', 'Richard Haydn']",205425,2022-04-17 15:06:15.568,2022-04-17 15:06:15.568
-625c2dd5f0a5bc6c426c0c94,The Last King of Scotland,2006,123 min,"Biography, Drama, History",7.7,3.2373955299212764,Based on the events of the brutal Ugandan dictator Idi Amin's regime as seen by his personal physician during the 1970s.,74.0,Kevin Macdonald,"['James McAvoy', 'Forest Whitaker', 'Gillian Anderson', 'Kerry Washington']",175355,2022-04-17 15:10:13.673,2022-04-17 15:10:13.673
-625c2c06f0a5bc6c426c07f8,The Message,1976,177 min,"Biography, Drama, History",8.2,1.5515552131239019,This epic historical drama chronicles the life and times of Prophet Muhammad and serves as an introduction to early Islamic history.,,Moustapha Akkad,"['Anthony Quinn', 'Irene Papas', 'Michael Ansara', 'Johnny Sekka']",43885,2022-04-17 15:02:30.468,2022-04-17 15:02:30.468
-625c2d0cf0a5bc6c426c0a5a,The Artist,2011,100 min,"Comedy, Drama, Romance",7.9,2.8538249510576232,An egomaniacal film star develops a relationship with a young dancer against the backdrop of Hollywood's silent era.,89.0,Michel Hazanavicius,"['Jean Dujardin', 'Bérénice Bejo', 'John Goodman', 'James Cromwell']",230624,2022-04-17 15:06:52.073,2022-04-17 15:06:52.073
-625c2bf0f0a5bc6c426c07be,The Wolf of Wall Street,2013,180 min,"Biography, Crime, Drama",8.2,3.7408662442265115,"Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",75.0,Martin Scorsese,"['Leonardo DiCaprio', 'Jonah Hill', 'Margot Robbie', 'Matthew McConaughey']",1187498,2022-04-17 15:02:08.465,2022-04-17 15:02:08.465
-625c2dfff0a5bc6c426c0d4c,A Man for All Seasons,1966,120 min,"Biography, Drama, History",7.7,4.444477388884325,"The story of Sir Thomas More, who stood up to King Henry VIII when the King rejected the Roman Catholic Church to obtain a divorce and remarry.",72.0,Fred Zinnemann,"['Paul Scofield', 'Wendy Hiller', 'Robert Shaw', 'Leo McKern']",31222,2022-04-17 15:10:55.169,2022-04-17 15:10:55.169
-625c2df1f0a5bc6c426c0d16,The Last Emperor,1987,163 min,"Biography, Drama, History",7.7,3.949423553048427,The story of the final Emperor of China.,76.0,Bernardo Bertolucci,"['John Lone', 'Joan Chen', ""Peter O'Toole"", 'Ruocheng Ying']",94326,2022-04-17 15:10:41.667,2022-04-17 15:10:41.667
-625c2c53f0a5bc6c426c08a6,In the Name of the Father,1993,133 min,"Biography, Crime, Drama",8.1,2.3257092398550547,A man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them.,84.0,Jim Sheridan,"['Daniel Day-Lewis', 'Pete Postlethwaite', 'Alison Crosbie', 'Philip King']",156842,2022-04-17 15:03:47.946,2022-04-17 15:03:47.946
-625c2c76f0a5bc6c426c0906,The Shop Around the Corner,1940,99 min,"Comedy, Drama, Romance",8.1,0.32116668203771903,"Two employees at a gift shop can barely stand each other, without realizing that they are falling in love through the post as each other's anonymous pen pal.",96.0,Ernst Lubitsch,"['Margaret Sullavan', 'James Stewart', 'Frank Morgan', 'Joseph Schildkraut']",28450,2022-04-17 15:04:22.101,2022-04-17 15:04:22.101
-625c2ce4f0a5bc6c426c09ee,The Graduate,1967,106 min,"Comedy, Drama, Romance",8.0,2.855440925050763,A disillusioned college graduate finds himself torn between his older lover and her daughter.,83.0,Mike Nichols,"['Dustin Hoffman', 'Anne Bancroft', 'Katharine Ross', 'William Daniels']",253676,2022-04-17 15:06:12.404,2022-04-17 15:06:12.404
-625c2cc2f0a5bc6c426c0968,The Pursuit of Happyness,2006,117 min,"Biography, Drama",8.0,2.1007593502464617,A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.,64.0,Gabriele Muccino,"['Will Smith', 'Thandie Newton', 'Jaden Smith', 'Brian Howe']",448930,2022-04-17 15:05:38.565,2022-04-17 15:05:38.565
-625c2e2cf0a5bc6c426c0e08,The Hurricane,1999,146 min,"Biography, Drama, Sport",7.6,0.8635636846535011,"The story of Rubin 'Hurricane' Carter, a boxer wrongly imprisoned for murder, and the people who aided in his fight to prove his innocence.",74.0,Norman Jewison,"['Denzel Washington', 'Vicellous Shannon', 'Deborah Kara Unger', 'Liev Schreiber']",91557,2022-04-17 15:11:40.233,2022-04-17 15:11:40.233
-625c2e19f0a5bc6c426c0dbe,The Blind Side,2009,129 min,"Biography, Drama, Sport",7.6,3.893503320149263,"The story of Michael Oher, a homeless and traumatized boy who became an All-American football player and first-round NFL draft pick with the help of a caring woman and her family.",53.0,John Lee Hancock,"['Quinton Aaron', 'Sandra Bullock', 'Tim McGraw', 'Jae Head']",293266,2022-04-17 15:11:21.099,2022-04-17 15:11:21.099
-625c2ccef0a5bc6c426c099a,The Straight Story,1999,112 min,"Biography, Drama",8.0,1.6968238998981777,An old man makes a long journey by lawnmower to mend his relationship with an ill brother.,86.0,David Lynch,"['Richard Farnsworth', 'Sissy Spacek', 'Jane Galloway Heitz', 'Joseph A. Carpenter']",82002,2022-04-17 15:05:50.833,2022-04-17 15:05:50.833
-625c2b6cf0a5bc6c426c06e4,The Pianist,2002,150 min,"Biography, Drama, Music",8.5,0.1654706234828096,A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.,85.0,Roman Polanski,"['Adrien Brody', 'Thomas Kretschmann', 'Frank Finlay', 'Emilia Fox']",729603,2022-04-17 14:59:56.528,2022-04-17 14:59:56.528
-625c2d3bf0a5bc6c426c0ada,The Lion in Winter,1968,134 min,"Biography, Drama, History",7.9,2.0661212669711446,"1183 A.D.: King Henry II's three sons all want to inherit the throne, but he won't commit to a choice. They and his wife variously plot to force him.",,Anthony Harvey,"[""Peter O'Toole"", 'Katharine Hepburn', 'Anthony Hopkins', 'John Castle']",29003,2022-04-17 15:07:39.500,2022-04-17 15:07:39.500
-625c2cb7f0a5bc6c426c094c,The King's Speech,2010,118 min,"Biography, Drama, History",8.0,0.004753147470143437,"The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",88.0,Tom Hooper,"['Colin Firth', 'Geoffrey Rush', 'Helena Bonham Carter', 'Derek Jacobi']",639603,2022-04-17 15:05:27.308,2022-04-17 15:05:27.308
-625c2c83f0a5bc6c426c093c,The Imitation Game,2014,114 min,"Biography, Drama, Thriller",8.0,0.7751004826228669,"During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",73.0,Morten Tyldum,"['Benedict Cumberbatch', 'Keira Knightley', 'Matthew Goode', 'Allen Leech']",685201,2022-04-17 15:04:35.756,2022-04-17 15:04:35.756
-625c2decf0a5bc6c426c0d00,Malcolm X,1992,202 min,"Biography, Drama, History",7.7,4.619424228654964,"Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam.",73.0,Spike Lee,"['Denzel Washington', 'Angela Bassett', 'Delroy Lindo', 'Spike Lee']",85819,2022-04-17 15:10:36.826,2022-04-17 15:10:36.826
-625c2bfaf0a5bc6c426c07d6,A Beautiful Mind,2001,135 min,"Biography, Drama",8.2,3.361926545587991,"After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",72.0,Ron Howard,"['Russell Crowe', 'Ed Harris', 'Jennifer Connelly', 'Christopher Plummer']",848920,2022-04-17 15:02:18.321,2022-04-17 15:02:18.321
+_id
+625c2ce7f0a5bc6c426c09f2
+625c2dd5f0a5bc6c426c0c94
+625c2c06f0a5bc6c426c07f8
+625c2d0cf0a5bc6c426c0a5a
+625c2bf0f0a5bc6c426c07be
+625c2dfff0a5bc6c426c0d4c
+625c2df1f0a5bc6c426c0d16
+625c2c53f0a5bc6c426c08a6
+625c2c76f0a5bc6c426c0906
+625c2ce4f0a5bc6c426c09ee
+625c2cc2f0a5bc6c426c0968
+625c2e2cf0a5bc6c426c0e08
+625c2e19f0a5bc6c426c0dbe
+625c2ccef0a5bc6c426c099a
+625c2b6cf0a5bc6c426c06e4
+625c2d3bf0a5bc6c426c0ada
+625c2cb7f0a5bc6c426c094c
+625c2c83f0a5bc6c426c093c
+625c2decf0a5bc6c426c0d00
+625c2bfaf0a5bc6c426c07d6

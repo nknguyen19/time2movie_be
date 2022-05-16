@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2b7bf0a5bc6c426c070a,Dangal,2016,161 min,"Action, Biography, Drama",8.4,0.5855129463407616,Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.,,Nitesh Tiwari,"['Aamir Khan', 'Sakshi Tanwar', 'Fatima Sana Shaikh', 'Sanya Malhotra']",156479,2022-04-17 15:00:11.349,2022-04-17 15:00:11.349
-625c2e24f0a5bc6c426c0dd0,Huo Yuan Jia,2006,104 min,"Action, Biography, Drama",7.6,0.20375091104472554,"A biography of Chinese Martial Arts Master Huo Yuanjia, who is the founder and spiritual guru of the Jin Wu Sports Federation.",70.0,Ronny Yu,"['Jet Li', 'Li Sun', 'Yong Dong', 'Yun Qu']",72863,2022-04-17 15:11:32.543,2022-04-17 15:11:32.543
-625c2d90f0a5bc6c426c0bbe,Tombstone,1993,130 min,"Action, Biography, Drama",7.8,0.15030896987843212,"A successful lawman's plans to retire anonymously in Tombstone, Arizona are disrupted by the kind of outlaws he was famous for eliminating.",50.0,George P. Cosmatos,"['Kevin Jarre', 'Kurt Russell', 'Val Kilmer', 'Sam Elliott']",126871,2022-04-17 15:09:04.158,2022-04-17 15:09:04.158
-625c2c29f0a5bc6c426c084a,Ford v Ferrari,2019,152 min,"Action, Biography, Drama",8.1,1.9409899059711255,American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.,81.0,James Mangold,"['Matt Damon', 'Christian Bale', 'Jon Bernthal', 'Caitriona Balfe']",291289,2022-04-17 15:03:05.128,2022-04-17 15:03:05.128
-625c2cb9f0a5bc6c426c0956,Yip Man,2008,106 min,"Action, Biography, Drama",8.0,1.3439128442498882,"During the Japanese invasion of China, a wealthy martial artist is forced to leave his home when his city is occupied. With little means of providing for themselves, Ip Man and the remaining members of the city must find a way to survive.",59.0,Wilson Yip,"['Donnie Yen', 'Simon Yam', 'Siu-Wong Fan', 'Ka Tung Lam']",211427,2022-04-17 15:05:29.603,2022-04-17 15:05:29.603
-625c2e0bf0a5bc6c426c0d8a,Only the Brave,2017,134 min,"Action, Biography, Drama",7.6,1.7928361463344267,"Based on the true story of the Granite Mountain Hotshots, a group of elite firefighters who risk everything to protect a town from a historic wildfire.",72.0,Joseph Kosinski,"['Josh Brolin', 'Miles Teller', 'Jeff Bridges', 'Jennifer Connelly']",58371,2022-04-17 15:11:07.978,2022-04-17 15:11:07.978
-625c2d5df0a5bc6c426c0b3e,Kaze tachinu,2013,126 min,"Animation, Biography, Drama",7.8,2.8439164302287034,"A look at the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II.",83.0,Hayao Miyazaki,"['Hideaki Anno', 'Hidetoshi Nishijima', 'Miori Takimoto', 'Masahiko Nishimura']",73690,2022-04-17 15:08:13.686,2022-04-17 15:08:13.686
-625c2e0df0a5bc6c426c0d92,Sicario,2015,121 min,"Action, Crime, Drama",7.6,1.2943894086814034,An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.,82.0,Denis Villeneuve,"['Emily Blunt', 'Josh Brolin', 'Benicio Del Toro', 'Jon Bernthal']",371291,2022-04-17 15:11:09.256,2022-04-17 15:11:09.256
-625c2d4df0a5bc6c426c0b0c,Raazi,2018,138 min,"Action, Drama, Thriller",7.8,0.6883257703817103,A Kashmiri woman agrees to marry a Pakistani army officer in order to spy on Pakistan during the Indo-Pakistan War of 1971.,,Meghna Gulzar,"['Alia Bhatt', 'Vicky Kaushal', 'Rajit Kapoor', 'Shishir Sharma']",25344,2022-04-17 15:07:57.525,2022-04-17 15:07:57.525
-625c2d4ef0a5bc6c426c0b12,Dunkirk,2017,106 min,"Action, Drama, History",7.8,4.707970590766717,"Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",94.0,Christopher Nolan,"['Fionn Whitehead', 'Barry Keoghan', 'Mark Rylance', 'Tom Hardy']",555092,2022-04-17 15:07:58.173,2022-04-17 15:07:58.173
-625c2cc2f0a5bc6c426c0964,Persepolis,2007,96 min,"Animation, Biography, Drama",8.0,3.6571592195238067,A precocious and outspoken Iranian girl grows up during the Islamic Revolution.,90.0,Vincent Paronnaud,"['Marjane Satrapi', 'Chiara Mastroianni', 'Catherine Deneuve', 'Gena Rowlands']",88656,2022-04-17 15:05:38.200,2022-04-17 15:05:38.200
-625c2beef0a5bc6c426c07b8,Warrior,2011,140 min,"Action, Drama, Sport",8.2,2.1665358942157917,"The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother.",71.0,Gavin O'Connor,"['Tom Hardy', 'Nick Nolte', 'Joel Edgerton', 'Jennifer Morrison']",435950,2022-04-17 15:02:06.750,2022-04-17 15:02:06.750
-625c2d3cf0a5bc6c426c0ae2,Spartacus,1960,197 min,"Adventure, Biography, Drama",7.9,4.6226128435299305,The slave Spartacus leads a violent revolt against the decadent Roman Republic.,87.0,Stanley Kubrick,"['Kirk Douglas', 'Laurence Olivier', 'Jean Simmons', 'Charles Laughton']",124339,2022-04-17 15:07:40.889,2022-04-17 15:07:40.889
-625c2b6cf0a5bc6c426c06e6,Gladiator,2000,155 min,"Action, Adventure, Drama",8.5,4.66248624777033,A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.,67.0,Ridley Scott,"['Russell Crowe', 'Joaquin Phoenix', 'Connie Nielsen', 'Oliver Reed']",1341460,2022-04-17 14:59:56.830,2022-04-17 14:59:56.830
-625c2dadf0a5bc6c426c0c08,Badlands,1973,94 min,"Action, Crime, Drama",7.8,1.964025686202222,An impressionable teenage girl from a dead-end town and her older greaser boyfriend embark on a killing spree in the South Dakota badlands.,93.0,Terrence Malick,"['Martin Sheen', 'Sissy Spacek', 'Warren Oates', 'Ramon Bieri']",66009,2022-04-17 15:09:33.604,2022-04-17 15:09:33.604
-625c2c02f0a5bc6c426c07f0,Ran,1985,162 min,"Action, Drama, War",8.2,1.775980655148165,"In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.",96.0,Akira Kurosawa,"['Tatsuya Nakadai', 'Akira Terao', 'Jinpachi Nezu', 'Daisuke Ryû']",112505,2022-04-17 15:02:26.946,2022-04-17 15:02:26.946
-625c2e25f0a5bc6c426c0dd8,300,2006,117 min,"Action, Drama",7.6,0.9172471492612255,King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.,52.0,Zack Snyder,"['Gerard Butler', 'Lena Headey', 'David Wenham', 'Dominic West']",732876,2022-04-17 15:11:33.345,2022-04-17 15:11:33.345
-625c2c42f0a5bc6c426c087a,Kill Bill: Vol. 1,2003,111 min,"Action, Crime, Drama",8.1,3.452438236538349,"After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",69.0,Quentin Tarantino,"['Uma Thurman', 'David Carradine', 'Daryl Hannah', 'Michael Madsen']",1000639,2022-04-17 15:03:30.525,2022-04-17 15:03:30.525
-625c2c16f0a5bc6c426c082a,Haider,2014,160 min,"Action, Crime, Drama",8.1,2.7322831857962893,"A young man returns to Kashmir after his father's disappearance to confront his uncle, whom he suspects of playing a role in his father's fate.",,Vishal Bhardwaj,"['Shahid Kapoor', 'Tabu', 'Shraddha Kapoor', 'Kay Kay Menon']",50445,2022-04-17 15:02:46.039,2022-04-17 15:02:46.039
-625c2cb7f0a5bc6c426c094a,Tropa de Elite 2: O Inimigo Agora é Outro,2010,115 min,"Action, Crime, Drama",8.0,3.0995381918906837,"After a prison riot, former-Captain Nascimento, now a high ranking security officer in Rio de Janeiro, is swept into a bloody political dispute that involves government officials and paramilitary groups.",71.0,José Padilha,"['Wagner Moura', 'Irandhir Santos', 'André Ramiro', 'Milhem Cortaz']",79200,2022-04-17 15:05:27.121,2022-04-17 15:05:27.121
+_id
+625c2b7bf0a5bc6c426c070a
+625c2e24f0a5bc6c426c0dd0
+625c2d90f0a5bc6c426c0bbe
+625c2c29f0a5bc6c426c084a
+625c2cb9f0a5bc6c426c0956
+625c2e0bf0a5bc6c426c0d8a
+625c2d5df0a5bc6c426c0b3e
+625c2e0df0a5bc6c426c0d92
+625c2d4df0a5bc6c426c0b0c
+625c2d4ef0a5bc6c426c0b12
+625c2cc2f0a5bc6c426c0964
+625c2beef0a5bc6c426c07b8
+625c2d3cf0a5bc6c426c0ae2
+625c2b6cf0a5bc6c426c06e6
+625c2dadf0a5bc6c426c0c08
+625c2c02f0a5bc6c426c07f0
+625c2e25f0a5bc6c426c0dd8
+625c2c42f0a5bc6c426c087a
+625c2c16f0a5bc6c426c082a
+625c2cb7f0a5bc6c426c094a

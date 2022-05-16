@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2e2ff0a5bc6c426c0e1a,Lost Highway,1997,134 min,"Mystery, Thriller",7.6,4.769542722312776,"Anonymous videotapes presage a musician's murder conviction, and a gangster's girlfriend leads a mechanic astray.",52.0,David Lynch,"['Bill Pullman', 'Patricia Arquette', 'John Roselius', 'Louis Eppolito']",131101,2022-04-17 15:11:43.530,2022-04-17 15:11:43.530
-625c2beff0a5bc6c426c07ba,Shutter Island,2010,138 min,"Mystery, Thriller",8.2,3.8719875706026787,"In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",63.0,Martin Scorsese,"['Leonardo DiCaprio', 'Emily Mortimer', 'Mark Ruffalo', 'Ben Kingsley']",1129894,2022-04-17 15:02:07.507,2022-04-17 15:02:07.507
-625c2e14f0a5bc6c426c0d9e,El cuerpo,2012,112 min,"Mystery, Thriller",7.6,1.0798158723484574,A detective searches for the body of a femme fatale which has gone missing from a morgue.,,Oriol Paulo,"['Jose Coronado', 'Hugo Silva', 'Belén Rueda', 'Aura Garrido']",57549,2022-04-17 15:11:16.159,2022-04-17 15:11:16.159
-625c2e2ff0a5bc6c426c0e16,Dark City,1998,100 min,"Mystery, Sci-Fi, Thriller",7.6,1.5999137168804722,"A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",66.0,Alex Proyas,"['Rufus Sewell', 'Kiefer Sutherland', 'Jennifer Connelly', 'William Hurt']",187927,2022-04-17 15:11:43.114,2022-04-17 15:11:43.114
-625c2cd0f0a5bc6c426c09aa,Twelve Monkeys,1995,129 min,"Mystery, Sci-Fi, Thriller",8.0,3.4040948318837594,"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",74.0,Terry Gilliam,"['Bruce Willis', 'Madeleine Stowe', 'Brad Pitt', 'Joseph Melito']",578443,2022-04-17 15:05:52.605,2022-04-17 15:05:52.605
-625c2c30f0a5bc6c426c0850,Kahaani,2012,122 min,"Mystery, Thriller",8.1,1.393437173359302,"A pregnant woman's search for her missing husband takes her from London to Kolkata, but everyone she questions denies having ever met him.",,Sujoy Ghosh,"['Vidya Balan', 'Parambrata Chattopadhyay', 'Indraneil Sengupta', 'Nawazuddin Siddiqui']",57806,2022-04-17 15:03:12.089,2022-04-17 15:03:12.089
-625c2bb1f0a5bc6c426c0722,Memento,2000,113 min,"Mystery, Thriller",8.4,0.14164255254410785,A man with short-term memory loss attempts to track down his wife's murderer.,80.0,Christopher Nolan,"['Guy Pearce', 'Carrie-Anne Moss', 'Joe Pantoliano', 'Mark Boone Junior']",1125712,2022-04-17 15:01:05.860,2022-04-17 15:01:05.860
-625c2ce2f0a5bc6c426c09e0,Sleuth,1972,138 min,"Mystery, Thriller",8.0,1.398047129831388,"A man who loves games and theater invites his wife's lover to meet him, setting up a battle of wits with potentially deadly results.",,Joseph L. Mankiewicz,"['Laurence Olivier', 'Michael Caine', 'Alec Cawthorne', 'John Matthews']",44748,2022-04-17 15:06:10.438,2022-04-17 15:06:10.438
-625c2db3f0a5bc6c426c0c2c,The Lady Vanishes,1938,96 min,"Mystery, Thriller",7.8,1.3009284401828047,"While travelling in continental Europe, a rich young playgirl realizes that an elderly lady seems to have disappeared from the train.",98.0,Alfred Hitchcock,"['Margaret Lockwood', 'Michael Redgrave', 'Paul Lukas', 'May Whitty']",47400,2022-04-17 15:09:39.781,2022-04-17 15:09:39.781
-625c2df0f0a5bc6c426c0d12,Spoorloos,1988,107 min,"Mystery, Thriller",7.7,4.356334989812678,"Rex and Saskia, a young couple in love, are on vacation. They stop at a busy service station and Saskia is abducted. After three years and no sign of Saskia, Rex begins receiving letters from the abductor.",,George Sluizer,"['Bernard-Pierre Donnadieu', 'Gene Bervoets', 'Johanna ter Steege', 'Gwen Eckhaus']",33982,2022-04-17 15:10:40.655,2022-04-17 15:10:40.655
-625c2bd2f0a5bc6c426c0786,Vertigo,1958,128 min,"Mystery, Romance, Thriller",8.3,1.3052767496449813,A former police detective juggles wrestling with his personal demons and becoming obsessed with a hauntingly beautiful woman.,100.0,Alfred Hitchcock,"['James Stewart', 'Kim Novak', 'Barbara Bel Geddes', 'Tom Helmore']",364368,2022-04-17 15:01:38.464,2022-04-17 15:01:38.464
-625c2cbff0a5bc6c426c095e,Black Swan,2010,108 min,"Drama, Thriller",8.0,3.4936288956322725,"A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's ""Swan Lake"".",79.0,Darren Aronofsky,"['Natalie Portman', 'Mila Kunis', 'Vincent Cassel', 'Winona Ryder']",699673,2022-04-17 15:05:35.684,2022-04-17 15:05:35.684
-625c2cc3f0a5bc6c426c0970,Sin City,2005,124 min,"Crime, Thriller",8.0,2.6487390464991423,"A movie that explores the dark and miserable town, Basin City, tells the story of three different people, all caught up in violent corruption.",74.0,Frank Miller,"['Quentin Tarantino', 'Robert Rodriguez', 'Mickey Rourke', 'Clive Owen']",738512,2022-04-17 15:05:39.323,2022-04-17 15:05:39.323
-625c2df3f0a5bc6c426c0d1c,Blue Velvet,1986,120 min,"Drama, Mystery, Thriller",7.7,1.4546634168008121,"The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",76.0,David Lynch,"['Isabella Rossellini', 'Kyle MacLachlan', 'Dennis Hopper', 'Laura Dern']",181285,2022-04-17 15:10:43.527,2022-04-17 15:10:43.527
-625c2e36f0a5bc6c426c0e40,Blood Simple,1984,99 min,"Crime, Drama, Thriller",7.6,1.7240105246019743,"The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",82.0,Joel Coen,"['Ethan Coen', 'John Getz', 'Frances McDormand', 'Dan Hedaya']",87745,2022-04-17 15:11:50.032,2022-04-17 15:11:50.032
-625c2e35f0a5bc6c426c0e3e,Lethal Weapon,1987,109 min,"Action, Crime, Thriller",7.6,4.045014003507644,Two newly paired cops who are complete opposites must put aside their differences in order to catch a gang of drug smugglers.,68.0,Richard Donner,"['Mel Gibson', 'Danny Glover', 'Gary Busey', 'Mitchell Ryan']",236894,2022-04-17 15:11:49.291,2022-04-17 15:11:49.291
-625c2e29f0a5bc6c426c0dee,Boksuneun naui geot,2002,129 min,"Crime, Drama, Thriller",7.6,3.179737002803803,"A recently laid off factory worker kidnaps his former boss' friend's daughter, hoping to use the ransom money to pay for his sister's kidney transplant.",56.0,Chan-wook Park,"['Kang-ho Song', 'Shin Ha-kyun', 'Bae Doona', 'Ji-Eun Lim']",62659,2022-04-17 15:11:37.126,2022-04-17 15:11:37.126
-625c2c58f0a5bc6c426c08be,Blade Runner,1982,117 min,"Action, Sci-Fi, Thriller",8.1,1.6114448575886897,"A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",84.0,Ridley Scott,"['Harrison Ford', 'Rutger Hauer', 'Sean Young', 'Edward James Olmos']",693827,2022-04-17 15:03:52.416,2022-04-17 15:03:52.416
-625c2c82f0a5bc6c426c0936,Special Chabbis,2013,144 min,"Crime, Drama, Thriller",8.0,0.7821489988074626,A gang of con-men rob prominent rich businessmen and politicians by posing as C.B.I and income tax officers.,,Neeraj Pandey,"['Akshay Kumar', 'Anupam Kher', 'Manoj Bajpayee', 'Jimmy Sheirgill']",51069,2022-04-17 15:04:34.238,2022-04-17 15:04:34.238
-625c2ddef0a5bc6c426c0cc8,Das Experiment,2001,120 min,"Drama, Thriller",7.7,0.5901849096241707,"For two weeks, 20 male participants are hired to play prisoners and guards in a prison. The ""prisoners"" have to follow seemingly mild rules, and the ""guards"" are told to retain order without using physical violence.",60.0,Oliver Hirschbiegel,"['Moritz Bleibtreu', 'Christian Berkel', 'Oliver Stokowski', 'Wotan Wilke Möhring']",90842,2022-04-17 15:10:22.401,2022-04-17 15:10:22.401
+_id
+625c2e2ff0a5bc6c426c0e1a
+625c2beff0a5bc6c426c07ba
+625c2e14f0a5bc6c426c0d9e
+625c2e2ff0a5bc6c426c0e16
+625c2cd0f0a5bc6c426c09aa
+625c2c30f0a5bc6c426c0850
+625c2bb1f0a5bc6c426c0722
+625c2ce2f0a5bc6c426c09e0
+625c2db3f0a5bc6c426c0c2c
+625c2df0f0a5bc6c426c0d12
+625c2bd2f0a5bc6c426c0786
+625c2cbff0a5bc6c426c095e
+625c2cc3f0a5bc6c426c0970
+625c2df3f0a5bc6c426c0d1c
+625c2e36f0a5bc6c426c0e40
+625c2e35f0a5bc6c426c0e3e
+625c2e29f0a5bc6c426c0dee
+625c2c58f0a5bc6c426c08be
+625c2c82f0a5bc6c426c0936
+625c2ddef0a5bc6c426c0cc8

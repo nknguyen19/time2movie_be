@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2e2cf0a5bc6c426c0e06,Minority Report,2002,145 min,"Action, Crime, Mystery",7.6,1.620145268140838,"In a future where a special police unit is able to arrest murderers before they commit their crimes, an officer from that unit is himself accused of a future murder.",80.0,Steven Spielberg,"['Tom Cruise', 'Colin Farrell', 'Samantha Morton', 'Max von Sydow']",508417,2022-04-17 15:11:40.033,2022-04-17 15:11:40.033
-625c2d29f0a5bc6c426c0a94,Cowboy Bebop: Tengoku no tobira,2001,115 min,"Animation, Action, Crime",7.9,3.353932440604842,"A terrorist explosion releases a deadly virus on the masses, and it's up the bounty-hunting Bebop crew to catch the cold-blooded culprit.",61.0,Shin'ichirô Watanabe,"['Tensai Okamura', 'Hiroyuki Okiura', 'Yoshiyuki Takei', 'Beau Billingslea']",42897,2022-04-17 15:07:21.767,2022-04-17 15:07:21.767
-625c2cd0f0a5bc6c426c09ac,Kôkaku Kidôtai,1995,83 min,"Animation, Action, Crime",8.0,1.8605605911411094,A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.,76.0,Mamoru Oshii,"['Atsuko Tanaka', 'Iemasa Kayumi', 'Akio Ôtsuka', 'Kôichi Yamadera']",129231,2022-04-17 15:05:52.821,2022-04-17 15:05:52.821
-625c2e16f0a5bc6c426c0dac,Despicable Me,2010,95 min,"Animation, Comedy, Crime",7.6,4.989248051894707,"When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",72.0,Pierre Coffin,"['Chris Renaud', 'Steve Carell', 'Jason Segel', 'Russell Brand']",500851,2022-04-17 15:11:18.002,2022-04-17 15:11:18.002
-625c2d58f0a5bc6c426c0b2c,Loving Vincent,2017,94 min,"Animation, Biography, Crime",7.8,2.207749730602978,"In a story depicted in oil painted animation, a young man comes to the last hometown of painter Vincent van Gogh (Robert Gulaczyk) to deliver the troubled artist's final letter and ends up investigating his final days there.",62.0,Dorota Kobiela,"['Hugh Welchman', 'Douglas Booth', 'Jerome Flynn', 'Robert Gulaczyk']",50778,2022-04-17 15:08:08.166,2022-04-17 15:08:08.166
-625c2cf3f0a5bc6c426c0a30,The Thin Man,1934,91 min,"Comedy, Crime, Mystery",8.0,2.6256588020968454,"Former detective Nick Charles and his wealthy wife Nora investigate a murder case, mostly for the fun of it.",86.0,W.S. Van Dyke,"['William Powell', 'Myrna Loy', ""Maureen O'Sullivan"", 'Nat Pendleton']",26642,2022-04-17 15:06:27.272,2022-04-17 15:06:27.272
-625c2d93f0a5bc6c426c0bca,Batman: Mask of the Phantasm,1993,76 min,"Animation, Action, Crime",7.8,0.16720325517934786,Batman is wrongly implicated in a series of murders of mob bosses actually done by a new vigilante assassin.,,Kevin Altieri,"['Boyd Kirkland', 'Frank Paur', 'Dan Riba', 'Eric Radomski']",43690,2022-04-17 15:09:07.548,2022-04-17 15:09:07.548
-625c2ce2f0a5bc6c426c09dc,Papillon,1973,151 min,"Biography, Crime, Drama",8.0,4.79559527106749,"A man befriends a fellow criminal as the two of them begin serving their sentence on a dreadful prison island, which inspires the man to plot his escape.",58.0,Franklin J. Schaffner,"['Steve McQueen', 'Dustin Hoffman', 'Victor Jory', 'Don Gordon']",121627,2022-04-17 15:06:10.018,2022-04-17 15:06:10.018
-625c2d83f0a5bc6c426c0b8a,Tôkyô goddofâzâzu,2003,90 min,"Animation, Adventure, Comedy",7.8,0.47993521480166446,"On Christmas Eve, three homeless people living on the streets of Tokyo discover a newborn baby among the trash and set out to find its parents.",73.0,Satoshi Kon,"['Shôgo Furuya', 'Tôru Emori', 'Yoshiaki Umegaki', 'Aya Okamoto']",31658,2022-04-17 15:08:51.466,2022-04-17 15:08:51.466
-625c2d63f0a5bc6c426c0b5e,Män som hatar kvinnor,2009,152 min,"Crime, Drama, Mystery",7.8,4.1763922606534445,A journalist is aided by a young female hacker in his search for the killer of a woman who has been dead for forty years.,76.0,Niels Arden Oplev,"['Michael Nyqvist', 'Noomi Rapace', 'Ewa Fröling', 'Lena Endre']",208994,2022-04-17 15:08:19.625,2022-04-17 15:08:19.625
-625c2c67f0a5bc6c426c08d4,Solaris,1972,167 min,"Drama, Mystery, Sci-Fi",8.1,0.4436238523485625,A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.,90.0,Andrei Tarkovsky,"['Natalya Bondarchuk', 'Donatas Banionis', 'Jüri Järvet', 'Vladislav Dvorzhetskiy']",81021,2022-04-17 15:04:07.159,2022-04-17 15:04:07.159
-625c2c6cf0a5bc6c426c08e4,Sanjuro,1962,96 min,"Action, Comedy, Crime",8.1,0.7360385032867023,"A crafty samurai helps a young man and his fellow clansmen save his uncle, who has been framed and imprisoned by a corrupt superintendent.",,Akira Kurosawa,"['Toshirô Mifune', 'Tatsuya Nakadai', 'Keiju Kobayashi', 'Yûnosuke Itô']",33044,2022-04-17 15:04:12.706,2022-04-17 15:04:12.706
-625c2dc9f0a5bc6c426c0c60,Wreck-It Ralph,2012,101 min,"Animation, Adventure, Comedy",7.7,1.4072391208292767,"A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",72.0,Rich Moore,"['John C. Reilly', 'Jack McBrayer', 'Jane Lynch', 'Sarah Silverman']",380195,2022-04-17 15:10:01.601,2022-04-17 15:10:01.601
-625c2d8ef0a5bc6c426c0bb6,The Game,1997,129 min,"Action, Drama, Mystery",7.8,2.68388931315097,"After a wealthy banker is given an opportunity to participate in a mysterious game, his life is turned upside down when he becomes unable to distinguish between the game and reality.",61.0,David Fincher,"['Michael Douglas', 'Deborah Kara Unger', 'Sean Penn', 'James Rebhorn']",345096,2022-04-17 15:09:02.279,2022-04-17 15:09:02.279
-625c2cc6f0a5bc6c426c0976,Ratatouille,2007,111 min,"Animation, Adventure, Comedy",8.0,4.992219541573888,A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.,96.0,Brad Bird,"['Jan Pinkava', 'Brad Garrett', 'Lou Romano', 'Patton Oswalt']",641645,2022-04-17 15:05:42.158,2022-04-17 15:05:42.158
-625c2c61f0a5bc6c426c08ce,Chinatown,1974,130 min,"Drama, Mystery, Thriller",8.1,0.7281021825703771,"A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption, and murder.",92.0,Roman Polanski,"['Jack Nicholson', 'Faye Dunaway', 'John Huston', 'Perry Lopez']",294230,2022-04-17 15:04:01.280,2022-04-17 15:04:01.280
-625c2c7df0a5bc6c426c0924,Baby,2015,159 min,"Action, Crime, Thriller",8.0,0.176076261442617,"An elite counter-intelligence unit learns of a plot, masterminded by a maniacal madman. With the clock ticking, it's up to them to track the terrorists' international tentacles and prevent them from striking at the heart of India.",,Neeraj Pandey,"['Akshay Kumar', 'Danny Denzongpa', 'Rana Daggubati', 'Taapsee Pannu']",52848,2022-04-17 15:04:29.383,2022-04-17 15:04:29.383
-625c2de2f0a5bc6c426c0ce0,Abre los ojos,1997,119 min,"Drama, Mystery, Sci-Fi",7.7,0.497746000126017,"A very handsome man finds the love of his life, but he suffers an accident and needs to have his face rebuilt by surgery after it is severely disfigured.",,Alejandro Amenábar,"['Eduardo Noriega', 'Penélope Cruz', 'Chete Lera', 'Fele Martínez']",64082,2022-04-17 15:10:26.919,2022-04-17 15:10:26.919
-625c2b73f0a5bc6c426c06fa,Psycho,1960,109 min,"Horror, Mystery, Thriller",8.5,3.077473193408405,"A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",97.0,Alfred Hitchcock,"['Anthony Perkins', 'Janet Leigh', 'Vera Miles', 'John Gavin']",604211,2022-04-17 15:00:03.375,2022-04-17 15:00:03.375
-625c2ccaf0a5bc6c426c0986,Mou gaan dou,2002,101 min,"Action, Crime, Drama",8.0,2.867342506762225,"A story between a mole in the police department and an undercover cop. Their objectives are the same: to find out who is the mole, and who is the cop.",75.0,Andrew Lau,"['Alan Mak', 'Andy Lau', 'Tony Chiu-Wai Leung', 'Anthony Chau-Sang Wong']",117857,2022-04-17 15:05:46.408,2022-04-17 15:05:46.408
+_id
+625c2e2cf0a5bc6c426c0e06
+625c2d29f0a5bc6c426c0a94
+625c2cd0f0a5bc6c426c09ac
+625c2e16f0a5bc6c426c0dac
+625c2d58f0a5bc6c426c0b2c
+625c2cf3f0a5bc6c426c0a30
+625c2d93f0a5bc6c426c0bca
+625c2ce2f0a5bc6c426c09dc
+625c2d83f0a5bc6c426c0b8a
+625c2d63f0a5bc6c426c0b5e
+625c2c67f0a5bc6c426c08d4
+625c2c6cf0a5bc6c426c08e4
+625c2dc9f0a5bc6c426c0c60
+625c2d8ef0a5bc6c426c0bb6
+625c2cc6f0a5bc6c426c0976
+625c2c61f0a5bc6c426c08ce
+625c2c7df0a5bc6c426c0924
+625c2de2f0a5bc6c426c0ce0
+625c2b73f0a5bc6c426c06fa
+625c2ccaf0a5bc6c426c0986

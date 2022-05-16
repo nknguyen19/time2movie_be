@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2bf5f0a5bc6c426c07cc,Black,2005,122 min,Drama,8.2,1.7980036888797535,"The cathartic tale of a young woman who can't see, hear or talk and the teacher who brings a ray of light into her dark world.",,Sanjay Leela Bhansali,"['Amitabh Bachchan', 'Rani Mukerji', 'Shernaz Patel', 'Ayesha Kapoor']",33354,2022-04-17 15:02:13.598,2022-04-17 15:02:13.598
-625c2d84f0a5bc6c426c0b90,Ondskan,2003,113 min,Drama,7.8,1.9684349447129423,"A teenage boy expelled from school for fighting arrives at a boarding school where the systematic bullying of younger students is encouraged as a means to maintain discipline, and decides to fight back.",61.0,Mikael Håfström,"['Andreas Wilson', 'Henrik Lundström', 'Gustaf Skarsgård', 'Linda Zilliacus']",35682,2022-04-17 15:08:52.351,2022-04-17 15:08:52.351
-625c2c15f0a5bc6c426c0828,Mommy,2014,139 min,Drama,8.1,1.5907389193399124,"A widowed single mother, raising her violent son alone, finds new hope when a mysterious neighbor inserts herself into their household.",74.0,Xavier Dolan,"['Anne Dorval', 'Antoine Olivier Pilon', 'Suzanne Clément', 'Patrick Huard']",50700,2022-04-17 15:02:45.832,2022-04-17 15:02:45.832
-625c2debf0a5bc6c426c0cfc,Philadelphia,1993,125 min,Drama,7.7,1.4984271079705747,"When a man with HIV is fired by his law firm because of his condition, he hires a homophobic small time lawyer as the only willing advocate for a wrongful dismissal suit.",66.0,Jonathan Demme,"['Tom Hanks', 'Denzel Washington', 'Roberta Maxwell', 'Buzz Kilman']",224169,2022-04-17 15:10:35.495,2022-04-17 15:10:35.495
-625c2c09f0a5bc6c426c0808,Smultronstället,1957,91 min,"Drama, Romance",8.2,4.8093598415686785,"After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.",88.0,Ingmar Bergman,"['Victor Sjöström', 'Bibi Andersson', 'Ingrid Thulin', 'Gunnar Björnstrand']",96381,2022-04-17 15:02:33.294,2022-04-17 15:02:33.294
-625c2ccff0a5bc6c426c099e,Festen,1998,105 min,Drama,8.0,3.6130308632065464,"At Helge's 60th birthday party, some unpleasant family truths are revealed.",82.0,Thomas Vinterberg,"['Ulrich Thomsen', 'Henning Moritzen', 'Thomas Bo Larsen', 'Paprika Steen']",78341,2022-04-17 15:05:51.228,2022-04-17 15:05:51.228
-625c2db7f0a5bc6c426c0c38,Roma,2018,135 min,Drama,7.7,4.479173475976166,A year in the life of a middle-class family's maid in Mexico City in the early 1970s.,96.0,Alfonso Cuarón,"['Yalitza Aparicio', 'Marina de Tavira', 'Diego Cortina Autrey', 'Carlos Peralta']",140375,2022-04-17 15:09:43.490,2022-04-17 15:09:43.490
-625c2c04f0a5bc6c426c07f6,Höstsonaten,1978,99 min,"Drama, Music",8.2,4.085435837347583,"A married daughter who longs for her mother's love is visited by the latter, a successful concert pianist.",,Ingmar Bergman,"['Ingrid Bergman', 'Liv Ullmann', 'Lena Nyman', 'Halvar Björk']",26875,2022-04-17 15:02:28.995,2022-04-17 15:02:28.995
-625c2e08f0a5bc6c426c0d7e,Gifted,2017,101 min,Drama,7.6,3.016150793280773,"Frank, a single man raising his child prodigy niece Mary, is drawn into a custody battle with his mother.",60.0,Marc Webb,"['Chris Evans', 'Mckenna Grace', 'Lindsay Duncan', 'Octavia Spencer']",99643,2022-04-17 15:11:04.985,2022-04-17 15:11:04.985
-625c2e08f0a5bc6c426c0d78,Nelyubov,2017,127 min,Drama,7.6,2.3858908223095887,A couple going through a divorce must team up to find their son who has disappeared during one of their bitter arguments.,86.0,Andrey Zvyagintsev,"['Maryana Spivak', 'Aleksey Rozin', 'Matvey Novikov', 'Marina Vasileva']",29765,2022-04-17 15:11:04.397,2022-04-17 15:11:04.397
-625c2c5cf0a5bc6c426c08c8,Network,1976,121 min,Drama,8.1,3.852851228576771,A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit.,83.0,Sidney Lumet,"['Faye Dunaway', 'William Holden', 'Peter Finch', 'Robert Duvall']",144911,2022-04-17 15:03:56.937,2022-04-17 15:03:56.937
-625c2cbff0a5bc6c426c095e,Black Swan,2010,108 min,"Drama, Thriller",8.0,3.4936288956322725,"A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's ""Swan Lake"".",79.0,Darren Aronofsky,"['Natalie Portman', 'Mila Kunis', 'Vincent Cassel', 'Winona Ryder']",699673,2022-04-17 15:05:35.684,2022-04-17 15:05:35.684
-625c2d1af0a5bc6c426c0a6e,Boyhood,2014,165 min,Drama,7.9,3.0962818810399737,"The life of Mason, from early childhood to his arrival at college.",100.0,Richard Linklater,"['Ellar Coltrane', 'Patricia Arquette', 'Ethan Hawke', 'Elijah Smith']",335533,2022-04-17 15:07:06.436,2022-04-17 15:07:06.436
-625c2dcaf0a5bc6c426c0c64,Detachment,2011,98 min,Drama,7.7,2.905118128670966,A substitute teacher who drifts from classroom to classroom finds a connection to the students and teachers during his latest assignment.,52.0,Tony Kaye,"['Adrien Brody', 'Christina Hendricks', 'Marcia Gay Harden', 'Lucy Liu']",77071,2022-04-17 15:10:02.007,2022-04-17 15:10:02.007
-625c2c1af0a5bc6c426c082e,Room,2015,118 min,"Drama, Thriller",8.1,1.8917269608571097,"Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",86.0,Lenny Abrahamson,"['Brie Larson', 'Jacob Tremblay', 'Sean Bridgers', 'Wendy Crewson']",371538,2022-04-17 15:02:50.074,2022-04-17 15:02:50.074
-625c2de6f0a5bc6c426c0cf0,Hamlet,1996,242 min,Drama,7.7,1.9471267665949676,"Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",,Kenneth Branagh,"['Kenneth Branagh', 'Julie Christie', 'Derek Jacobi', 'Kate Winslet']",35991,2022-04-17 15:10:30.302,2022-04-17 15:10:30.302
-625c2d5cf0a5bc6c426c0b32,La grande bellezza,2013,141 min,Drama,7.8,3.8388957207929564,"Jep Gambardella has seduced his way through the lavish nightlife of Rome for decades, but after his 65th birthday and a shock from the past, Jep looks past the nightclubs and parties to find a timeless landscape of absurd, exquisite beauty.",86.0,Paolo Sorrentino,"['Toni Servillo', 'Carlo Verdone', 'Sabrina Ferilli', 'Carlo Buccirosso']",81125,2022-04-17 15:08:12.279,2022-04-17 15:08:12.279
-625c2d67f0a5bc6c426c0b6e,Auf der anderen Seite,2007,122 min,Drama,7.8,0.2628071466856041,A Turkish man travels to Istanbul to find the daughter of his father's former girlfriend.,85.0,Fatih Akin,"['Baki Davrak', 'Nurgül Yesilçay', 'Tuncel Kurtiz', 'Nursel Köse']",30827,2022-04-17 15:08:23.926,2022-04-17 15:08:23.926
-625c2cb9f0a5bc6c426c0952,Darbareye Elly,2009,119 min,"Drama, Mystery",8.0,1.3430809095774465,The mysterious disappearance of a kindergarten teacher during a picnic in the north of Iran is followed by a series of misadventures for her fellow travelers.,87.0,Asghar Farhadi,"['Golshifteh Farahani', 'Shahab Hosseini', 'Taraneh Alidoosti', ""Merila Zare'i""]",45803,2022-04-17 15:05:29.244,2022-04-17 15:05:29.244
-625c2e3bf0a5bc6c426c0e64,Lifeboat,1944,97 min,"Drama, War",7.6,3.1802582533367563,Several survivors of a torpedoed merchant ship in World War II find themselves in the same lifeboat with one of the crew members of the U-boat that sank their ship.,78.0,Alfred Hitchcock,"['Tallulah Bankhead', 'John Hodiak', 'Walter Slezak', 'William Bendix']",26471,2022-04-17 15:11:55.530,2022-04-17 15:11:55.530
+_id
+625c2bf5f0a5bc6c426c07cc
+625c2d84f0a5bc6c426c0b90
+625c2c15f0a5bc6c426c0828
+625c2debf0a5bc6c426c0cfc
+625c2c09f0a5bc6c426c0808
+625c2ccff0a5bc6c426c099e
+625c2db7f0a5bc6c426c0c38
+625c2c04f0a5bc6c426c07f6
+625c2e08f0a5bc6c426c0d7e
+625c2e08f0a5bc6c426c0d78
+625c2c5cf0a5bc6c426c08c8
+625c2cbff0a5bc6c426c095e
+625c2d1af0a5bc6c426c0a6e
+625c2dcaf0a5bc6c426c0c64
+625c2c1af0a5bc6c426c082e
+625c2de6f0a5bc6c426c0cf0
+625c2d5cf0a5bc6c426c0b32
+625c2d67f0a5bc6c426c0b6e
+625c2cb9f0a5bc6c426c0952
+625c2e3bf0a5bc6c426c0e64

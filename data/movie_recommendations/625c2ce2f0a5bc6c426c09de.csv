@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2db1f0a5bc6c426c0c1e,The Innocents,1961,100 min,Horror,7.8,3.3458485765402757,A young governess for two children becomes convinced that the house and grounds are haunted.,88.0,Jack Clayton,"['Deborah Kerr', 'Peter Wyngarde', 'Megs Jenkins', 'Michael Redgrave']",27007,2022-04-17 15:09:37.786,2022-04-17 15:09:37.786
-625c2c57f0a5bc6c426c08b6,The Thing,1982,109 min,"Horror, Mystery, Sci-Fi",8.1,1.4454344869499203,A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.,57.0,John Carpenter,"['Kurt Russell', 'Wilford Brimley', 'Keith David', 'Richard Masur']",371271,2022-04-17 15:03:51.130,2022-04-17 15:03:51.130
-625c2e2af0a5bc6c426c0e00,The Others,2001,101 min,"Horror, Mystery, Thriller",7.6,0.6620977419123497,A woman who lives in her darkened old family house with her two photosensitive children becomes convinced that the home is haunted.,74.0,Alejandro Amenábar,"['Nicole Kidman', 'Christopher Eccleston', 'Fionnula Flanagan', 'Alakina Mann']",337651,2022-04-17 15:11:38.995,2022-04-17 15:11:38.995
-625c2d3af0a5bc6c426c0ad8,Night of the Living Dead,1968,96 min,"Horror, Thriller",7.9,2.4625939271481387,A ragtag group of Pennsylvanians barricade themselves in an old farmhouse to remain safe from a horde of flesh-eating ghouls that are ravaging the East Coast of the United States.,89.0,George A. Romero,"['Duane Jones', ""Judith O'Dea"", 'Karl Hardman', 'Marilyn Eastman']",116557,2022-04-17 15:07:38.732,2022-04-17 15:07:38.732
-625c2bb4f0a5bc6c426c072e,Alien,1979,117 min,"Horror, Sci-Fi",8.4,3.94409675072502,"After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",89.0,Ridley Scott,"['Sigourney Weaver', 'Tom Skerritt', 'John Hurt', 'Veronica Cartwright']",787806,2022-04-17 15:01:08.322,2022-04-17 15:01:08.322
-625c2e04f0a5bc6c426c0d70,The Invisible Man,1933,71 min,"Horror, Sci-Fi",7.7,3.1089603653427043,"A scientist finds a way of becoming invisible, but in doing so, he becomes murderously insane.",87.0,James Whale,"['Claude Rains', 'Gloria Stuart', 'William Harrigan', 'Henry Travers']",30683,2022-04-17 15:11:00.408,2022-04-17 15:11:00.408
-625c2e24f0a5bc6c426c0dd2,The Illusionist,2006,110 min,"Drama, Fantasy, Mystery",7.6,2.1588815784828306,"In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing.",68.0,Neil Burger,"['Edward Norton', 'Jessica Biel', 'Paul Giamatti', 'Rufus Sewell']",354728,2022-04-17 15:11:32.744,2022-04-17 15:11:32.744
-625c2b56f0a5bc6c426c06b4,The Matrix,1999,136 min,"Action, Sci-Fi",8.7,0.9890411364847818,"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",73.0,Lana Wachowski,"['Lilly Wachowski', 'Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss']",1676426,2022-04-17 14:59:34.862,2022-04-17 14:59:34.862
-625c2cd8f0a5bc6c426c09cc,The Terminator,1984,107 min,"Action, Sci-Fi",8.0,1.7040740434088575,"A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",84.0,James Cameron,"['Arnold Schwarzenegger', 'Linda Hamilton', 'Michael Biehn', 'Paul Winfield']",799795,2022-04-17 15:06:00.505,2022-04-17 15:06:00.505
-625c2ceaf0a5bc6c426c09fc,The Hustler,1961,134 min,"Drama, Sport",8.0,0.8957244893575744,An up-and-coming pool player plays a long-time champion in a single high-stakes match.,90.0,Robert Rossen,"['Paul Newman', 'Jackie Gleason', 'Piper Laurie', 'George C. Scott']",75067,2022-04-17 15:06:18.441,2022-04-17 15:06:18.441
-625c2df4f0a5bc6c426c0d24,The Verdict,1982,129 min,Drama,7.7,0.4791998803837616,A lawyer sees the chance to salvage his career and self-respect by taking a medical malpractice case to trial rather than settling.,77.0,Sidney Lumet,"['Paul Newman', 'Charlotte Rampling', 'Jack Warden', 'James Mason']",36096,2022-04-17 15:10:44.688,2022-04-17 15:10:44.688
-625c2ddaf0a5bc6c426c0cac,The Machinist,2004,101 min,"Drama, Thriller",7.7,3.195913213283813,An industrial worker who hasn't slept in a year begins to doubt his own sanity.,61.0,Brad Anderson,"['Christian Bale', 'Jennifer Jason Leigh', 'Aitana Sánchez-Gijón', 'John Sharian']",358432,2022-04-17 15:10:18.395,2022-04-17 15:10:18.395
-625c2dccf0a5bc6c426c0c74,The Hangover,2009,100 min,Comedy,7.7,3.5677757393297305,"Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",73.0,Todd Phillips,"['Zach Galifianakis', 'Bradley Cooper', 'Justin Bartha', 'Ed Helms']",717559,2022-04-17 15:10:04.304,2022-04-17 15:10:04.304
-625c2e19f0a5bc6c426c0dc0,The Visitor,2007,104 min,Drama,7.6,4.329784793972047,A college professor travels to New York City to attend a conference and finds a young couple living in his apartment.,79.0,Tom McCarthy,"['Richard Jenkins', 'Haaz Sleiman', 'Danai Gurira', 'Hiam Abbass']",41544,2022-04-17 15:11:21.308,2022-04-17 15:11:21.308
-625c2b47f0a5bc6c426c069a,The Godfather,1972,175 min,"Crime, Drama",9.2,1.2255383890480909,An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.,100.0,Francis Ford Coppola,"['Marlon Brando', 'Al Pacino', 'James Caan', 'Diane Keaton']",1620367,2022-04-17 14:59:19.890,2022-04-17 14:59:19.890
-625c2b73f0a5bc6c426c06fa,Psycho,1960,109 min,"Horror, Mystery, Thriller",8.5,3.077473193408405,"A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",97.0,Alfred Hitchcock,"['Anthony Perkins', 'Janet Leigh', 'Vera Miles', 'John Gavin']",604211,2022-04-17 15:00:03.375,2022-04-17 15:00:03.375
-625c2d5cf0a5bc6c426c0b34,The Lunchbox,2013,104 min,"Drama, Romance",7.8,0.3264388998341605,A mistaken delivery in Mumbai's famously efficient lunchbox delivery system connects a young housewife to an older man in the dusk of his life as they build a fantasy world together through notes in the lunchbox.,76.0,Ritesh Batra,"['Irrfan Khan', 'Nimrat Kaur', 'Nawazuddin Siddiqui', 'Lillete Dubey']",50523,2022-04-17 15:08:12.492,2022-04-17 15:08:12.492
-625c2df6f0a5bc6c426c0d30,Halloween,1978,91 min,"Horror, Thriller",7.7,0.23226721486923063,"Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",87.0,John Carpenter,"['Donald Pleasence', 'Jamie Lee Curtis', 'Tony Moran', 'Nancy Kyes']",233106,2022-04-17 15:10:46.767,2022-04-17 15:10:46.767
-625c2b77f0a5bc6c426c0702,Capharnaüm,2018,126 min,Drama,8.4,1.5905239703404994,"While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",75.0,Nadine Labaki,"['Zain Al Rafeea', 'Yordanos Shiferaw', 'Boluwatife Treasure Bankole', 'Kawsar Al Haddad']",62635,2022-04-17 15:00:07.726,2022-04-17 15:00:07.726
-625c2ce3f0a5bc6c426c09e6,Il conformista,1970,113 min,Drama,8.0,1.65756471323934,"A weak-willed Italian man becomes a fascist flunky who goes abroad to arrange the assassination of his old teacher, now a political dissident.",100.0,Bernardo Bertolucci,"['Jean-Louis Trintignant', 'Stefania Sandrelli', 'Gastone Moschin', 'Enzo Tarascio']",27067,2022-04-17 15:06:11.142,2022-04-17 15:06:11.142
+_id
+625c2db1f0a5bc6c426c0c1e
+625c2c57f0a5bc6c426c08b6
+625c2e2af0a5bc6c426c0e00
+625c2d3af0a5bc6c426c0ad8
+625c2bb4f0a5bc6c426c072e
+625c2e04f0a5bc6c426c0d70
+625c2e24f0a5bc6c426c0dd2
+625c2b56f0a5bc6c426c06b4
+625c2cd8f0a5bc6c426c09cc
+625c2ceaf0a5bc6c426c09fc
+625c2df4f0a5bc6c426c0d24
+625c2ddaf0a5bc6c426c0cac
+625c2dccf0a5bc6c426c0c74
+625c2e19f0a5bc6c426c0dc0
+625c2b47f0a5bc6c426c069a
+625c2b73f0a5bc6c426c06fa
+625c2d5cf0a5bc6c426c0b34
+625c2df6f0a5bc6c426c0d30
+625c2b77f0a5bc6c426c0702
+625c2ce3f0a5bc6c426c09e6

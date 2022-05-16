@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2b6ef0a5bc6c426c06ea,The Usual Suspects,1995,106 min,"Crime, Mystery, Thriller",8.5,0.5506738739146932,"A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",77.0,Bryan Singer,"['Kevin Spacey', 'Gabriel Byrne', 'Chazz Palminteri', 'Stephen Baldwin']",991208,2022-04-17 14:59:58.362,2022-04-17 14:59:58.362
-625c2e3bf0a5bc6c426c0e66,The 39 Steps,1935,86 min,"Crime, Mystery, Thriller",7.6,3.233511306713889,"A man in London tries to help a counter-espionage Agent. But when the Agent is killed, and the man stands accused, he must go on the run to save himself and stop a spy ring which is trying to steal top secret information.",93.0,Alfred Hitchcock,"['Robert Donat', 'Madeleine Carroll', 'Lucie Mannheim', 'Godfrey Tearle']",51853,2022-04-17 15:11:55.730,2022-04-17 15:11:55.730
-625c2df3f0a5bc6c426c0d1a,Der Name der Rose,1986,130 min,"Crime, Drama, Mystery",7.7,4.433988159634847,An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey.,54.0,Jean-Jacques Annaud,"['Sean Connery', 'Christian Slater', 'Helmut Qualtinger', 'Elya Baskin']",102031,2022-04-17 15:10:43.316,2022-04-17 15:10:43.316
-625c2cc2f0a5bc6c426c096c,The Bourne Ultimatum,2007,115 min,"Action, Mystery, Thriller",8.0,4.986239548051403,Jason Bourne dodges a ruthless C.I.A. official and his Agents from a new assassination program while searching for the origins of his life as a trained killer.,85.0,Paul Greengrass,"['Matt Damon', 'Edgar Ramírez', 'Joan Allen', 'Julia Stiles']",604694,2022-04-17 15:05:38.941,2022-04-17 15:05:38.941
-625c2df3f0a5bc6c426c0d1c,Blue Velvet,1986,120 min,"Drama, Mystery, Thriller",7.7,1.4546634168008121,"The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",76.0,David Lynch,"['Isabella Rossellini', 'Kyle MacLachlan', 'Dennis Hopper', 'Laura Dern']",181285,2022-04-17 15:10:43.527,2022-04-17 15:10:43.527
-625c2e36f0a5bc6c426c0e40,Blood Simple,1984,99 min,"Crime, Drama, Thriller",7.6,1.7240105246019743,"The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",82.0,Joel Coen,"['Ethan Coen', 'John Getz', 'Frances McDormand', 'Dan Hedaya']",87745,2022-04-17 15:11:50.032,2022-04-17 15:11:50.032
-625c2deef0a5bc6c426c0d06,Glengarry Glen Ross,1992,100 min,"Crime, Drama, Mystery",7.7,0.002808918853294262,An examination of the machinations behind the scenes at a real estate office.,82.0,James Foley,"['Al Pacino', 'Jack Lemmon', 'Alec Baldwin', 'Alan Arkin']",95826,2022-04-17 15:10:38.259,2022-04-17 15:10:38.259
-625c2cc3f0a5bc6c426c0970,Sin City,2005,124 min,"Crime, Thriller",8.0,2.6487390464991423,"A movie that explores the dark and miserable town, Basin City, tells the story of three different people, all caught up in violent corruption.",74.0,Frank Miller,"['Quentin Tarantino', 'Robert Rodriguez', 'Mickey Rourke', 'Clive Owen']",738512,2022-04-17 15:05:39.323,2022-04-17 15:05:39.323
-625c2db8f0a5bc6c426c0c3e,Wind River,2017,107 min,"Crime, Drama, Mystery",7.7,2.5,A veteran hunter helps an FBI agent investigate the murder of a young woman on a Wyoming Native American reservation.,73.0,Taylor Sheridan,"['Kelsey Asbille', 'Jeremy Renner', 'Julia Jones', 'Teo Briones']",205444,2022-04-17 15:09:44.792,2022-04-18 04:08:04.640
-625c2d63f0a5bc6c426c0b5e,Män som hatar kvinnor,2009,152 min,"Crime, Drama, Mystery",7.8,4.1763922606534445,A journalist is aided by a young female hacker in his search for the killer of a woman who has been dead for forty years.,76.0,Niels Arden Oplev,"['Michael Nyqvist', 'Noomi Rapace', 'Ewa Fröling', 'Lena Endre']",208994,2022-04-17 15:08:19.625,2022-04-17 15:08:19.625
-625c2e29f0a5bc6c426c0dee,Boksuneun naui geot,2002,129 min,"Crime, Drama, Thriller",7.6,3.179737002803803,"A recently laid off factory worker kidnaps his former boss' friend's daughter, hoping to use the ransom money to pay for his sister's kidney transplant.",56.0,Chan-wook Park,"['Kang-ho Song', 'Shin Ha-kyun', 'Bae Doona', 'Ji-Eun Lim']",62659,2022-04-17 15:11:37.126,2022-04-17 15:11:37.126
-625c2c75f0a5bc6c426c0902,The Third Man,1949,104 min,"Film-Noir, Mystery, Thriller",8.1,3.517676385577837,"Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",97.0,Carol Reed,"['Orson Welles', 'Joseph Cotten', 'Alida Valli', 'Trevor Howard']",158731,2022-04-17 15:04:21.670,2022-04-17 15:04:21.670
-625c2c0af0a5bc6c426c080e,Dial M for Murder,1954,105 min,"Crime, Thriller",8.2,3.156220851919204,A former tennis player tries to arrange his wife's murder after learning of her affair.,75.0,Alfred Hitchcock,"['Ray Milland', 'Grace Kelly', 'Robert Cummings', 'John Williams']",158335,2022-04-17 15:02:34.339,2022-04-17 15:02:34.339
-625c2bc8f0a5bc6c426c0766,Reservoir Dogs,1992,99 min,"Crime, Drama, Thriller",8.3,2.54028073683074,"When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",79.0,Quentin Tarantino,"['Harvey Keitel', 'Tim Roth', 'Michael Madsen', 'Chris Penn']",918562,2022-04-17 15:01:28.908,2022-04-17 15:01:28.908
-625c2c41f0a5bc6c426c0876,Salinui chueok,2003,131 min,"Crime, Drama, Mystery",8.1,0.4382935615425798,"In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",82.0,Bong Joon Ho,"['Kang-ho Song', 'Kim Sang-kyung', 'Roe-ha Kim', 'Jae-ho Song']",139558,2022-04-17 15:03:29.551,2022-04-17 15:03:29.551
-625c2bfbf0a5bc6c426c07e0,Heat,1995,170 min,"Crime, Drama, Thriller",8.2,3.958137797978565,A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.,76.0,Michael Mann,"['Al Pacino', 'Robert De Niro', 'Val Kilmer', 'Jon Voight']",577113,2022-04-17 15:02:19.834,2022-04-17 15:02:19.834
-625c2c82f0a5bc6c426c0936,Special Chabbis,2013,144 min,"Crime, Drama, Thriller",8.0,0.7821489988074626,A gang of con-men rob prominent rich businessmen and politicians by posing as C.B.I and income tax officers.,,Neeraj Pandey,"['Akshay Kumar', 'Anupam Kher', 'Manoj Bajpayee', 'Jimmy Sheirgill']",51069,2022-04-17 15:04:34.238,2022-04-17 15:04:34.238
-625c2d49f0a5bc6c426c0af8,The Big Sleep,1946,114 min,"Crime, Film-Noir, Mystery",7.9,1.3577296863825428,"Private detective Philip Marlowe is hired by a wealthy family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",,Howard Hawks,"['Humphrey Bogart', 'Lauren Bacall', 'John Ridgely', 'Martha Vickers']",78796,2022-04-17 15:07:53.557,2022-04-17 15:07:53.557
-625c2d04f0a5bc6c426c0a4c,Nightcrawler,2014,117 min,"Crime, Drama, Thriller",7.9,3.6778174734497315,"When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.",76.0,Dan Gilroy,"['Jake Gyllenhaal', 'Rene Russo', 'Bill Paxton', 'Riz Ahmed']",466134,2022-04-17 15:06:44.267,2022-04-17 15:06:44.267
-625c2c49f0a5bc6c426c0888,The Sixth Sense,1999,107 min,"Drama, Mystery, Thriller",8.1,0.29274374703442185,A boy who communicates with spirits seeks the help of a disheartened child psychologist.,64.0,M. Night Shyamalan,"['Bruce Willis', 'Haley Joel Osment', 'Toni Collette', 'Olivia Williams']",911573,2022-04-17 15:03:37.072,2022-04-17 15:03:37.072
+_id
+625c2b6ef0a5bc6c426c06ea
+625c2e3bf0a5bc6c426c0e66
+625c2df3f0a5bc6c426c0d1a
+625c2cc2f0a5bc6c426c096c
+625c2df3f0a5bc6c426c0d1c
+625c2e36f0a5bc6c426c0e40
+625c2deef0a5bc6c426c0d06
+625c2cc3f0a5bc6c426c0970
+625c2db8f0a5bc6c426c0c3e
+625c2d63f0a5bc6c426c0b5e
+625c2e29f0a5bc6c426c0dee
+625c2c75f0a5bc6c426c0902
+625c2c0af0a5bc6c426c080e
+625c2bc8f0a5bc6c426c0766
+625c2c41f0a5bc6c426c0876
+625c2bfbf0a5bc6c426c07e0
+625c2c82f0a5bc6c426c0936
+625c2d49f0a5bc6c426c0af8
+625c2d04f0a5bc6c426c0a4c
+625c2c49f0a5bc6c426c0888

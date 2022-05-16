@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2da2f0a5bc6c426c0bfc,Days of Heaven,1978,94 min,"Drama, Romance",7.8,0.4110232523207591,A hot-tempered farm laborer convinces the woman he loves to marry their rich but dying boss so that they can have a claim to his fortune.,93.0,Terrence Malick,"['Richard Gere', 'Brooke Adams', 'Sam Shepard', 'Linda Manz']",52852,2022-04-17 15:09:22.403,2022-04-17 15:09:22.403
-625c2d4df0a5bc6c426c0b0e,Sound of Metal,2019,120 min,"Drama, Music",7.8,0.9372079357962981,A heavy-metal drummer's life is thrown into freefall when he begins to lose his hearing.,81.0,Darius Marder,"['Riz Ahmed', 'Olivia Cooke', 'Paul Raci', 'Lauren Ridloff']",27187,2022-04-17 15:07:57.727,2022-04-17 15:07:57.727
-625c2da2f0a5bc6c426c0bfa,Kramer vs. Kramer,1979,105 min,Drama,7.8,1.223801397438511,"Ted Kramer's wife leaves him, allowing for a lost bond to be rediscovered between Ted and his son, Billy. But a heated custody battle ensues over the divorced couple's son, deepening the wounds left by the separation.",77.0,Robert Benton,"['Dustin Hoffman', 'Meryl Streep', 'Jane Alexander', 'Justin Henry']",133351,2022-04-17 15:09:22.189,2022-04-17 15:09:22.189
-625c2ceef0a5bc6c426c0a08,Sweet Smell of Success,1957,96 min,"Drama, Film-Noir",8.0,3.4429306438556893,Powerful but unethical Broadway columnist J.J. Hunsecker coerces unscrupulous press agent Sidney Falco into breaking up his sister's romance with a jazz musician.,100.0,Alexander Mackendrick,"['Burt Lancaster', 'Tony Curtis', 'Susan Harrison', 'Martin Milner']",28137,2022-04-17 15:06:22.424,2022-04-17 15:06:22.424
-625c2db5f0a5bc6c426c0c30,Bride of Frankenstein,1935,75 min,"Drama, Horror, Sci-Fi",7.8,2.742565985917534,"Mary Shelley reveals the main characters of her novel survived: Dr. Frankenstein, goaded by an even madder scientist, builds his monster a mate.",95.0,James Whale,"['Boris Karloff', 'Elsa Lanchester', 'Colin Clive', 'Valerie Hobson']",43542,2022-04-17 15:09:41.340,2022-04-17 15:09:41.340
-625c2bc2f0a5bc6c426c074e,Miracle in cell NO.7,2019,132 min,Drama,8.3,1.369804229993985,A story of love between a mentally-ill father who was wrongly accused of murder and his lovely six years old daughter. The prison would be their home. Based on the 2013 Korean movie 7-beon-bang-ui seon-mul (2013).,,Mehmet Ada Öztekin,"['Aras Bulut Iynemli', 'Nisa Sofiya Aksongur', 'Deniz Baysal', 'Celile Toyon Uysal']",33935,2022-04-17 15:01:22.733,2022-04-17 15:01:22.733
-625c2cc6f0a5bc6c426c097c,Vozvrashchenie,2003,110 min,Drama,8.0,3.689387860596409,"In the Russian wilderness, two brothers face a range of new, conflicting emotions when their father - a man they know only through a single photograph - resurfaces.",82.0,Andrey Zvyagintsev,"['Vladimir Garin', 'Ivan Dobronravov', 'Konstantin Lavronenko', 'Nataliya Vdovina']",42399,2022-04-17 15:05:42.743,2022-04-17 15:05:42.743
-625c2c82f0a5bc6c426c0938,Short Term 12,2013,96 min,Drama,8.0,0.30754197146206863,A 20-something supervising staff member of a residential treatment facility navigates the troubled waters of that world alongside her co-worker and longtime boyfriend.,82.0,Destin Daniel Cretton,"['Brie Larson', 'Frantz Turner', 'John Gallagher Jr.', 'Kaitlyn Dever']",81770,2022-04-17 15:04:34.531,2022-04-17 15:04:34.531
-625c2c34f0a5bc6c426c085a,Gran Torino,2008,116 min,Drama,8.1,0.9276259140771848,"Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",72.0,Clint Eastwood,"['Clint Eastwood', 'Bee Vang', 'Christopher Carley', 'Ahney Her']",720450,2022-04-17 15:03:16.928,2022-04-17 15:03:16.928
-625c2bb9f0a5bc6c426c0738,Paths of Glory,1957,88 min,"Drama, War",8.4,4.633239124482769,"After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.",90.0,Stanley Kubrick,"['Kirk Douglas', 'Ralph Meeker', 'Adolphe Menjou', 'George Macready']",178092,2022-04-17 15:01:13.755,2022-04-17 15:01:13.755
-625c2d54f0a5bc6c426c0b20,Manchester by the Sea,2016,137 min,Drama,7.8,3.4604231350642323,A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.,96.0,Kenneth Lonergan,"['Casey Affleck', 'Michelle Williams', 'Kyle Chandler', 'Lucas Hedges']",246963,2022-04-17 15:08:04.754,2022-04-17 15:08:04.754
-625c2b77f0a5bc6c426c0702,Capharnaüm,2018,126 min,Drama,8.4,1.5905239703404994,"While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",75.0,Nadine Labaki,"['Zain Al Rafeea', 'Yordanos Shiferaw', 'Boluwatife Treasure Bankole', 'Kawsar Al Haddad']",62635,2022-04-17 15:00:07.726,2022-04-17 15:00:07.726
-625c2e36f0a5bc6c426c0e42,On Golden Pond,1981,109 min,Drama,7.6,0.766619410123125,"Norman is a curmudgeon with an estranged relationship with his daughter Chelsea. At Golden Pond, he and his wife nevertheless agree to care for Billy, the son of Chelsea's new boyfriend, and a most unexpected relationship blooms.",68.0,Mark Rydell,"['Katharine Hepburn', 'Henry Fonda', 'Jane Fonda', 'Doug McKeon']",27650,2022-04-17 15:11:50.237,2022-04-17 15:11:50.237
-625c2e27f0a5bc6c426c0de2,"Synecdoche, New York",2008,124 min,Drama,7.6,4.891618398064632,"A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.",67.0,Charlie Kaufman,"['Philip Seymour Hoffman', 'Samantha Morton', 'Michelle Williams', 'Catherine Keener']",83158,2022-04-17 15:11:35.332,2022-04-17 15:11:35.332
-625c2c0ef0a5bc6c426c0814,All About Eve,1950,138 min,Drama,8.2,3.6368743254570957,A seemingly timid but secretly ruthless ingénue insinuates herself into the lives of an aging Broadway star and her circle of theater friends.,98.0,Joseph L. Mankiewicz,"['Bette Davis', 'Anne Baxter', 'George Sanders', 'Celeste Holm']",120539,2022-04-17 15:02:38.746,2022-04-17 15:02:38.746
-625c2be9f0a5bc6c426c07b2,Udaan,2010,134 min,Drama,8.2,3.3079790437553855,"Expelled from his school, a 16-year old boy returns home to his abusive and oppressive father.",,Vikramaditya Motwane,"['Rajat Barmecha', 'Ronit Roy', 'Manjot Singh', 'Ram Kapoor']",42341,2022-04-17 15:02:01.137,2022-04-17 15:02:01.137
-625c2ce5f0a5bc6c426c09f0,Who's Afraid of Virginia Woolf?,1966,131 min,Drama,8.0,2.770620325296659,"A bitter, aging couple, with the help of alcohol, use their young houseguests to fuel anguish and emotional pain towards each other over the course of a distressing night.",75.0,Mike Nichols,"['Elizabeth Taylor', 'Richard Burton', 'George Segal', 'Sandy Dennis']",68926,2022-04-17 15:06:13.969,2022-04-17 15:06:13.969
-625c2cd0f0a5bc6c426c09a6,Sling Blade,1996,135 min,Drama,8.0,0.21053433873782001,"Karl Childers, a simple man hospitalized since his childhood murder of his mother and her lover, is released to start a new life in a small town.",84.0,Billy Bob Thornton,"['Billy Bob Thornton', 'Dwight Yoakam', 'J.T. Walsh', 'John Ritter']",86838,2022-04-17 15:05:52.184,2022-04-17 15:05:52.184
-625c2cd2f0a5bc6c426c09b4,Scent of a Woman,1992,156 min,Drama,8.0,2.0804653603725978,"A prep school student needing money agrees to ""babysit"" a blind man, but the job is not at all what he anticipated.",59.0,Martin Brest,"['Al Pacino', ""Chris O'Donnell"", 'James Rebhorn', 'Gabrielle Anwar']",263918,2022-04-17 15:05:54.148,2022-04-17 15:05:54.148
-625c2e0cf0a5bc6c426c0d8c,Bridge of Spies,2015,142 min,"Drama, History, Thriller",7.6,3.1230122779734746,"During the Cold War, an American lawyer is recruited to defend an arrested Soviet spy in court, and then help the CIA facilitate an exchange of the spy for the Soviet captured American U2 spy plane pilot, Francis Gary Powers.",81.0,Steven Spielberg,"['Tom Hanks', 'Mark Rylance', 'Alan Alda', 'Amy Ryan']",287659,2022-04-17 15:11:08.183,2022-04-17 15:11:08.183
+_id
+625c2da2f0a5bc6c426c0bfc
+625c2d4df0a5bc6c426c0b0e
+625c2da2f0a5bc6c426c0bfa
+625c2ceef0a5bc6c426c0a08
+625c2db5f0a5bc6c426c0c30
+625c2bc2f0a5bc6c426c074e
+625c2cc6f0a5bc6c426c097c
+625c2c82f0a5bc6c426c0938
+625c2c34f0a5bc6c426c085a
+625c2bb9f0a5bc6c426c0738
+625c2d54f0a5bc6c426c0b20
+625c2b77f0a5bc6c426c0702
+625c2e36f0a5bc6c426c0e42
+625c2e27f0a5bc6c426c0de2
+625c2c0ef0a5bc6c426c0814
+625c2be9f0a5bc6c426c07b2
+625c2ce5f0a5bc6c426c09f0
+625c2cd0f0a5bc6c426c09a6
+625c2cd2f0a5bc6c426c09b4
+625c2e0cf0a5bc6c426c0d8c

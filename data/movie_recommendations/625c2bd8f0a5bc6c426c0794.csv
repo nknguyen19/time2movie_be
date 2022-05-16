@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2c04f0a5bc6c426c07f4,Stalker,1979,162 min,"Drama, Sci-Fi",8.2,2.1102227269198,A guide leads two men through an area known as the Zone to find a room that grants wishes.,,Andrei Tarkovsky,"['Alisa Freyndlikh', 'Aleksandr Kaydanovskiy', 'Anatoliy Solonitsyn', 'Nikolay Grinko']",116945,2022-04-17 15:02:28.787,2022-04-17 15:02:28.787
-625c2d37f0a5bc6c426c0aba,Brazil,1985,132 min,"Drama, Sci-Fi",7.9,2.8509490379893276,A bureaucrat in a dystopic society becomes an enemy of the state as he pursues the woman of his dreams.,84.0,Terry Gilliam,"['Jonathan Pryce', 'Kim Greist', 'Robert De Niro', 'Katherine Helmond']",187567,2022-04-17 15:07:35.200,2022-04-17 15:07:35.200
-625c2d06f0a5bc6c426c0a50,Arrival,2016,116 min,"Drama, Sci-Fi",7.9,4.181641793661651,A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecrafts appear around the world.,81.0,Denis Villeneuve,"['Amy Adams', 'Jeremy Renner', 'Forest Whitaker', 'Michael Stuhlbarg']",594181,2022-04-17 15:06:46.569,2022-04-17 15:06:46.569
-625c2d8df0a5bc6c426c0bb4,Gattaca,1997,106 min,"Drama, Sci-Fi, Thriller",7.8,2.311791246259214,A genetically inferior man assumes the identity of a superior one in order to pursue his lifelong dream of space travel.,64.0,Andrew Niccol,"['Ethan Hawke', 'Uma Thurman', 'Jude Law', 'Gore Vidal']",280845,2022-04-17 15:09:01.127,2022-04-17 15:09:01.127
-625c2db6f0a5bc6c426c0c36,Frankenstein,1931,70 min,"Drama, Horror, Sci-Fi",7.8,3.714589445719657,Dr. Frankenstein dares to tamper with life and death by creating a human monster out of lifeless body parts.,91.0,James Whale,"['Colin Clive', 'Mae Clarke', 'Boris Karloff', 'John Boles']",65341,2022-04-17 15:09:42.874,2022-04-17 15:09:42.874
-625c2ccdf0a5bc6c426c0994,Donnie Darko,2001,113 min,"Drama, Mystery, Sci-Fi",8.0,0.9312626851443451,"After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",88.0,Richard Kelly,"['Jake Gyllenhaal', 'Jena Malone', 'Mary McDonnell', 'Holmes Osborne']",740086,2022-04-17 15:05:49.583,2022-04-17 15:05:49.583
-625c2d12f0a5bc6c426c0a64,Moon,2009,97 min,"Drama, Mystery, Sci-Fi",7.9,4.986237803631121,"Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our planet's power problems.",67.0,Duncan Jones,"['Sam Rockwell', 'Kevin Spacey', 'Dominique McElligott', 'Rosie Shaw']",335152,2022-04-17 15:06:58.631,2022-04-17 15:06:58.631
-625c2dd4f0a5bc6c426c0c90,Ex Machina,2014,108 min,"Drama, Sci-Fi, Thriller",7.7,1.7764413311231964,A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.,78.0,Alex Garland,"['Alicia Vikander', 'Domhnall Gleeson', 'Oscar Isaac', 'Sonoya Mizuno']",474141,2022-04-17 15:10:12.681,2022-04-17 15:10:12.681
-625c2c6df0a5bc6c426c08ea,Jungfrukällan,1960,89 min,Drama,8.1,2.507184166174472,"An innocent yet pampered young virgin and her family's pregnant and jealous servant set out to deliver candles to church, but only one returns from events that transpire in the woods along the way.",,Ingmar Bergman,"['Max von Sydow', 'Birgitta Valberg', 'Gunnel Lindblom', 'Birgitta Pettersson']",26697,2022-04-17 15:04:13.842,2022-04-17 15:04:13.842
-625c2e38f0a5bc6c426c0e50,Close Encounters of the Third Kind,1977,138 min,"Drama, Sci-Fi",7.6,3.8491081058614585,"Roy Neary, an electric lineman, watches how his quiet and ordinary daily life turns upside down after a close encounter with a UFO.",90.0,Steven Spielberg,"['Richard Dreyfuss', 'François Truffaut', 'Teri Garr', 'Melinda Dillon']",184966,2022-04-17 15:11:52.513,2022-04-17 15:11:52.513
-625c2dcbf0a5bc6c426c0c6a,Gravity,2013,91 min,"Drama, Sci-Fi, Thriller",7.7,3.7862962570043326,Two astronauts work together to survive after an accident leaves them stranded in space.,96.0,Alfonso Cuarón,"['Sandra Bullock', 'George Clooney', 'Ed Harris', 'Orto Ignatiussen']",769145,2022-04-17 15:10:03.267,2022-04-17 15:10:03.267
-625c2de2f0a5bc6c426c0ce0,Abre los ojos,1997,119 min,"Drama, Mystery, Sci-Fi",7.7,0.497746000126017,"A very handsome man finds the love of his life, but he suffers an accident and needs to have his face rebuilt by surgery after it is severely disfigured.",,Alejandro Amenábar,"['Eduardo Noriega', 'Penélope Cruz', 'Chete Lera', 'Fele Martínez']",64082,2022-04-17 15:10:26.919,2022-04-17 15:10:26.919
-625c2db5f0a5bc6c426c0c30,Bride of Frankenstein,1935,75 min,"Drama, Horror, Sci-Fi",7.8,2.742565985917534,"Mary Shelley reveals the main characters of her novel survived: Dr. Frankenstein, goaded by an even madder scientist, builds his monster a mate.",95.0,James Whale,"['Boris Karloff', 'Elsa Lanchester', 'Colin Clive', 'Valerie Hobson']",43542,2022-04-17 15:09:41.340,2022-04-17 15:09:41.340
-625c2cb5f0a5bc6c426c0942,Her,2013,126 min,"Drama, Romance, Sci-Fi",8.0,1.0178840584621218,"In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",90.0,Spike Jonze,"['Joaquin Phoenix', 'Amy Adams', 'Scarlett Johansson', 'Rooney Mara']",540772,2022-04-17 15:05:25.134,2022-04-17 15:05:25.134
-625c2c5cf0a5bc6c426c08c8,Network,1976,121 min,Drama,8.1,3.852851228576771,A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit.,83.0,Sidney Lumet,"['Faye Dunaway', 'William Holden', 'Peter Finch', 'Robert Duvall']",144911,2022-04-17 15:03:56.937,2022-04-17 15:03:56.937
-625c2e01f0a5bc6c426c0d5e,Invasion of the Body Snatchers,1956,80 min,"Drama, Horror, Sci-Fi",7.7,3.8750971331683415,A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.,92.0,Don Siegel,"['Kevin McCarthy', 'Dana Wynter', 'Larry Gates', 'King Donovan']",44839,2022-04-17 15:10:57.130,2022-04-17 15:10:57.130
-625c2c67f0a5bc6c426c08d4,Solaris,1972,167 min,"Drama, Mystery, Sci-Fi",8.1,0.4436238523485625,A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.,90.0,Andrei Tarkovsky,"['Natalya Bondarchuk', 'Donatas Banionis', 'Jüri Järvet', 'Vladislav Dvorzhetskiy']",81021,2022-04-17 15:04:07.159,2022-04-17 15:04:07.159
-625c2e29f0a5bc6c426c0df4,The Butterfly Effect,2004,113 min,"Drama, Sci-Fi, Thriller",7.6,3.6054422187657753,"Evan Treborn suffers blackouts during significant events of his life. As he grows up, he finds a way to remember these lost memories and a supernatural way to alter his life by reading his journal.",30.0,Eric Bress,"['J. Mackye Gruber', 'Ashton Kutcher', 'Amy Smart', 'Melora Walters']",451479,2022-04-17 15:11:37.772,2022-04-17 15:11:37.772
-625c2e29f0a5bc6c426c0df6,28 Days Later...,2002,113 min,"Drama, Horror, Sci-Fi",7.6,2.0219028474537417,"Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.",73.0,Danny Boyle,"['Cillian Murphy', 'Naomie Harris', 'Christopher Eccleston', 'Alex Palmer']",376853,2022-04-17 15:11:37.971,2022-04-17 15:11:37.971
-625c2ccdf0a5bc6c426c0996,Magnolia,1999,188 min,Drama,8.0,3.3104407125138016,"An epic mosaic of interrelated characters in search of love, forgiveness, and meaning in the San Fernando Valley.",77.0,Paul Thomas Anderson,"['Tom Cruise', 'Jason Robards', 'Julianne Moore', 'Philip Seymour Hoffman']",289742,2022-04-17 15:05:49.911,2022-04-17 15:05:49.911
+_id
+625c2c04f0a5bc6c426c07f4
+625c2d37f0a5bc6c426c0aba
+625c2d06f0a5bc6c426c0a50
+625c2d8df0a5bc6c426c0bb4
+625c2db6f0a5bc6c426c0c36
+625c2ccdf0a5bc6c426c0994
+625c2d12f0a5bc6c426c0a64
+625c2dd4f0a5bc6c426c0c90
+625c2c6df0a5bc6c426c08ea
+625c2e38f0a5bc6c426c0e50
+625c2dcbf0a5bc6c426c0c6a
+625c2de2f0a5bc6c426c0ce0
+625c2db5f0a5bc6c426c0c30
+625c2cb5f0a5bc6c426c0942
+625c2c5cf0a5bc6c426c08c8
+625c2e01f0a5bc6c426c0d5e
+625c2c67f0a5bc6c426c08d4
+625c2e29f0a5bc6c426c0df4
+625c2e29f0a5bc6c426c0df6
+625c2ccdf0a5bc6c426c0996

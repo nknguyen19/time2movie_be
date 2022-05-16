@@ -1,21 +1,21 @@
-_id,title,release,duration,gerne,IMDB_Rating,rating,overview,metaScore,director,stars,noOfVotes,createdAt,updatedAt
-625c2b4ef0a5bc6c426c06a4,Pulp Fiction,1994,154 min,"Crime, Drama",8.9,4.664637176527167,"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",94.0,Quentin Tarantino,"['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']",1826188,2022-04-17 14:59:26.767,2022-04-17 14:59:26.767
-625c2b62f0a5bc6c426c06ca,The Green Mile,1999,189 min,"Crime, Drama, Fantasy",8.6,0.08676333883240961,"The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",61.0,Frank Darabont,"['Tom Hanks', 'Michael Clarke Duncan', 'David Morse', 'Bonnie Hunt']",1147794,2022-04-17 14:59:46.061,2022-04-17 14:59:46.061
-625c2b4cf0a5bc6c426c069e,The Godfather: Part II,1974,202 min,"Crime, Drama",9.0,4.8909190356088175,"The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",90.0,Francis Ford Coppola,"['Al Pacino', 'Robert De Niro', 'Robert Duvall', 'Diane Keaton']",1129952,2022-04-17 14:59:24.973,2022-04-17 14:59:24.973
-625c2bcbf0a5bc6c426c0770,Scarface,1983,170 min,"Crime, Drama",8.3,1.9615119865685948,"In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",65.0,Brian De Palma,"['Al Pacino', 'Michelle Pfeiffer', 'Steven Bauer', 'Mary Elizabeth Mastrantonio']",740911,2022-04-17 15:01:31.001,2022-04-17 15:01:31.001
-625c2cd1f0a5bc6c426c09b2,Bound by Honor,1993,180 min,"Crime, Drama",8.0,4.487112916756568,"Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on step-brothers Paco and Cruz, and their bi-racial cousin Miklo.",47.0,Taylor Hackford,"['Damian Chapa', 'Jesse Borrego', 'Benjamin Bratt', 'Enrique Castillo']",28825,2022-04-17 15:05:53.932,2022-04-17 15:05:53.932
-625c2d09f0a5bc6c426c0a58,Bir Zamanlar Anadolu'da,2011,157 min,"Crime, Drama",7.9,4.488120834276128,A group of men set out in search of a dead body in the Anatolian steppes.,82.0,Nuri Bilge Ceylan,"['Muhammet Uzuner', 'Yilmaz Erdogan', 'Taner Birsel', 'Ahmet Mümtaz Taylan']",41995,2022-04-17 15:06:49.711,2022-04-17 15:06:49.711
-625c2c08f0a5bc6c426c0800,To Kill a Mockingbird,1962,129 min,"Crime, Drama",8.2,1.7370790796341418,"Atticus Finch, a lawyer in the Depression-era South, defends a black man against an undeserved rape charge, and his children against prejudice.",88.0,Robert Mulligan,"['Gregory Peck', 'John Megna', 'Frank Overton', 'Rosemary Murphy']",293811,2022-04-17 15:02:32.506,2022-04-17 15:02:32.506
-625c2dabf0a5bc6c426c0c06,The Day of the Jackal,1973,143 min,"Crime, Drama, Thriller",7.8,2.653651100401495,"A professional assassin codenamed ""Jackal"" plots to kill Charles de Gaulle, the President of France.",80.0,Fred Zinnemann,"['Edward Fox', 'Terence Alexander', 'Michel Auclair', 'Alan Badel']",37445,2022-04-17 15:09:31.922,2022-04-17 15:09:31.922
-625c2d04f0a5bc6c426c0a4c,Nightcrawler,2014,117 min,"Crime, Drama, Thriller",7.9,3.6778174734497315,"When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.",76.0,Dan Gilroy,"['Jake Gyllenhaal', 'Rene Russo', 'Bill Paxton', 'Riz Ahmed']",466134,2022-04-17 15:06:44.267,2022-04-17 15:06:44.267
-625c2bfbf0a5bc6c426c07de,Eskiya,1996,128 min,"Crime, Drama, Thriller",8.2,0.8914701664221669,"Baran the Bandit, released from prison after 35 years, searches for vengeance and his lover.",,Yavuz Turgul,"['Sener Sen', 'Ugur Yücel', 'Sermin Hürmeriç', 'Yesim Salkim']",64118,2022-04-17 15:02:19.626,2022-04-17 15:02:19.626
-625c2d57f0a5bc6c426c0b28,The Hateful Eight,2015,168 min,"Crime, Drama, Mystery",7.8,1.5927685431898764,"In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",68.0,Quentin Tarantino,"['Samuel L. Jackson', 'Kurt Russell', 'Jennifer Jason Leigh', 'Walton Goggins']",517059,2022-04-17 15:08:07.632,2022-04-17 15:08:07.632
-625c2cecf0a5bc6c426c0a04,Touch of Evil,1958,95 min,"Crime, Drama, Film-Noir",8.0,4.724336272815243,"A stark, perverse story of murder, kidnapping, and police corruption in a Mexican border town.",99.0,Orson Welles,"['Charlton Heston', 'Orson Welles', 'Janet Leigh', 'Joseph Calleia']",98431,2022-04-17 15:06:20.976,2022-04-17 15:06:20.976
-625c2e33f0a5bc6c426c0e34,The Godfather: Part III,1990,162 min,"Crime, Drama",7.6,2.513831695142893,"Follows Michael Corleone, now in his 60s, as he seeks to free his family from crime and find a suitable successor to his empire.",60.0,Francis Ford Coppola,"['Al Pacino', 'Diane Keaton', 'Andy Garcia', 'Talia Shire']",359809,2022-04-17 15:11:47.210,2022-04-17 15:11:47.210
-625c2c3ff0a5bc6c426c0868,No Country for Old Men,2007,122 min,"Crime, Drama, Thriller",8.1,0.47881730820227175,Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.,91.0,Ethan Coen,"['Joel Coen', 'Tommy Lee Jones', 'Javier Bardem', 'Josh Brolin']",856916,2022-04-17 15:03:27.379,2022-04-17 15:03:27.379
-625c2ccef0a5bc6c426c0998,Dancer in the Dark,2000,140 min,"Crime, Drama, Musical",8.0,2.603224951332841,"An East European girl travels to the United States with her young son, expecting it to be like a Hollywood film.",61.0,Lars von Trier,"['Björk', 'Catherine Deneuve', 'David Morse', 'Peter Stormare']",102285,2022-04-17 15:05:50.637,2022-04-17 15:05:50.637
-625c2d60f0a5bc6c426c0b4e,The Girl with the Dragon Tattoo,2011,158 min,"Crime, Drama, Mystery",7.8,1.4927004395228083,"Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.",71.0,David Fincher,"['Daniel Craig', 'Rooney Mara', 'Christopher Plummer', 'Stellan Skarsgård']",423010,2022-04-17 15:08:16.635,2022-04-17 15:08:16.635
-625c2bfbf0a5bc6c426c07dc,L.A. Confidential,1997,138 min,"Crime, Drama, Mystery",8.2,2.69542275112559,"As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",90.0,Curtis Hanson,"['Kevin Spacey', 'Russell Crowe', 'Guy Pearce', 'Kim Basinger']",531967,2022-04-17 15:02:19.409,2022-04-17 15:02:19.409
-625c2bfdf0a5bc6c426c07e2,Casino,1995,178 min,"Crime, Drama",8.2,2.4822582211891344,"A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite.",73.0,Martin Scorsese,"['Robert De Niro', 'Sharon Stone', 'Joe Pesci', 'James Woods']",466276,2022-04-17 15:02:21.030,2022-04-17 15:02:21.030
-625c2b5ff0a5bc6c426c06c4,Cidade de Deus,2002,130 min,"Crime, Drama",8.6,2.487574768903338,"In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",79.0,Fernando Meirelles,"['Kátia Lund', 'Alexandre Rodrigues', 'Leandro Firmino', 'Matheus Nachtergaele']",699256,2022-04-17 14:59:43.029,2022-04-17 14:59:43.029
-625c2dd9f0a5bc6c426c0ca6,Crash,2004,112 min,"Crime, Drama, Thriller",7.7,4.227004676767216,"Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.",66.0,Paul Haggis,"['Don Cheadle', 'Sandra Bullock', 'Thandie Newton', 'Karina Arroyave']",419483,2022-04-17 15:10:17.793,2022-04-17 15:10:17.793
+_id
+625c2b4ef0a5bc6c426c06a4
+625c2b62f0a5bc6c426c06ca
+625c2b4cf0a5bc6c426c069e
+625c2bcbf0a5bc6c426c0770
+625c2cd1f0a5bc6c426c09b2
+625c2d09f0a5bc6c426c0a58
+625c2c08f0a5bc6c426c0800
+625c2dabf0a5bc6c426c0c06
+625c2d04f0a5bc6c426c0a4c
+625c2bfbf0a5bc6c426c07de
+625c2d57f0a5bc6c426c0b28
+625c2cecf0a5bc6c426c0a04
+625c2e33f0a5bc6c426c0e34
+625c2c3ff0a5bc6c426c0868
+625c2ccef0a5bc6c426c0998
+625c2d60f0a5bc6c426c0b4e
+625c2bfbf0a5bc6c426c07dc
+625c2bfdf0a5bc6c426c07e2
+625c2b5ff0a5bc6c426c06c4
+625c2dd9f0a5bc6c426c0ca6
