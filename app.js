@@ -14,15 +14,16 @@ app.use(session({
     secret: '1234567', 
     cookie: { maxAge: 60000 }
 }));   
+require('dotenv').config()
 
 const { spawn } = require('child_process');
 //movie recommender process
-app.movieRecommender = spawn('python3', ['controller/MovieRecommender.py']);
+app.movieRecommender = spawn('python3', [ process.env.MOVIE_RECOMMENDER ]);
 // app.chatBot = spawn('python3', ['controller/bot/main.py']);
-app.userRecommender = spawn('python3', ['controller/recommender/recommender.py']);
-const dbURI = "mongodb+srv://cs422:time2movie@time2movie.kuhyb.mongodb.net/cs422?retryWrites=true&w=majority" //connnection string to mongodb
+app.userRecommender = spawn('python3', [ process.env.USER_RECOMMENDER ]);
+const dbURI = process.env.CONNECTION_STRING //connnection string to mongodb
 
-app.chatBot = new PythonShell('controller/bot/main.py');
+app.chatBot = new PythonShell( process.env.CHATBOT );
 app.chatBotReplies = new Map();
 app.chatBot.on('message', (message) => {
     const res = message.toString().split(': ');
@@ -39,10 +40,9 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
     })
     .catch((err) => console.log(err));
 
-require('dotenv').config()
 
 app.use(function(req, res, next) {
-    const allowedOrigins = ["http://localhost:3000", "https://enigmatic-lake-66448.herokuapp.com"];
+    const allowedOrigins = [ process.env.LOCALHOST, process.env.HOST ];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
         res.setHeader('Access-Control-Allow-Origin', origin);
@@ -68,5 +68,4 @@ app.all("*", (req, res) => {
 })
 
 const PORT = process.env.PORT || 3001
-
 module.exports = app;
